@@ -38,8 +38,8 @@ whole world on your PC, so the game starts again and keeps working.
   <a href="images/progress/2026-10-20_152238_1.jpg"><img src="images/progress/2026-10-20_152238_1.jpg" width="49%" alt="The Reborn start menu, and the first walk through Coral Forest on the local server"></a>
 </p>
 
-- *2026-10-20 15:22 GMT Standard Time* - The Reborn start menu, and the first walk through Coral Forest on the local server
-- *2026-10-20 15:22 GMT Standard Time* - The Reborn start menu, and the first walk through Coral Forest on the local server
+- *2026-10-20 15:22 (UTC+1)* - The Reborn start menu, and the first walk through Coral Forest on the local server
+- *2026-10-20 15:22 (UTC+1)* - The Reborn start menu, and the first walk through Coral Forest on the local server
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -59,7 +59,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█░░░░░░░░░░░░░░░░░░░` 7%** (7 of 111 roadmap items done) - last update 2026-10-20 15:22 GMT Standard Time
+**Overall: `█░░░░░░░░░░░░░░░░░░░` 7%** (7 of 111 roadmap items done) - last update 2026-10-20 15:23 (UTC+1)
 
 | Phase | Progress | Done |
 |---|---|---|
