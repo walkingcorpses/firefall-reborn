@@ -30,7 +30,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       stops everything when the game closes; a job object kills the servers if the launcher dies. Verified from Steam on a clean
       profile with the installed layout
 - [x] Account identity from the Steam ID (one account per Steam user; first user inherits the existing account), saved per player _(done 2026-10-20 18:35 (UTC+1))_
-- [ ] Quiet logging, health checks, ports configurable, clear error if something fails to start
+- [x] Quiet logging (previous session kept as .prev.log), health checks (incl. a warning if a server dies mid-game), TCP ports configurable in reborn.json, clear error naming the log if something fails to start _(done 2026-10-20 18:41 (UTC+1))_
 - [x] **Installer exe** (`src/Reborn.Setup` + `src/Reborn.Patcher`, no Python/.NET needed by the player): finds the Steam library, _(started 2026-10-20 15:32 (UTC+1))_ _(done 2026-10-20 18:31 (UTC+1))_
       backs up originals, applies exe + GUI + image + text patches, installs the server bundle, puts the launcher where Steam
       starts it, repairs after Steam "verify files". Silent mode and a dark installer window. ONE single `dist/FirefallRebornSetup.exe`
@@ -224,6 +224,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-10-20 18:41 (UTC+1): Done: Quiet logging (previous session kept as .prev.log), health checks (incl. a warning if a server dies mid-game), TCP ports configurable in reborn.json, clear error naming the log if ...
 - 2026-10-20 18:35 (UTC+1): Done: Account identity from the Steam ID (one account per Steam user; first user inherits the existing account), saved per player
 - 2026-10-20 18:31 (UTC+1): Done: Installer exe (src/Reborn.Setup + src/Reborn.Patcher, no Python/.NET needed by the player): finds the Steam library, _(started 2026-10-20 15:32 (UTC+1))_
 - 2026-10-20 15:32 (UTC+1): Started: Installer exe (src/Reborn.Setup + src/Reborn.Patcher, no Python/.NET needed by the player): finds the Steam library,
