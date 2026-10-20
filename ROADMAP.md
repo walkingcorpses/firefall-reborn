@@ -31,7 +31,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       profile with the installed layout
 - [ ] Account identity from the Steam name/ID (character named after the player), saved per player
 - [ ] Quiet logging, health checks, ports configurable, clear error if something fails to start
-- [~] **Installer exe** (`src/Reborn.Setup` + `src/Reborn.Patcher`, no Python/.NET needed by the player): finds the Steam library,
+- [~] **Installer exe** (`src/Reborn.Setup` + `src/Reborn.Patcher`, no Python/.NET needed by the player): finds the Steam library, _(started 2026-10-20 15:32 (UTC+1))_
       backs up originals, applies exe + GUI + image + text patches, installs the server bundle, puts the launcher where Steam
       starts it, repairs after Steam "verify files". WORKS from a payload folder (`scripts/build-payload.ps1`, silent mode and a
       dark installer window). STILL TO DO: one single `Setup.exe` with the payload packed inside, size reduction (payload is 441 MB)
@@ -223,6 +223,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-10-20 15:32 (UTC+1): Started: Installer exe (src/Reborn.Setup + src/Reborn.Patcher, no Python/.NET needed by the player): finds the Steam library,
 - 2026-10-20 15:32 (UTC+1): Done: Self-contained server bundle (bundled .NET runtime, published RIN/PIN, portable Postgres) so nothing else is installed
 - 2026-10-20 15:32 (UTC+1): Done: Launcher exe (src/Reborn.Launcher) is the file Steam runs (system/bin/FirefallClient.exe --steam, the real client is
 - 2026-10-20 15:22 (UTC+1): Public repository is live. Local server, launcher, Reborn menu and character screens already run the real game; release date TBA.
