@@ -40,7 +40,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       Reborn notice: fan project, no warranty, nothing collected
 - [ ] **Auto-updater**: on launch check the public releases repo for a newer mod version, download, apply, restart
 - [ ] **Two repos**: private source repo + public releases repo (README, screenshots, `Setup.exe` asset, version tags)
-- [ ] Self-contained server bundle (bundled .NET runtime, published RIN/PIN, portable Postgres) so nothing else is installed
+- [x] Self-contained server bundle (bundled .NET runtime, published RIN/PIN, portable Postgres) so nothing else is installed _(done 2026-10-20 15:32 (UTC+1))_
 - [ ] **PIN licence**: PIN has no licence file; ask the maintainers (themeldingwars) for permission before any public build
       ships their code, otherwise rebuild that part ourselves. RIN, AeroMessages, FauFau, SDBrowser are MIT.
 
@@ -223,6 +223,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-10-20 15:32 (UTC+1): Done: Self-contained server bundle (bundled .NET runtime, published RIN/PIN, portable Postgres) so nothing else is installed
 - 2026-10-20 15:32 (UTC+1): Done: Launcher exe (src/Reborn.Launcher) is the file Steam runs (system/bin/FirefallClient.exe --steam, the real client is
 - 2026-10-20 15:22 (UTC+1): Public repository is live. Local server, launcher, Reborn menu and character screens already run the real game; release date TBA.
 - 2026-10-20: Launcher built and verified (cold start from an empty database in ~25 s). Character creation/select screens kept
