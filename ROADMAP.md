@@ -36,7 +36,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       starts it, repairs after Steam "verify files". Silent mode and a dark installer window. ONE single `dist/FirefallRebornSetup.exe`
       (`scripts/build-setup.ps1`: payload zipped and packed inside the exe, 255 MB, silent install into the Steam copy takes ~12 s).
       STILL TO DO: shrink the payload further, test the window on a clean PC
-- [ ] **Uninstaller / restore**: put every `*.reborn.bak` back (built into the installer, still to be tested end to end)
+- [x] **Uninstaller / restore**: put every `*.reborn.bak` back (built into the installer; tested end to end on the Steam copy: originals back, saves kept, reinstall works) _(done 2026-10-20 18:53 (UTC+1))_
 - [x] **Replace Red 5's licence agreement screen** (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short _(done 2026-10-20 18:50 (UTC+1))_
       Reborn notice: fan project, no warranty, nothing collected
 - [ ] **Auto-updater**: on launch check the public releases repo for a newer mod version, download, apply, restart
@@ -224,6 +224,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-10-20 18:53 (UTC+1): Done: Uninstaller / restore: put every *.reborn.bak back (built into the installer; tested end to end on the Steam copy: originals back, saves kept, reinstall works)
 - 2026-10-20 18:50 (UTC+1): Done: Replace Red 5's licence agreement screen (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short
 - 2026-10-20 18:41 (UTC+1): Done: Quiet logging (previous session kept as .prev.log), health checks (incl. a warning if a server dies mid-game), TCP ports configurable in reborn.json, clear error naming the log if ...
 - 2026-10-20 18:35 (UTC+1): Done: Account identity from the Steam ID (one account per Steam user; first user inherits the existing account), saved per player
