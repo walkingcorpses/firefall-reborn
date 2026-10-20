@@ -37,7 +37,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       (`scripts/build-setup.ps1`: payload zipped and packed inside the exe, 255 MB, silent install into the Steam copy takes ~12 s).
       STILL TO DO: shrink the payload further, test the window on a clean PC
 - [ ] **Uninstaller / restore**: put every `*.reborn.bak` back (built into the installer, still to be tested end to end)
-- [ ] **Replace Red 5's licence agreement screen** (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short
+- [x] **Replace Red 5's licence agreement screen** (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short _(done 2026-10-20 18:50 (UTC+1))_
       Reborn notice: fan project, no warranty, nothing collected
 - [ ] **Auto-updater**: on launch check the public releases repo for a newer mod version, download, apply, restart
 - [ ] **Two repos**: private source repo + public releases repo (README, screenshots, `Setup.exe` asset, version tags)
@@ -224,6 +224,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-10-20 18:50 (UTC+1): Done: Replace Red 5's licence agreement screen (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short
 - 2026-10-20 18:41 (UTC+1): Done: Quiet logging (previous session kept as .prev.log), health checks (incl. a warning if a server dies mid-game), TCP ports configurable in reborn.json, clear error naming the log if ...
 - 2026-10-20 18:35 (UTC+1): Done: Account identity from the Steam ID (one account per Steam user; first user inherits the existing account), saved per player
 - 2026-10-20 18:31 (UTC+1): Done: Installer exe (src/Reborn.Setup + src/Reborn.Patcher, no Python/.NET needed by the player): finds the Steam library, _(started 2026-10-20 15:32 (UTC+1))_
