@@ -219,7 +219,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
-- 2026-10-20 15:22 GMT Standard Time: Public repository is live. Local server, launcher, Reborn menu and character screens already run the real game; release date TBA.
+- 2026-10-20 15:22 (UTC+1): Public repository is live. Local server, launcher, Reborn menu and character screens already run the real game; release date TBA.
 - 2026-10-20: Launcher built and verified (cold start from an empty database in ~25 s). Character creation/select screens kept
   (no auto-skip). Back-from-character-creation fix (login screen now re-shows the logo and bottom bar).
   Known: Steam passes `--steam`, which makes the client try a Steam-ticket login our server does not support; the launcher
