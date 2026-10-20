@@ -41,7 +41,8 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       Reborn notice: fan project, no warranty, nothing collected
 - [x] **Auto-updater**: on launch check the public releases repo for a newer mod version, download (sha256 checked), apply, restart. _(done 2026-10-20 19:03 (UTC+1))_
       Built and tested end to end against a local fake release; goes live when the first real release is published
-- [ ] **Two repos**: private source repo + public releases repo (README, screenshots, `Setup.exe` asset, version tags)
+- [x] **Two repos**: private source repo + public releases repo (README, screenshots, `Setup.exe` asset, version tags) _(done 2026-10-20 19:05 (UTC+1))_
+      Private source repo is up (`walkingcorpses/firefall-reborn-source`); the public repo has no release assets yet (release hold)
 - [x] Self-contained server bundle (bundled .NET runtime, published RIN/PIN, portable Postgres) so nothing else is installed _(done 2026-10-20 15:32 (UTC+1))_
 - [ ] **PIN licence**: PIN has no licence file; ask the maintainers (themeldingwars) for permission before any public build
       ships their code, otherwise rebuild that part ourselves. RIN, AeroMessages, FauFau, SDBrowser are MIT.
@@ -225,6 +226,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-10-20 19:05 (UTC+1): Done: Two repos: private source repo + public releases repo (README, screenshots, Setup.exe asset, version tags)
 - 2026-10-20 19:03 (UTC+1): Done: Auto-updater: on launch check the public releases repo for a newer mod version, download (sha256 checked), apply, restart.
 - 2026-10-20 18:53 (UTC+1): Done: Uninstaller / restore: put every *.reborn.bak back (built into the installer; tested end to end on the Steam copy: originals back, saves kept, reinstall works)
 - 2026-10-20 18:50 (UTC+1): Done: Replace Red 5's licence agreement screen (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short
