@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-10-20 15:32 (UTC+1)** - Done: Launcher exe (src/Reborn.Launcher) is the file Steam runs (system/bin/FirefallClient.exe --steam, the real client is
+
 - **2026-10-20 15:22 (UTC+1)** - Public repository is live. Local server, launcher, Reborn menu and character screens already run the real game; release date TBA.
 
   ![The Reborn start menu, and the first walk through Coral Forest on the local server](images/progress/2026-10-20_152238_1.jpg)

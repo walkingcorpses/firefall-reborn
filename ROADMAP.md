@@ -24,19 +24,23 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
 - [x] Plain-http server (no certificate to install); exe patches are reproducible from `mod/patches/*.json` _(done 2026-10-20)_
 
 ## Phase 1 - Launcher and install (next)
-- [~] **Launcher exe** (`src/Reborn.Launcher`) replaces the Steam launch target. DONE in dev: starts Postgres + RIN + PIN
-      hidden, first-run database setup (`src/Reborn.DbSetup`), makes sure the account exists (the player makes their own
-      character on the game's screens), writes `firefall.ini`, runs the game, stops everything when the game closes, job
-      object kills servers if the launcher dies. Dev config `mod/launcher/reborn.dev.json`. STILL TO DO: install as the file
-      Steam runs (`system/bin/FirefallClient.exe --steam`, real exe renamed `FirefallClient.game.exe`), installed-layout config
+- [x] **Launcher exe** (`src/Reborn.Launcher`) is the file Steam runs (`system/bin/FirefallClient.exe --steam`, the real client is _(done 2026-10-20 15:32 (UTC+1))_
+      `FirefallClient.game.exe`): starts Postgres + RIN + PIN hidden, first-run database setup (`src/Reborn.DbSetup`), makes sure
+      the account exists (the player makes their own character on the game's screens), writes `firefall.ini`, runs the game,
+      stops everything when the game closes; a job object kills the servers if the launcher dies. Verified from Steam on a clean
+      profile with the installed layout
 - [ ] Account identity from the Steam name/ID (character named after the player), saved per player
 - [ ] Quiet logging, health checks, ports configurable, clear error if something fails to start
-- [ ] **Installer exe** (no Python/.NET needed by the player): finds the Steam library, backs up originals, applies exe + GUI +
-      text patches, installs the server bundle, sets Steam launch to the launcher, repairs after Steam "verify files"
-- [ ] **Uninstaller / restore**: put every `*.reborn.bak` back
+- [~] **Installer exe** (`src/Reborn.Setup` + `src/Reborn.Patcher`, no Python/.NET needed by the player): finds the Steam library,
+      backs up originals, applies exe + GUI + image + text patches, installs the server bundle, puts the launcher where Steam
+      starts it, repairs after Steam "verify files". WORKS from a payload folder (`scripts/build-payload.ps1`, silent mode and a
+      dark installer window). STILL TO DO: one single `Setup.exe` with the payload packed inside, size reduction (payload is 441 MB)
+- [ ] **Uninstaller / restore**: put every `*.reborn.bak` back (built into the installer, still to be tested end to end)
+- [ ] **Replace Red 5's licence agreement screen** (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short
+      Reborn notice: fan project, no warranty, nothing collected
 - [ ] **Auto-updater**: on launch check the public releases repo for a newer mod version, download, apply, restart
 - [ ] **Two repos**: private source repo + public releases repo (README, screenshots, `Setup.exe` asset, version tags)
-- [ ] Self-contained server bundle (publish RIN/PIN as self-contained, bundle portable Postgres) so nothing else is installed
+- [ ] Self-contained server bundle (bundled .NET runtime, published RIN/PIN, portable Postgres) so nothing else is installed
 - [ ] **PIN licence**: PIN has no licence file; ask the maintainers (themeldingwars) for permission before any public build
       ships their code, otherwise rebuild that part ourselves. RIN, AeroMessages, FauFau, SDBrowser are MIT.
 
@@ -219,6 +223,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-10-20 15:32 (UTC+1): Done: Launcher exe (src/Reborn.Launcher) is the file Steam runs (system/bin/FirefallClient.exe --steam, the real client is
 - 2026-10-20 15:22 (UTC+1): Public repository is live. Local server, launcher, Reborn menu and character screens already run the real game; release date TBA.
 - 2026-10-20: Launcher built and verified (cold start from an empty database in ~25 s). Character creation/select screens kept
   (no auto-skip). Back-from-character-creation fix (login screen now re-shows the logo and bottom bar).
