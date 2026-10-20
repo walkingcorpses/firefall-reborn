@@ -39,7 +39,8 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
 - [x] **Uninstaller / restore**: put every `*.reborn.bak` back (built into the installer; tested end to end on the Steam copy: originals back, saves kept, reinstall works) _(done 2026-10-20 18:53 (UTC+1))_
 - [x] **Replace Red 5's licence agreement screen** (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short _(done 2026-10-20 18:50 (UTC+1))_
       Reborn notice: fan project, no warranty, nothing collected
-- [ ] **Auto-updater**: on launch check the public releases repo for a newer mod version, download, apply, restart
+- [x] **Auto-updater**: on launch check the public releases repo for a newer mod version, download (sha256 checked), apply, restart. _(done 2026-10-20 19:03 (UTC+1))_
+      Built and tested end to end against a local fake release; goes live when the first real release is published
 - [ ] **Two repos**: private source repo + public releases repo (README, screenshots, `Setup.exe` asset, version tags)
 - [x] Self-contained server bundle (bundled .NET runtime, published RIN/PIN, portable Postgres) so nothing else is installed _(done 2026-10-20 15:32 (UTC+1))_
 - [ ] **PIN licence**: PIN has no licence file; ask the maintainers (themeldingwars) for permission before any public build
@@ -224,6 +225,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-10-20 19:03 (UTC+1): Done: Auto-updater: on launch check the public releases repo for a newer mod version, download (sha256 checked), apply, restart.
 - 2026-10-20 18:53 (UTC+1): Done: Uninstaller / restore: put every *.reborn.bak back (built into the installer; tested end to end on the Steam copy: originals back, saves kept, reinstall works)
 - 2026-10-20 18:50 (UTC+1): Done: Replace Red 5's licence agreement screen (first-run EULA mentions their servers and the RedHanded anti-cheat) with a short
 - 2026-10-20 18:41 (UTC+1): Done: Quiet logging (previous session kept as .prev.log), health checks (incl. a warning if a server dies mid-game), TCP ports configurable in reborn.json, clear error naming the log if ...
