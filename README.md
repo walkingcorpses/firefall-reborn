@@ -34,10 +34,14 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-15_023911_2.jpg"><img src="images/progress/2026-11-15_023911_2.jpg" width="49%" alt="Own server progress: combat works. Enemies from the game's own data can be spawned (soldiers, Aranhas, Brontodons) with their real models, names, factions and weapons. You can shoot them (weapon damage from game data, floating damage numbers) and they fight back: creatures close in and bite, soldiers keep their distance and fire at their weapon's rate. Enemy health and damage scale with level from the original level tables, and the death screen shows who killed you. Also fixed: Meteor Strike launch and impact, flashing energy bar, screen shake. Next: terrain and walls for enemies and shots, then animations."></a>
+  <a href="images/progress/2026-11-15_023911_1.jpg"><img src="images/progress/2026-11-15_023911_1.jpg" width="49%" alt="Own server progress: combat works. Enemies from the game's own data can be spawned (soldiers, Aranhas, Brontodons) with their real models, names, factions and weapons. You can shoot them (weapon damage from game data, floating damage numbers) and they fight back: creatures close in and bite, soldiers keep their distance and fire at their weapon's rate. Enemy health and damage scale with level from the original level tables, and the death screen shows who killed you. Also fixed: Meteor Strike launch and impact, flashing energy bar, screen shake. Next: terrain and walls for enemies and shots, then animations."></a>
   <a href="images/progress/2026-10-20_152238_2.jpg"><img src="images/progress/2026-10-20_152238_2.jpg" width="49%" alt="The Reborn start menu, and the first walk through Coral Forest on the local server"></a>
   <a href="images/progress/2026-10-20_152238_1.jpg"><img src="images/progress/2026-10-20_152238_1.jpg" width="49%" alt="The Reborn start menu, and the first walk through Coral Forest on the local server"></a>
 </p>
 
+- *2026-11-15 02:39 (UTC+0)* - Own server progress: combat works. Enemies from the game's own data can be spawned (soldiers, Aranhas, Brontodons) with their real models, names, factions and weapons. You can shoot them (weapon damage from game data, floating damage numbers) and they fight back: creatures close in and bite, soldiers keep their distance and fire at their weapon's rate. Enemy health and damage scale with level from the original level tables, and the death screen shows who killed you. Also fixed: Meteor Strike launch and impact, flashing energy bar, screen shake. Next: terrain and walls for enemies and shots, then animations.
+- *2026-11-15 02:39 (UTC+0)* - Own server progress: combat works. Enemies from the game's own data can be spawned (soldiers, Aranhas, Brontodons) with their real models, names, factions and weapons. You can shoot them (weapon damage from game data, floating damage numbers) and they fight back: creatures close in and bite, soldiers keep their distance and fire at their weapon's rate. Enemy health and damage scale with level from the original level tables, and the death screen shows who killed you. Also fixed: Meteor Strike launch and impact, flashing energy bar, screen shake. Next: terrain and walls for enemies and shots, then animations.
 - *2026-10-20 15:22 (UTC+1)* - The Reborn start menu, and the first walk through Coral Forest on the local server
 - *2026-10-20 15:22 (UTC+1)* - The Reborn start menu, and the first walk through Coral Forest on the local server
 <!--/SHOTS-->
@@ -59,7 +63,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `███░░░░░░░░░░░░░░░░░` 16%** (18 of 133 roadmap items done) - last update 2026-10-29 08:33 (UTC+0)
+**Overall: `███░░░░░░░░░░░░░░░░░` 16%** (18 of 134 roadmap items done) - last update 2026-11-15 02:39 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
@@ -70,7 +74,7 @@ Newer screenshots are added here as the project moves along; the full history is
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `░░░░░░░░░░░░` 0% | 0/9 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
-| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `█████░░░░░░░` 44% | 2/8 |
+| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `█████░░░░░░░` 39% | 2/9 |
 | Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/10 |
 <!--/PROGRESS-->
 
