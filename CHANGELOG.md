@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-16 19:35 (UTC+0)** - Own server update: knock-backs work both ways now. Meteor Strike's impact throws the enemies it hits back from the crater, as the game's own ability data says it should.
+
 - **2026-11-16 19:19 (UTC+0)** - Own server update, animations part 1: enemies now play their death animation when you kill them (an Aranha flips over and collapses) instead of freezing upright until they vanish, and knock-backs work: a Brontodon's charge sends you flying about 13 m. Creature attack animations (bites, pounces, charges) already played; next are hit reactions and the rest of the list.
 
 - **2026-11-16 19:19 (UTC+0)** - Started: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack
