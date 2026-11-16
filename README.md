@@ -79,7 +79,7 @@ Newer screenshots are added here as the project moves along; the full history is
 <!--/PROGRESS-->
 
 The full plan, with every system listed, is in **[ROADMAP.md](ROADMAP.md)**. Each time something on it is finished it is ticked
-off with the date and time, logged in **[CHANGELOG.md](CHANGELOG.md)** and announced on Discord.
+off with the date and time, logged in **[CHANGELOG.md](CHANGELOG.md)** and announced on **[Discord](https://discord.gg/xNs7GknyBD)**.
 
 ## How it works (short version)
 
@@ -121,6 +121,6 @@ for the full-detail texture levels (static.vtex0-2) the Steam install is missing
 
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - Progress log: [CHANGELOG.md](CHANGELOG.md)
-- Updates are also posted to the project's Discord as they happen.
+- **Discord: [discord.gg/xNs7GknyBD](https://discord.gg/xNs7GknyBD)** - updates, screenshots and gameplay videos as they happen, general chat and bug reports
 
 <p align="center"><sub>Firefall Reborn is a fan project. Release date: TBA.</sub></p>
