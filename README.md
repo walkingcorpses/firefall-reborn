@@ -63,7 +63,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `███░░░░░░░░░░░░░░░░░` 16%** (18 of 134 roadmap items done) - last update 2026-11-16 07:55 (UTC+0)
+**Overall: `███░░░░░░░░░░░░░░░░░` 16%** (19 of 135 roadmap items done) - last update 2026-11-16 12:14 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
@@ -72,7 +72,7 @@ Newer screenshots are added here as the project moves along; the full history is
 | Phase 2 - Steam: achievements, friends, invites | `██░░░░░░░░░░` 14% | 0/11 |
 | Phase 3 - The game itself (server side, from the game's own data) | `░░░░░░░░░░░░` 0% | 0/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
-| Phase 5 - Polish and what the deep search found missing | `░░░░░░░░░░░░` 0% | 0/9 |
+| Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
 | Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `█████░░░░░░░` 39% | 2/9 |
 | Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/10 |
@@ -114,7 +114,8 @@ It contains none of the game's files and needs your own copy. Firefall and all r
 
 The community work that made a revival possible, with thanks:
 **[The Melding Wars](https://github.com/themeldingwars)** (protocol research and server emulation: PIN, RIN.WebAPI, AeroMessages,
-FauFau, SDBrowser) and everyone who documented the game's formats and network protocol.
+FauFau, SDBrowser) and everyone who documented the game's formats and network protocol. Special thanks to **DarkCisum**
+for the full-detail texture levels (static.vtex0-2) the Steam install is missing.
 
 ## Follow along
 
