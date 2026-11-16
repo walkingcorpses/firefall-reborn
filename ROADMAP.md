@@ -278,7 +278,7 @@ PIN has no licence, so every PIN part is replaced by our own code, one by one (p
   Dev knob `REBORN_AUTO_KILL=<ms>` kills the player that long after the first landing.
   Still to do: projectiles/damage, full aptitude chain runner, keyframe checksum reply (client answers status 1 after our id-2 reply). Gap list vs PIN: `docs/OWN_SERVER.md`.
 - [ ] **AI and encounters** (rewrite of the first creature AI), NPCs, missions
-- [ ] **Animations for everything** (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack
+- [~] **Animations for everything** (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack _(started 2026-11-16 19:19 (UTC+0))_
       swings, hit reactions/stumbles, death and ragdoll, reload, idle/turn-in-place, creature-specific moves (Aranha leap,
       Brontodon charge), ability animations on NPCs; check each against the original client (CombatView/Observer events, PIN as
       behaviour reference)
@@ -328,6 +328,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-16 19:19 (UTC+0): Started: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack
 - 2026-11-16 19:05 (UTC+0): Own server fix: levelling up now raises your health properly. Before, your maximum went up but you stayed at your old health; now the extra health is yours straight away (an Assault goes from 576 at level 10 to 801 at level 12, following the game's own level table).
 - 2026-11-16 18:59 (UTC+0): Own server update: two more creatures from the old fan wiki live near Praia Tropical now. A pair of Culex (flying insects with a ranged stinger) hover east of the beach, and a Skiver nest to the west: Skivers leap at you from mid range and spit acid. Both render fully textured with their real names, and the death screen tells you which one got you.
 - 2026-11-16 18:50 (UTC+0): Own server update: Brontodons now throw boulders. The herd near Praia Tropical leaves you alone until you shoot one; then it throws a boulder from up to 20 m, charges you and sweeps with its tusks. (The plain Brontodon in the game data has no boulder, so the herd uses the Brontodon variant that does.)
