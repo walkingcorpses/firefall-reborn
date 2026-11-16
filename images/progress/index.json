@@ -1,5 +1,10 @@
 [
  {
+  "file": "images/progress/2026-11-16_074743_1.jpg",
+  "caption": "Own server update: three fixes. (1) Your health now comes from your battleframe, its gear and its level instead of a flat 1000 (a level 10 Assault has 576, it grows as you level). (2) The launcher no longer fails with 'could not create your account (500)' after the game was closed badly: it now waits until the database has finished starting. (3) Creatures find their way round rocks and buildings: when something blocks them they work out a path (A*) over the real world collision, e.g. Aranha Workers walked 60 m round the cliff and up the slope toward a player standing on a platform above them.",
+  "when": "2026-11-16 07:47 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-15_034313_1.jpg",
   "caption": "Own server update: the world now has real collision (our own reader for the game's Havok collision data): enemies walk on terrain, floors and rocks, steer around obstacles, and walls and hills block shots both ways. Enemy camps are placed around Praia Tropical (Aranhas, Dark Ones, Chosen, beetles); they wake up when you come near and come back a couple of minutes after you clear them, with status messages in chat. Next: loot and XP, then animations.",
   "when": "2026-11-15 03:43 (UTC+0)"
