@@ -253,6 +253,7 @@ PIN has no licence, so every PIN part is replaced by our own code, one by one (p
 - [x] **Transport** `src/Reborn.Net`: handshake (POKE/HEHE/KISS/HUGG), 4 channels, acks, resend XOR, splitting, time sync, close; self-test passes
 - [x] **Matrix front + login**: Login/WelcomeToTheMatrix/EnterZone/EnterZoneAck/KeyframeRequest; the real client logs in and enters the zone _(done 2026-10-20 21:10 (UTC+1))_
 - [~] **World**: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of other entities, updates, zone entities
+- [x] **Shared world**: players in a zone see each other (character, movement, shots, health, downed/death, respawn, level-up, chat) and fight the same enemies (shared camps; each enemy attacks the nearest living player; the world keeps running when the first player leaves). Tested with two clients on one PC (`scripts/second-client.ps1`) _(done 2026-11-16 20:00 (UTC+0))_
 - [~] **Player character**: loadout/stats/appearance from RIN data, spawn pose, movement relay. Character appears with head, hair, Assault armour, starting loadout and item stats; walk/sprint/jump and camera work (2026-10-21). Weapons in hand with clip/reserve from the weapon templates; select/fire/reload handled; inventory + loadout sent at login; ability bar works (abilities ride on the backpack item) (2026-10-21)
 - [~] **Gameplay systems**: chat + `!` commands (`!level`, `!pos`, `!tp`), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
   **Ability system (2026-11-15):** the server runs the game's own aptitude chains (`World/Aptitude.cs`): registers, targets
@@ -328,6 +329,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-16 20:00 (UTC+0): Done: Shared world: players in a zone see each other (character, movement, shots, health, downed/death, respawn, level-up, chat) and fight the same enemies (shared camps; each enemy atta...
 - 2026-11-16 19:35 (UTC+0): Own server update: knock-backs work both ways now. Meteor Strike's impact throws the enemies it hits back from the crater, as the game's own ability data says it should.
 - 2026-11-16 19:19 (UTC+0): Own server update, animations part 1: enemies now play their death animation when you kill them (an Aranha flips over and collapses) instead of freezing upright until they vanish, and knock-backs work: a Brontodon's charge sends you flying about 13 m. Creature attack animations (bites, pounces, charges) already played; next are hit reactions and the rest of the list.
 - 2026-11-16 19:19 (UTC+0): Started: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack
