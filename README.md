@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_190510_1.jpg"><img src="images/progress/2026-11-17_190510_1.jpg" width="49%" alt="AI and encounters finished: repulsor, race, and the world part of our server"></a>
   <a href="images/progress/2026-11-17_185430_2.jpg"><img src="images/progress/2026-11-17_185430_2.jpg" width="49%" alt="Carrying things, and missions"></a>
   <a href="images/progress/2026-11-17_185430_1.jpg"><img src="images/progress/2026-11-17_185430_1.jpg" width="49%" alt="Carrying things, and missions"></a>
   <a href="images/progress/2026-11-17_154456_1.jpg"><img src="images/progress/2026-11-17_154456_1.jpg" width="49%" alt="Thumpers are back"></a>
-  <a href="images/progress/2026-11-17_153738_1.jpg"><img src="images/progress/2026-11-17_153738_1.jpg" width="49%" alt="Turrets that shoot, and vehicles"></a>
 </p>
+
+**AI and encounters finished: repulsor, race, and the world part of our server** - *2026-11-17 19:05 (UTC+0)*
+
+Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
+
+---
 
 **Carrying things, and missions** - *2026-11-17 18:54 (UTC+0)*
 
@@ -82,26 +88,6 @@ Tested in game (screenshots): an Accord Thumper standing on the platform, with a
 Honest notes: the original thumper rules were on Red 5's servers and are lost, so the timing, waves and haul are our own design built from the game's real pieces, and easy to tune. Creatures go for the players for now, not the thumper itself, and there's no thumper progress window yet (the status is in chat). For now you start one with !thump. Calling one in from an item comes later.
 
 Underneath it's a general encounter system, so the next world events (the melding repulsor, races) plug into the same frame. Release TBA, nothing to download yet.](images/progress/2026-11-17_154456_1.jpg)
-
----
-
-**Turrets that shoot, and vehicles** - *2026-11-17 15:37 (UTC+0)*
-
-Two more pieces of the world for our own server.
-
-Turrets fight: a turret deployable now takes its real weapon from the game data. The anti-personnel auto-turret, for example, fires 60 damage every 175 ms out to 65 m. It shoots the nearest hostile creature it can see, turns its aim toward it, and the kill counts for the player who placed it (XP and loot). Tested: spawned Aranhas around an auto-turret and it killed them within seconds, the XP went to the player. For now the hits land instantly and the turret shows no muzzle flash or tracer; the shot visuals are still to come.
-
-Vehicles: the server can now put the game's vehicles in the world, built from the game data: name, health and how the driver sits. Walk up and press E to get in the driver seat. The game shows its own vehicle HUD (health and speed gauge) and its 'Press W to accelerate' tip. Getting out puts you next to the vehicle. Your client drives the vehicle and the server passes its position to everyone nearby. Tested with the Cobra Cycle: it appeared on the platform, I got in, the vehicle HUD came up, and I got out again (screenshots). Actually driving it around still needs a real person on the keyboard to try. For now vehicles come from the command !vehicle <id> (e.g. 28 Cobra Cycle, 59 LGV, 53 Thumper Cart); calling one from your vehicle ability comes later.
-
-Still to do in this part: thumpers and resource nodes, carryables, then encounters and missions. Release TBA, nothing to download yet.
-
-  ![Two more pieces of the world for our own server.
-
-Turrets fight: a turret deployable now takes its real weapon from the game data. The anti-personnel auto-turret, for example, fires 60 damage every 175 ms out to 65 m. It shoots the nearest hostile creature it can see, turns its aim toward it, and the kill counts for the player who placed it (XP and loot). Tested: spawned Aranhas around an auto-turret and it killed them within seconds, the XP went to the player. For now the hits land instantly and the turret shows no muzzle flash or tracer; the shot visuals are still to come.
-
-Vehicles: the server can now put the game's vehicles in the world, built from the game data: name, health and how the driver sits. Walk up and press E to get in the driver seat. The game shows its own vehicle HUD (health and speed gauge) and its 'Press W to accelerate' tip. Getting out puts you next to the vehicle. Your client drives the vehicle and the server passes its position to everyone nearby. Tested with the Cobra Cycle: it appeared on the platform, I got in, the vehicle HUD came up, and I got out again (screenshots). Actually driving it around still needs a real person on the keyboard to try. For now vehicles come from the command !vehicle <id> (e.g. 28 Cobra Cycle, 59 LGV, 53 Thumper Cart); calling one from your vehicle ability comes later.
-
-Still to do in this part: thumpers and resource nodes, carryables, then encounters and missions. Release TBA, nothing to download yet.](images/progress/2026-11-17_153738_1.jpg)
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -121,7 +107,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 18:58 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 21%** (27 of 136 roadmap items done) - last update 2026-11-17 19:05 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
@@ -132,7 +118,7 @@ Newer screenshots are added here as the project moves along; the full history is
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
-| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `███████████░` 90% | 8/10 |
+| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `███████████░` 95% | 9/10 |
 | Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/10 |
 <!--/PROGRESS-->
 

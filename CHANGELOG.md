@@ -2,6 +2,10 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 19:05 (UTC+0)** - Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
+
+  ![AI and encounters finished: repulsor, race, and the world part of our server](images/progress/2026-11-17_190510_1.jpg)
+
 - **2026-11-17 18:54 (UTC+0)** - Two more parts of the world for our own server.
 
 Carrying things: thumper parts, resonators, canisters, datapads and the rest of the game's carryable objects can now lie in the world. Walk up, press E and you pick it up; the game's own 'carrying' effect goes on you (a red resonator glows next to you). Press E again to put it down, and if you go down you drop it. Tested with a Red Resonator (screenshot).

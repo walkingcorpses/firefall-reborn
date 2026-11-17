@@ -287,7 +287,7 @@ Full content (968 creatures, 563 missions, all vehicles) stays in Phases 3 and 4
   (3) Health sent in the same update as state Living is discarded (client kept Health 0); send the state first and the health in a second update.
   Dev knob `REBORN_AUTO_KILL=<ms>` kills the player that long after the first landing.
   Still to do: projectiles/damage, full aptitude chain runner, keyframe checksum reply (client answers status 1 after our id-2 reply). Gap list vs PIN: `docs/OWN_SERVER.md`.
-- [~] **AI and encounters** (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
+- [x] **AI and encounters** (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_ _(done 2026-11-17 19:05 (UTC+0))_
 - [~] **Animations for everything** (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack _(started 2026-11-16 19:19 (UTC+0))_
       swings, hit reactions/stumbles, death and ragdoll, reload, idle/turn-in-place, creature-specific moves (Aranha leap,
       Brontodon charge), ability animations on NPCs; check each against the original client (CombatView/Observer events, PIN as
@@ -338,6 +338,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-17 19:05 (UTC+0): Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
 - 2026-11-17 18:54 (UTC+0): Carryables (pick up/put down with E); mission framework with two Coral Forest missions (goto/kill/carry steps, waypoint, XP + item rewards).
 - 2026-11-17 15:44 (UTC+0): Thumper encounter: 90 s dig, creature waves, chat progress, Crystite + Sifted Earth haul; general encounter framework.
 - 2026-11-17 15:37 (UTC+0): Turrets shoot with their real weapon (kills credited to the owner); vehicles: spawn, get in as driver (vehicle HUD), get out.
