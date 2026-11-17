@@ -34,11 +34,27 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_192244_1.jpg"><img src="images/progress/2026-11-17_192244_1.jpg" width="49%" alt="New JOIN window, and two Phase 8 additions"></a>
   <a href="images/progress/2026-11-17_190510_1.jpg"><img src="images/progress/2026-11-17_190510_1.jpg" width="49%" alt="AI and encounters finished: repulsor, race, and the world part of our server"></a>
   <a href="images/progress/2026-11-17_185430_2.jpg"><img src="images/progress/2026-11-17_185430_2.jpg" width="49%" alt="Carrying things, and missions"></a>
   <a href="images/progress/2026-11-17_185430_1.jpg"><img src="images/progress/2026-11-17_185430_1.jpg" width="49%" alt="Carrying things, and missions"></a>
-  <a href="images/progress/2026-11-17_154456_1.jpg"><img src="images/progress/2026-11-17_154456_1.jpg" width="49%" alt="Thumpers are back"></a>
 </p>
+
+**New JOIN window, and two Phase 8 additions** - *2026-11-17 19:22 (UTC+0)*
+
+Two changes to the start menu, and two new items on the roadmap.
+
+The JOIN window: the menu button is now simply called JOIN. Clicking it opens a window listing your Steam friends who are in Firefall right now, each with their own JOIN button. Friends who are hosting a world are listed first. If a friend is playing but not hosting, the window tells you to ask them to press HOST A WORLD. When nobody's online it says 'None of your friends are playing Firefall right now', as in the screenshot. BACK returns to the menu.
+
+Fixed: the game went straight into the world instead of stopping at the start menu. That came from our test automation, which left its 'skip the menu' switches in the game's settings file. They're removed, and the test script now always takes them back out.
+
+Added to Phase 8 (dedicated servers):
+- Connect by address: a box in the JOIN window where you type a dedicated server's address, with a CONNECT button. It needs safe login over the network on the server side first, which is why it comes with the dedicated servers.
+- Dedicated servers provide the full-detail textures: a server hands static.vtex0/1/2 (the three sharpest texture levels, 23 GB) to players who connect, like Red 5's servers streamed them, so you don't need the separate download.
+
+Release TBA, nothing to download yet.
+
+---
 
 **AI and encounters finished: repulsor, race, and the world part of our server** - *2026-11-17 19:05 (UTC+0)*
 
@@ -64,30 +80,6 @@ Next in Phase 7: two more world events (melding repulsor, race), then animations
   ![Carrying things, and missions](images/progress/2026-11-17_185430_1.jpg)
 
   ![Carrying things, and missions](images/progress/2026-11-17_185430_2.jpg)
-
----
-
-**Thumpers are back** - *2026-11-17 15:44 (UTC+0)*
-
-The first encounter runs on our own server: the thumper, Firefall's signature activity.
-
-How it works: call a thumper down and it lands in front of you and starts digging for 90 seconds. Every 20 seconds a wave of the zone's creatures comes at it: Aranhas, Skivers and Culex, two creatures in the first wave and one more each wave. Chat shows how full it is (25%, 50%, 75%). Defend it until it's done and everyone within 60 m gets the haul: Crystite and Sifted Earth, more for each wave survived. If nobody is left standing near it for 15 seconds, it gives up and lifts off empty.
-
-Tested in game (screenshots): an Accord Thumper standing on the platform, with an auto-turret beside it for backup. Five waves came, the turret and I fought them off (I went down once and got back up), and it finished with 650 Crystite and 45 Sifted Earth in the inventory. The kills along the way took my character from level 10 to 11.
-
-Honest notes: the original thumper rules were on Red 5's servers and are lost, so the timing, waves and haul are our own design built from the game's real pieces, and easy to tune. Creatures go for the players for now, not the thumper itself, and there's no thumper progress window yet (the status is in chat). For now you start one with !thump. Calling one in from an item comes later.
-
-Underneath it's a general encounter system, so the next world events (the melding repulsor, races) plug into the same frame. Release TBA, nothing to download yet.
-
-  ![The first encounter runs on our own server: the thumper, Firefall's signature activity.
-
-How it works: call a thumper down and it lands in front of you and starts digging for 90 seconds. Every 20 seconds a wave of the zone's creatures comes at it: Aranhas, Skivers and Culex, two creatures in the first wave and one more each wave. Chat shows how full it is (25%, 50%, 75%). Defend it until it's done and everyone within 60 m gets the haul: Crystite and Sifted Earth, more for each wave survived. If nobody is left standing near it for 15 seconds, it gives up and lifts off empty.
-
-Tested in game (screenshots): an Accord Thumper standing on the platform, with an auto-turret beside it for backup. Five waves came, the turret and I fought them off (I went down once and got back up), and it finished with 650 Crystite and 45 Sifted Earth in the inventory. The kills along the way took my character from level 10 to 11.
-
-Honest notes: the original thumper rules were on Red 5's servers and are lost, so the timing, waves and haul are our own design built from the game's real pieces, and easy to tune. Creatures go for the players for now, not the thumper itself, and there's no thumper progress window yet (the status is in chat). For now you start one with !thump. Calling one in from an item comes later.
-
-Underneath it's a general encounter system, so the next world events (the melding repulsor, races) plug into the same frame. Release TBA, nothing to download yet.](images/progress/2026-11-17_154456_1.jpg)
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -107,7 +99,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 22%** (28 of 136 roadmap items done) - last update 2026-11-17 19:12 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 21%** (28 of 138 roadmap items done) - last update 2026-11-17 19:22 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
@@ -119,7 +111,7 @@ Newer screenshots are added here as the project moves along; the full history is
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
 | Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `████████████` 100% | 10/10 |
-| Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/10 |
+| Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/12 |
 <!--/PROGRESS-->
 
 The full plan, with every system listed, is in **[ROADMAP.md](ROADMAP.md)**. Each time something on it is finished it is ticked

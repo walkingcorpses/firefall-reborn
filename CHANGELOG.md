@@ -2,6 +2,20 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 19:22 (UTC+0)** - Two changes to the start menu, and two new items on the roadmap.
+
+The JOIN window: the menu button is now simply called JOIN. Clicking it opens a window listing your Steam friends who are in Firefall right now, each with their own JOIN button. Friends who are hosting a world are listed first. If a friend is playing but not hosting, the window tells you to ask them to press HOST A WORLD. When nobody's online it says 'None of your friends are playing Firefall right now', as in the screenshot. BACK returns to the menu.
+
+Fixed: the game went straight into the world instead of stopping at the start menu. That came from our test automation, which left its 'skip the menu' switches in the game's settings file. They're removed, and the test script now always takes them back out.
+
+Added to Phase 8 (dedicated servers):
+- Connect by address: a box in the JOIN window where you type a dedicated server's address, with a CONNECT button. It needs safe login over the network on the server side first, which is why it comes with the dedicated servers.
+- Dedicated servers provide the full-detail textures: a server hands static.vtex0/1/2 (the three sharpest texture levels, 23 GB) to players who connect, like Red 5's servers streamed them, so you don't need the separate download.
+
+Release TBA, nothing to download yet.
+
+  ![New JOIN window, and two Phase 8 additions](images/progress/2026-11-17_192244_1.jpg)
+
 - **2026-11-17 19:12 (UTC+0)** - Done: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack _(started 2026-11-16 19:19 (UTC+0))_
 
 - **2026-11-17 19:05 (UTC+0)** - Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_

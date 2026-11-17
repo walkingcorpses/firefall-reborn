@@ -308,6 +308,12 @@ lists public servers so players can find them. Builds on Phase 4 (modes, join by
       require a minimum client version
 - [ ] **Accounts on a dedicated server**: players join with a name and a per-server character (Steam ID used when present);
       server owner can ban/kick/whitelist; admin commands in chat and on the console
+- [ ] **Connect by address in the JOIN window** (owner 2026-11-17): a box where players type a dedicated server's address with a
+      CONNECT button next to it, under the friends list; needs safe network login on the server first (today the account
+      door only accepts the local PC and Steam-relay friends); remember recent addresses
+- [ ] **Dedicated servers provide the full-detail textures** (owner 2026-11-17): the server serves `static.vtex0`/`vtex1`/`vtex2`
+      (23 GB, the three sharpest texture levels) to players who connect, the way Red 5's servers streamed them, so a player
+      without them gets them from the server instead of the separate download; resumable, checksummed, shared between players
 - [ ] **Host-your-own guide**: README for opening ports / hosting on a VPS, firewall notes, update steps
 - [ ] **Server browser website**: players see a list of public servers (name, address, players online / max, mode, version,
       ping, description, tags) with search and filters, and a one-click copy of the address (or a Join link the game opens)
@@ -338,6 +344,17 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-17 19:22 (UTC+0): Two changes to the start menu, and two new items on the roadmap.
+
+The JOIN window: the menu button is now simply called JOIN. Clicking it opens a window listing your Steam friends who are in Firefall right now, each with their own JOIN button. Friends who are hosting a world are listed first. If a friend is playing but not hosting, the window tells you to ask them to press HOST A WORLD. When nobody's online it says 'None of your friends are playing Firefall right now', as in the screenshot. BACK returns to the menu.
+
+Fixed: the game went straight into the world instead of stopping at the start menu. That came from our test automation, which left its 'skip the menu' switches in the game's settings file. They're removed, and the test script now always takes them back out.
+
+Added to Phase 8 (dedicated servers):
+- Connect by address: a box in the JOIN window where you type a dedicated server's address, with a CONNECT button. It needs safe login over the network on the server side first, which is why it comes with the dedicated servers.
+- Dedicated servers provide the full-detail textures: a server hands static.vtex0/1/2 (the three sharpest texture levels, 23 GB) to players who connect, like Red 5's servers streamed them, so you don't need the separate download.
+
+Release TBA, nothing to download yet.
 - 2026-11-17 19:12 (UTC+0): Done: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack _(started 2026-11-16 19:19 (UTC+0))_
 - 2026-11-17 19:05 (UTC+0): Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
 - 2026-11-17 18:54 (UTC+0): Carryables (pick up/put down with E); mission framework with two Coral Forest missions (goto/kill/carry steps, waypoint, XP + item rewards).
