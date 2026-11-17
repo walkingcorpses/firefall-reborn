@@ -338,6 +338,13 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-17 15:37 (UTC+0): Two more pieces of the world for our own server.
+
+Turrets fight: a turret deployable now takes its real weapon from the game data. The anti-personnel auto-turret, for example, fires 60 damage every 175 ms out to 65 m. It shoots the nearest hostile creature it can see, turns its aim toward it, and the kill counts for the player who placed it (XP and loot). Tested: spawned Aranhas around an auto-turret and it killed them within seconds, the XP went to the player. For now the hits land instantly and the turret shows no muzzle flash or tracer; the shot visuals are still to come.
+
+Vehicles: the server can now put the game's vehicles in the world, built from the game data: name, health and how the driver sits. Walk up and press E to get in the driver seat. The game shows its own vehicle HUD (health and speed gauge) and its 'Press W to accelerate' tip. Getting out puts you next to the vehicle. Your client drives the vehicle and the server passes its position to everyone nearby. Tested with the Cobra Cycle: it appeared on the platform, I got in, the vehicle HUD came up, and I got out again (screenshots). Actually driving it around still needs a real person on the keyboard to try. For now vehicles come from the command !vehicle <id> (e.g. 28 Cobra Cycle, 59 LGV, 53 Thumper Cart); calling one from your vehicle ability comes later.
+
+Still to do in this part: thumpers and resource nodes, carryables, then encounters and missions. Release TBA, nothing to download yet.
 - 2026-11-17 15:24 (UTC+0): Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
 - 2026-11-17 15:09 (UTC+0): Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
 - 2026-11-17 15:01 (UTC+0): Done: Player character: loadout/stats/appearance from RIN data, spawn pose, movement relay. Character appears with head, hair, Assault armour, starting loadout and item stats; walk/sprin...

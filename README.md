@@ -34,32 +34,28 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_153738_1.jpg"><img src="images/progress/2026-11-17_153738_1.jpg" width="49%" alt="Two more pieces of the world for our own server.
+
+Turrets fight: a turret deployable now takes its real weapon from the game data. The anti-personnel auto-turret, for example, fires 60 damage every 175 ms out to 65 m. It shoots the nearest hostile creature it can see, turns its aim toward it, and the kill counts for the player who placed it (XP and loot). Tested: spawned Aranhas around an auto-turret and it killed them within seconds, the XP went to the player. For now the hits land instantly and the turret shows no muzzle flash or tracer; the shot visuals are still to come.
+
+Vehicles: the server can now put the game's vehicles in the world, built from the game data: name, health and how the driver sits. Walk up and press E to get in the driver seat. The game shows its own vehicle HUD (health and speed gauge) and its 'Press W to accelerate' tip. Getting out puts you next to the vehicle. Your client drives the vehicle and the server passes its position to everyone nearby. Tested with the Cobra Cycle: it appeared on the platform, I got in, the vehicle HUD came up, and I got out again (screenshots). Actually driving it around still needs a real person on the keyboard to try. For now vehicles come from the command !vehicle <id> (e.g. 28 Cobra Cycle, 59 LGV, 53 Thumper Cart); calling one from your vehicle ability comes later.
+
+Still to do in this part: thumpers and resource nodes, carryables, then encounters and missions. Release TBA, nothing to download yet."></a>
   <a href="images/progress/2026-11-17_152413_2.jpg"><img src="images/progress/2026-11-17_152413_2.jpg" width="49%" alt="Started: AI and encounters (rewrite of the first creature AI), NPCs, missions"></a>
   <a href="images/progress/2026-11-17_152413_1.jpg"><img src="images/progress/2026-11-17_152413_1.jpg" width="49%" alt="Started: AI and encounters (rewrite of the first creature AI), NPCs, missions"></a>
   <a href="images/progress/2026-11-17_150959_1.jpg"><img src="images/progress/2026-11-17_150959_1.jpg" width="49%" alt="Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21."></a>
-  <a href="images/progress/2026-11-17_144917_2.jpg"><img src="images/progress/2026-11-17_144917_2.jpg" width="49%" alt="Three player features for our own server.
-
-Switching battleframes: you can now change between the five battleframes (Assault, Biotech, Dreadnaught, Engineer, Recon). The server swaps your frame and puts you back where you stood, with that frame's armour, weapons, abilities and health. Each frame keeps its own level and XP, as in the original, so a new frame starts at level 1. Tested Assault to Biotech: new armour, the Biotech abilities on the bar, 361 health at level 1. For now you switch with the chat command !frame <name>. The game's own Battleframe Terminal is wired up on the server side (its frame list and its 'equip' request), but there's no terminal standing in the world yet, so that path is untested.
-
-Fall damage: the original had it, but its numbers lived on Red 5's servers, so ours is our best guess. We measured the game's gravity (about 24 m/s², much heavier than Earth's). Landing faster than 35 m/s (about a 25 m drop) hurts, and around 90 m is lethal. Tested: a 23 m drop did nothing, a 55 m drop took 339 of 576 health. Meteor Strike landings, being thrown by a creature and your first landing after spawning don't count.
-
-Reviving friends: when a player is down, a teammate within 4 m can hold E for 3 seconds to get them back up where they fell, with a quarter of their health. Tested with two players: one went down, the other revived them, and on screen the downed player stood back up. The game's 'hold E' prompt is wired to the same messages the original used but hasn't been seen on screen yet.
-
-Still to do in this part: gear and visual slots from the inventory, consumables, scopes. Release TBA, nothing to download yet."></a>
 </p>
 
+- *2026-11-17 15:37 (UTC+0)* - Two more pieces of the world for our own server.
+
+Turrets fight: a turret deployable now takes its real weapon from the game data. The anti-personnel auto-turret, for example, fires 60 damage every 175 ms out to 65 m. It shoots the nearest hostile creature it can see, turns its aim toward it, and the kill counts for the player who placed it (XP and loot). Tested: spawned Aranhas around an auto-turret and it killed them within seconds, the XP went to the player. For now the hits land instantly and the turret shows no muzzle flash or tracer; the shot visuals are still to come.
+
+Vehicles: the server can now put the game's vehicles in the world, built from the game data: name, health and how the driver sits. Walk up and press E to get in the driver seat. The game shows its own vehicle HUD (health and speed gauge) and its 'Press W to accelerate' tip. Getting out puts you next to the vehicle. Your client drives the vehicle and the server passes its position to everyone nearby. Tested with the Cobra Cycle: it appeared on the platform, I got in, the vehicle HUD came up, and I got out again (screenshots). Actually driving it around still needs a real person on the keyboard to try. For now vehicles come from the command !vehicle <id> (e.g. 28 Cobra Cycle, 59 LGV, 53 Thumper Cart); calling one from your vehicle ability comes later.
+
+Still to do in this part: thumpers and resource nodes, carryables, then encounters and missions. Release TBA, nothing to download yet.
 - *2026-11-17 15:24 (UTC+0)* - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
 - *2026-11-17 15:24 (UTC+0)* - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
 - *2026-11-17 15:09 (UTC+0)* - Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
-- *2026-11-17 14:49 (UTC+0)* - Three player features for our own server.
-
-Switching battleframes: you can now change between the five battleframes (Assault, Biotech, Dreadnaught, Engineer, Recon). The server swaps your frame and puts you back where you stood, with that frame's armour, weapons, abilities and health. Each frame keeps its own level and XP, as in the original, so a new frame starts at level 1. Tested Assault to Biotech: new armour, the Biotech abilities on the bar, 361 health at level 1. For now you switch with the chat command !frame <name>. The game's own Battleframe Terminal is wired up on the server side (its frame list and its 'equip' request), but there's no terminal standing in the world yet, so that path is untested.
-
-Fall damage: the original had it, but its numbers lived on Red 5's servers, so ours is our best guess. We measured the game's gravity (about 24 m/s², much heavier than Earth's). Landing faster than 35 m/s (about a 25 m drop) hurts, and around 90 m is lethal. Tested: a 23 m drop did nothing, a 55 m drop took 339 of 576 health. Meteor Strike landings, being thrown by a creature and your first landing after spawning don't count.
-
-Reviving friends: when a player is down, a teammate within 4 m can hold E for 3 seconds to get them back up where they fell, with a quarter of their health. Tested with two players: one went down, the other revived them, and on screen the downed player stood back up. The game's 'hold E' prompt is wired to the same messages the original used but hasn't been seen on screen yet.
-
-Still to do in this part: gear and visual slots from the inventory, consumables, scopes. Release TBA, nothing to download yet.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -79,7 +75,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 15:24 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 15:37 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
