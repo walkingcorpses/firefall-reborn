@@ -338,6 +338,15 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-17 14:49 (UTC+0): Three player features for our own server.
+
+Switching battleframes: you can now change between the five battleframes (Assault, Biotech, Dreadnaught, Engineer, Recon). The server swaps your frame and puts you back where you stood, with that frame's armour, weapons, abilities and health. Each frame keeps its own level and XP, as in the original, so a new frame starts at level 1. Tested Assault to Biotech: new armour, the Biotech abilities on the bar, 361 health at level 1. For now you switch with the chat command !frame <name>. The game's own Battleframe Terminal is wired up on the server side (its frame list and its 'equip' request), but there's no terminal standing in the world yet, so that path is untested.
+
+Fall damage: the original had it, but its numbers lived on Red 5's servers, so ours is our best guess. We measured the game's gravity (about 24 m/s², much heavier than Earth's). Landing faster than 35 m/s (about a 25 m drop) hurts, and around 90 m is lethal. Tested: a 23 m drop did nothing, a 55 m drop took 339 of 576 health. Meteor Strike landings, being thrown by a creature and your first landing after spawning don't count.
+
+Reviving friends: when a player is down, a teammate within 4 m can hold E for 3 seconds to get them back up where they fell, with a quarter of their health. Tested with two players: one went down, the other revived them, and on screen the downed player stood back up. The game's 'hold E' prompt is wired to the same messages the original used but hasn't been seen on screen yet.
+
+Still to do in this part: gear and visual slots from the inventory, consumables, scopes. Release TBA, nothing to download yet.
 - 2026-11-17 14:25 (UTC+0): Done: World: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of othe...
 - 2026-11-17 14:11 (UTC+0): Firefall Reborn now runs entirely on our own server code. The launcher and the installer start Reborn.Server, and PIN (the community server we started from, which has no licence) is no longer in the installer at all. That also settles the PIN licence question: we no longer need anyone's permission to ship.
 
