@@ -34,7 +34,7 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
-  <a href="images/progress/2026-11-17_154456_1.jpg"><img src="images/progress/2026-11-17_154456_1.jpg" width="49%" alt="The first encounter runs on our own server: the thumper, Firefall's signature activity."></a>a>
+  <a href="images/progress/2026-11-17_154456_1.jpg"><img src="images/progress/2026-11-17_154456_1.jpg" width="49%" alt="The first encounter runs on our own server: the thumper, Firefall's signature activity."></a>
 
 How it works: call a thumper down and it lands in front of you and starts digging for 90 seconds. Every 20 seconds a wave of the zone's creatures comes at it: Aranhas, Skivers and Culex, two creatures in the first wave and one more each wave. Chat shows how full it is (25%, 50%, 75%). Defend it until it's done and everyone within 60 m gets the haul: Crystite and Sifted Earth, more for each wave survived. If nobody is left standing near it for 15 seconds, it gives up and lifts off empty.
 
@@ -43,7 +43,7 @@ Tested in game (screenshots): an Accord Thumper standing on the platform, with a
 Honest notes: the original thumper rules were on Red 5's servers and are lost, so the timing, waves and haul are our own design built from the game's real pieces, and easy to tune. Creatures go for the players for now, not the thumper itself, and there's no thumper progress window yet (the status is in chat). For now you start one with !thump. Calling one in from an item comes later.
 
 Underneath it's a general encounter system, so the next world events (the melding repulsor, races) plug into the same frame. Release TBA, nothing to download yet."></a>
-  <a href="images/progress/2026-11-17_153738_1.jpg"><img src="images/progress/2026-11-17_153738_1.jpg" width="49%" alt="Two more pieces of the world for our own server.
+  <a href="images/progress/2026-11-17_153738_1.jpg"><img src="images/progress/2026-11-17_153738_1.jpg" width="49%" alt="Two more pieces of the world for our own server."></a>
 
 Turrets fight: a turret deployable now takes its real weapon from the game data. The anti-personnel auto-turret, for example, fires 60 damage every 175 ms out to 65 m. It shoots the nearest hostile creature it can see, turns its aim toward it, and the kill counts for the player who placed it (XP and loot). Tested: spawned Aranhas around an auto-turret and it killed them within seconds, the XP went to the player. For now the hits land instantly and the turret shows no muzzle flash or tracer; the shot visuals are still to come.
 
