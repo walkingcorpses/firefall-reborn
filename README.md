@@ -34,15 +34,31 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_140023_1.jpg"><img src="images/progress/2026-11-17_140023_1.jpg" width="49%" alt="Three multiplayer follow-ups for the shared world.
+
+Chat channels now behave like channels: Say reaches players within 50 m, Yell within 200 m, Whisper only the player you name (if nobody by that name is in your world you get a 'not in this world' notice instead). Zone chat and the other channels still reach everyone in the world; squad, platoon and army chat wait for squads and armies to exist. The Say/Yell ranges are our best guess (the original values lived on Red 5's servers) and can be tuned.
+
+Enemy camps now match the level of the player who wakes them, not the level of whoever logged in first. A level 1 friend walking up to a camp alone gets level 1 enemies; a level 10 player gets level 10.
+
+No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
+
+Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet."></a>
   <a href="images/progress/2026-11-16_074743_1.jpg"><img src="images/progress/2026-11-16_074743_1.jpg" width="49%" alt="Own server update: three fixes. (1) Your health now comes from your battleframe, its gear and its level instead of a flat 1000 (a level 10 Assault has 576, it grows as you level). (2) The launcher no longer fails with 'could not create your account (500)' after the game was closed badly: it now waits until the database has finished starting. (3) Creatures find their way round rocks and buildings: when something blocks them they work out a path (A*) over the real world collision, e.g. Aranha Workers walked 60 m round the cliff and up the slope toward a player standing on a platform above them."></a>
   <a href="images/progress/2026-11-15_034313_1.jpg"><img src="images/progress/2026-11-15_034313_1.jpg" width="49%" alt="Own server update: the world now has real collision (our own reader for the game's Havok collision data): enemies walk on terrain, floors and rocks, steer around obstacles, and walls and hills block shots both ways. Enemy camps are placed around Praia Tropical (Aranhas, Dark Ones, Chosen, beetles); they wake up when you come near and come back a couple of minutes after you clear them, with status messages in chat. Next: loot and XP, then animations."></a>
   <a href="images/progress/2026-11-15_023911_2.jpg"><img src="images/progress/2026-11-15_023911_2.jpg" width="49%" alt="Own server progress: combat works. Enemies from the game's own data can be spawned (soldiers, Aranhas, Brontodons) with their real models, names, factions and weapons. You can shoot them (weapon damage from game data, floating damage numbers) and they fight back: creatures close in and bite, soldiers keep their distance and fire at their weapon's rate. Enemy health and damage scale with level from the original level tables, and the death screen shows who killed you. Also fixed: Meteor Strike launch and impact, flashing energy bar, screen shake. Next: terrain and walls for enemies and shots, then animations."></a>
-  <a href="images/progress/2026-11-15_023911_1.jpg"><img src="images/progress/2026-11-15_023911_1.jpg" width="49%" alt="Own server progress: combat works. Enemies from the game's own data can be spawned (soldiers, Aranhas, Brontodons) with their real models, names, factions and weapons. You can shoot them (weapon damage from game data, floating damage numbers) and they fight back: creatures close in and bite, soldiers keep their distance and fire at their weapon's rate. Enemy health and damage scale with level from the original level tables, and the death screen shows who killed you. Also fixed: Meteor Strike launch and impact, flashing energy bar, screen shake. Next: terrain and walls for enemies and shots, then animations."></a>
 </p>
 
+- *2026-11-17 14:00 (UTC+0)* - Three multiplayer follow-ups for the shared world.
+
+Chat channels now behave like channels: Say reaches players within 50 m, Yell within 200 m, Whisper only the player you name (if nobody by that name is in your world you get a 'not in this world' notice instead). Zone chat and the other channels still reach everyone in the world; squad, platoon and army chat wait for squads and armies to exist. The Say/Yell ranges are our best guess (the original values lived on Red 5's servers) and can be tuned.
+
+Enemy camps now match the level of the player who wakes them, not the level of whoever logged in first. A level 1 friend walking up to a camp alone gets level 1 enemies; a level 10 player gets level 10.
+
+No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
+
+Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet.
 - *2026-11-16 07:47 (UTC+0)* - Own server update: three fixes. (1) Your health now comes from your battleframe, its gear and its level instead of a flat 1000 (a level 10 Assault has 576, it grows as you level). (2) The launcher no longer fails with 'could not create your account (500)' after the game was closed badly: it now waits until the database has finished starting. (3) Creatures find their way round rocks and buildings: when something blocks them they work out a path (A*) over the real world collision, e.g. Aranha Workers walked 60 m round the cliff and up the slope toward a player standing on a platform above them.
 - *2026-11-15 03:43 (UTC+0)* - Own server update: the world now has real collision (our own reader for the game's Havok collision data): enemies walk on terrain, floors and rocks, steer around obstacles, and walls and hills block shots both ways. Enemy camps are placed around Praia Tropical (Aranhas, Dark Ones, Chosen, beetles); they wake up when you come near and come back a couple of minutes after you clear them, with status messages in chat. Next: loot and XP, then animations.
-- *2026-11-15 02:39 (UTC+0)* - Own server progress: combat works. Enemies from the game's own data can be spawned (soldiers, Aranhas, Brontodons) with their real models, names, factions and weapons. You can shoot them (weapon damage from game data, floating damage numbers) and they fight back: creatures close in and bite, soldiers keep their distance and fire at their weapon's rate. Enemy health and damage scale with level from the original level tables, and the death screen shows who killed you. Also fixed: Meteor Strike launch and impact, flashing energy bar, screen shake. Next: terrain and walls for enemies and shots, then animations.
 - *2026-11-15 02:39 (UTC+0)* - Own server progress: combat works. Enemies from the game's own data can be spawned (soldiers, Aranhas, Brontodons) with their real models, names, factions and weapons. You can shoot them (weapon damage from game data, floating damage numbers) and they fight back: creatures close in and bite, soldiers keep their distance and fire at their weapon's rate. Enemy health and damage scale with level from the original level tables, and the death screen shows who killed you. Also fixed: Meteor Strike launch and impact, flashing energy bar, screen shake. Next: terrain and walls for enemies and shots, then animations.
 <!--/SHOTS-->
 
@@ -63,7 +79,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `███░░░░░░░░░░░░░░░░░` 17%** (20 of 136 roadmap items done) - last update 2026-11-16 20:00 (UTC+0)
+**Overall: `███░░░░░░░░░░░░░░░░░` 17%** (20 of 136 roadmap items done) - last update 2026-11-17 14:00 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

@@ -2,6 +2,26 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 14:00 (UTC+0)** - Three multiplayer follow-ups for the shared world.
+
+Chat channels now behave like channels: Say reaches players within 50 m, Yell within 200 m, Whisper only the player you name (if nobody by that name is in your world you get a 'not in this world' notice instead). Zone chat and the other channels still reach everyone in the world; squad, platoon and army chat wait for squads and armies to exist. The Say/Yell ranges are our best guess (the original values lived on Red 5's servers) and can be tuned.
+
+Enemy camps now match the level of the player who wakes them, not the level of whoever logged in first. A level 1 friend walking up to a camp alone gets level 1 enemies; a level 10 player gets level 10.
+
+No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
+
+Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet.
+
+  ![Three multiplayer follow-ups for the shared world.
+
+Chat channels now behave like channels: Say reaches players within 50 m, Yell within 200 m, Whisper only the player you name (if nobody by that name is in your world you get a 'not in this world' notice instead). Zone chat and the other channels still reach everyone in the world; squad, platoon and army chat wait for squads and armies to exist. The Say/Yell ranges are our best guess (the original values lived on Red 5's servers) and can be tuned.
+
+Enemy camps now match the level of the player who wakes them, not the level of whoever logged in first. A level 1 friend walking up to a camp alone gets level 1 enemies; a level 10 player gets level 10.
+
+No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
+
+Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet.](images/progress/2026-11-17_140023_1.jpg)
+
 - **2026-11-16 20:00 (UTC+0)** - Done: Shared world: players in a zone see each other (character, movement, shots, health, downed/death, respawn, level-up, chat) and fight the same enemies (shared camps; each enemy atta...
 
 - **2026-11-16 19:35 (UTC+0)** - Own server update: knock-backs work both ways now. Meteor Strike's impact throws the enemies it hits back from the crater, as the game's own ability data says it should.
