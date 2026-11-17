@@ -34,6 +34,8 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_152413_2.jpg"><img src="images/progress/2026-11-17_152413_2.jpg" width="49%" alt="Started: AI and encounters (rewrite of the first creature AI), NPCs, missions"></a>
+  <a href="images/progress/2026-11-17_152413_1.jpg"><img src="images/progress/2026-11-17_152413_1.jpg" width="49%" alt="Started: AI and encounters (rewrite of the first creature AI), NPCs, missions"></a>
   <a href="images/progress/2026-11-17_150959_1.jpg"><img src="images/progress/2026-11-17_150959_1.jpg" width="49%" alt="Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21."></a>
   <a href="images/progress/2026-11-17_144917_2.jpg"><img src="images/progress/2026-11-17_144917_2.jpg" width="49%" alt="Three player features for our own server.
 
@@ -44,26 +46,10 @@ Fall damage: the original had it, but its numbers lived on Red 5's servers, so o
 Reviving friends: when a player is down, a teammate within 4 m can hold E for 3 seconds to get them back up where they fell, with a quarter of their health. Tested with two players: one went down, the other revived them, and on screen the downed player stood back up. The game's 'hold E' prompt is wired to the same messages the original used but hasn't been seen on screen yet.
 
 Still to do in this part: gear and visual slots from the inventory, consumables, scopes. Release TBA, nothing to download yet."></a>
-  <a href="images/progress/2026-11-17_144917_1.jpg"><img src="images/progress/2026-11-17_144917_1.jpg" width="49%" alt="Three player features for our own server.
-
-Switching battleframes: you can now change between the five battleframes (Assault, Biotech, Dreadnaught, Engineer, Recon). The server swaps your frame and puts you back where you stood, with that frame's armour, weapons, abilities and health. Each frame keeps its own level and XP, as in the original, so a new frame starts at level 1. Tested Assault to Biotech: new armour, the Biotech abilities on the bar, 361 health at level 1. For now you switch with the chat command !frame <name>. The game's own Battleframe Terminal is wired up on the server side (its frame list and its 'equip' request), but there's no terminal standing in the world yet, so that path is untested.
-
-Fall damage: the original had it, but its numbers lived on Red 5's servers, so ours is our best guess. We measured the game's gravity (about 24 m/s², much heavier than Earth's). Landing faster than 35 m/s (about a 25 m drop) hurts, and around 90 m is lethal. Tested: a 23 m drop did nothing, a 55 m drop took 339 of 576 health. Meteor Strike landings, being thrown by a creature and your first landing after spawning don't count.
-
-Reviving friends: when a player is down, a teammate within 4 m can hold E for 3 seconds to get them back up where they fell, with a quarter of their health. Tested with two players: one went down, the other revived them, and on screen the downed player stood back up. The game's 'hold E' prompt is wired to the same messages the original used but hasn't been seen on screen yet.
-
-Still to do in this part: gear and visual slots from the inventory, consumables, scopes. Release TBA, nothing to download yet."></a>
-  <a href="images/progress/2026-11-17_140023_1.jpg"><img src="images/progress/2026-11-17_140023_1.jpg" width="49%" alt="Three multiplayer follow-ups for the shared world.
-
-Chat channels now behave like channels: Say reaches players within 50 m, Yell within 200 m, Whisper only the player you name (if nobody by that name is in your world you get a 'not in this world' notice instead). Zone chat and the other channels still reach everyone in the world; squad, platoon and army chat wait for squads and armies to exist. The Say/Yell ranges are our best guess (the original values lived on Red 5's servers) and can be tuned.
-
-Enemy camps now match the level of the player who wakes them, not the level of whoever logged in first. A level 1 friend walking up to a camp alone gets level 1 enemies; a level 10 player gets level 10.
-
-No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
-
-Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet."></a>
 </p>
 
+- *2026-11-17 15:24 (UTC+0)* - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
+- *2026-11-17 15:24 (UTC+0)* - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
 - *2026-11-17 15:09 (UTC+0)* - Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
 - *2026-11-17 14:49 (UTC+0)* - Three player features for our own server.
 
@@ -74,24 +60,6 @@ Fall damage: the original had it, but its numbers lived on Red 5's servers, so o
 Reviving friends: when a player is down, a teammate within 4 m can hold E for 3 seconds to get them back up where they fell, with a quarter of their health. Tested with two players: one went down, the other revived them, and on screen the downed player stood back up. The game's 'hold E' prompt is wired to the same messages the original used but hasn't been seen on screen yet.
 
 Still to do in this part: gear and visual slots from the inventory, consumables, scopes. Release TBA, nothing to download yet.
-- *2026-11-17 14:49 (UTC+0)* - Three player features for our own server.
-
-Switching battleframes: you can now change between the five battleframes (Assault, Biotech, Dreadnaught, Engineer, Recon). The server swaps your frame and puts you back where you stood, with that frame's armour, weapons, abilities and health. Each frame keeps its own level and XP, as in the original, so a new frame starts at level 1. Tested Assault to Biotech: new armour, the Biotech abilities on the bar, 361 health at level 1. For now you switch with the chat command !frame <name>. The game's own Battleframe Terminal is wired up on the server side (its frame list and its 'equip' request), but there's no terminal standing in the world yet, so that path is untested.
-
-Fall damage: the original had it, but its numbers lived on Red 5's servers, so ours is our best guess. We measured the game's gravity (about 24 m/s², much heavier than Earth's). Landing faster than 35 m/s (about a 25 m drop) hurts, and around 90 m is lethal. Tested: a 23 m drop did nothing, a 55 m drop took 339 of 576 health. Meteor Strike landings, being thrown by a creature and your first landing after spawning don't count.
-
-Reviving friends: when a player is down, a teammate within 4 m can hold E for 3 seconds to get them back up where they fell, with a quarter of their health. Tested with two players: one went down, the other revived them, and on screen the downed player stood back up. The game's 'hold E' prompt is wired to the same messages the original used but hasn't been seen on screen yet.
-
-Still to do in this part: gear and visual slots from the inventory, consumables, scopes. Release TBA, nothing to download yet.
-- *2026-11-17 14:00 (UTC+0)* - Three multiplayer follow-ups for the shared world.
-
-Chat channels now behave like channels: Say reaches players within 50 m, Yell within 200 m, Whisper only the player you name (if nobody by that name is in your world you get a 'not in this world' notice instead). Zone chat and the other channels still reach everyone in the world; squad, platoon and army chat wait for squads and armies to exist. The Say/Yell ranges are our best guess (the original values lived on Red 5's servers) and can be tuned.
-
-Enemy camps now match the level of the player who wakes them, not the level of whoever logged in first. A level 1 friend walking up to a camp alone gets level 1 enemies; a level 10 player gets level 10.
-
-No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
-
-Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -111,7 +79,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 15:09 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 15:24 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
@@ -122,7 +90,7 @@ Newer screenshots are added here as the project moves along; the full history is
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
-| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `██████████░░` 85% | 8/10 |
+| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `███████████░` 90% | 8/10 |
 | Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/10 |
 <!--/PROGRESS-->
 

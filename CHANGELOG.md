@@ -2,6 +2,12 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 15:24 (UTC+0)** - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
+
+  ![Started: AI and encounters (rewrite of the first creature AI), NPCs, missions](images/progress/2026-11-17_152413_1.jpg)
+
+  ![Started: AI and encounters (rewrite of the first creature AI), NPCs, missions](images/progress/2026-11-17_152413_2.jpg)
+
 - **2026-11-17 15:09 (UTC+0)** - Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
 
   ![Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.](images/progress/2026-11-17_150959_1.jpg)

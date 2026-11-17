@@ -1,5 +1,15 @@
 [
  {
+  "file": "images/progress/2026-11-17_152413_2.jpg",
+  "caption": "Started: AI and encounters (rewrite of the first creature AI), NPCs, missions",
+  "when": "2026-11-17 15:24 (UTC+0)"
+ },
+ {
+  "file": "images/progress/2026-11-17_152413_1.jpg",
+  "caption": "Started: AI and encounters (rewrite of the first creature AI), NPCs, missions",
+  "when": "2026-11-17 15:24 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-17_150959_1.jpg",
   "caption": "Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.",
   "when": "2026-11-17 15:09 (UTC+0)"
