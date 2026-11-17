@@ -338,18 +338,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
-- 2026-11-17 18:54 (UTC+0): Two more parts of the world for our own server.
-
-Carrying things: thumper parts, resonators, canisters, datapads and the rest of the game's carryable objects can now lie in the world. Walk up, press E and you pick it up; the game's own 'carrying' effect goes on you (a red resonator glows next to you). Press E again to put it down, and if you go down you drop it. Tested with a Red Resonator (screenshot).
-
-Missions: a first mission system. A mission is a list of steps: go to a place, kill a number of a creature, or carry something from one place to another. The current step gets a waypoint marker, progress shows in chat, and finishing pays out XP (the game shows its own 'Mission Reward' pop-up) plus items. Two example missions for Coral Forest:
-- Beach sweep: go down to the beach, kill three Aranha Workers, report back at the outpost. Tested in game: kills counted 1/3, 2/3, 3/3, then +6000 XP Mission Reward and 250 Crystite (screenshot).
-- Lost resonator: a resonator lies near the Culex swarm, carry it back to the outpost.
-For now you start one with !mission list and !mission start <number>.
-
-Honest notes: these are our own missions, written in a simple file so more are easy to add. The game's 563 original missions had their logic on Red 5's servers, and the game's mission window uses messages nobody has documented yet, so it isn't used yet. Hooking up that window and bringing the real missions back is Phase 4 work. The waypoint marker is wired to the game's own mission marker, but I haven't seen it on screen yet.
-
-Next in Phase 7: two more world events (melding repulsor, race), then animations part 2. Release TBA, nothing to download yet.
+- 2026-11-17 18:54 (UTC+0): Carryables (pick up/put down with E); mission framework with two Coral Forest missions (goto/kill/carry steps, waypoint, XP + item rewards).
 - 2026-11-17 15:44 (UTC+0): Thumper encounter: 90 s dig, creature waves, chat progress, Crystite + Sifted Earth haul; general encounter framework.
 - 2026-11-17 15:37 (UTC+0): Turrets shoot with their real weapon (kills credited to the owner); vehicles: spawn, get in as driver (vehicle HUD), get out.
 - 2026-11-17 15:24 (UTC+0): Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
