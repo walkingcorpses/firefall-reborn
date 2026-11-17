@@ -2,6 +2,22 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 14:11 (UTC+0)** - Firefall Reborn now runs entirely on our own server code. The launcher and the installer start Reborn.Server, and PIN (the community server we started from, which has no licence) is no longer in the installer at all. That also settles the PIN licence question: we no longer need anyone's permission to ship.
+
+What this means for players: nothing changes in how you start the game. Click Play in Steam and the launcher starts the local services and our server in the background, the same as before. Checked today with a fresh launch: the launcher started reborn-server, the character logged in and landed in Coral Forest. The installer shrank from 468 MB to 416 MB of server files.
+
+The collision and physics item is ticked as well. It has been done since 15 November: our own reader for the game's Havok collision data (terrain, floors and rocks; walls block shots and line of sight) plus A* path finding for creatures.
+
+Phase 7 finish line (replace everything PIN did, plus the frameworks later phases fill with content), in build order:
+1. World: range-based visibility, zone transfer, logout and leave-zone
+2. Player: switching battleframes (all 5), gear slots, consumables, scopes, reviving other players, jetpack energy and fall damage
+3. Admin commands
+4. Deployables and turrets, vehicles, thumpers and resource nodes, carryables
+5. Encounter and mission frameworks with working examples (thumper encounter, melding repulsor, LGV race)
+6. Animations part 2: hit reactions, reloads, idle, NPC ability animations
+
+Release still TBA, nothing to download yet.
+
 - **2026-11-17 14:00 (UTC+0)** - Three multiplayer follow-ups for the shared world.
 
 Chat channels now behave like channels: Say reaches players within 50 m, Yell within 200 m, Whisper only the player you name (if nobody by that name is in your world you get a 'not in this world' notice instead). Zone chat and the other channels still reach everyone in the world; squad, platoon and army chat wait for squads and armies to exist. The Say/Yell ranges are our best guess (the original values lived on Red 5's servers) and can be tuned.

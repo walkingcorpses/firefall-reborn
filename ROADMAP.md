@@ -44,7 +44,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
 - [x] **Two repos**: private source repo + public releases repo (README, screenshots, `Setup.exe` asset, version tags) _(done 2026-10-20 19:05 (UTC+1))_
       Private source repo is up (`walkingcorpses/firefall-reborn-source`); the public repo has no release assets yet (release hold)
 - [x] Self-contained server bundle (bundled .NET runtime, published RIN/PIN, portable Postgres) so nothing else is installed _(done 2026-10-20 15:32 (UTC+1))_
-- [ ] **PIN licence**: PIN has no licence file; ask the maintainers (themeldingwars) for permission before any public build
+- [x] **PIN licence**: no longer needed: PIN was replaced by our own server and is not in the installer any more (2026-11-17). Old text: PIN has no licence file; ask the maintainers (themeldingwars) for permission before any public build _(done 2026-11-17 14:11 (UTC+0))_
       ships their code, otherwise rebuild that part ourselves. RIN, AeroMessages, FauFau, SDBrowser are MIT.
 
 ## Phase 2 - Steam: achievements, friends, invites
@@ -250,6 +250,15 @@ a `.reborn.bak` original and is applied by the installer/updater like the other 
 
 ## Phase 7 - Our own server (replace PIN) - decided 2026-10-20
 PIN has no licence, so every PIN part is replaced by our own code, one by one (plan and clean-room rules: [`OWN_SERVER.md`](OWN_SERVER.md)).
+**Finish line (owner 2026-11-17: "replace PIN fully"):** everything PIN did is ours, plus the frameworks later phases fill with content.
+Still open, in build order:
+  1. World: range-based scoping (far players/NPCs leave view), zone transfer, logout/leave-zone messages
+  2. Player: battleframe switching (all 5 frames), gear/visual slot requests, consumables, scope, revive by other players, jetpack energy + fall damage
+  3. Admin commands at PIN's level (give item, spawn vehicle/deployable/carryable, effects, revive, zone)
+  4. Entities: deployables/turrets, vehicles (calldown, seats), thumpers + resource nodes, carryables
+  5. Encounters + missions frameworks with working examples (thumper encounter, melding repulsor, LGV race; mission steps/markers/rewards)
+  6. Animations part 2: hit reactions/stumbles, reloads, idle/turn, ability animations on NPCs
+Full content (968 creatures, 563 missions, all vehicles) stays in Phases 3 and 4.
 - [x] **Transport** `src/Reborn.Net`: handshake (POKE/HEHE/KISS/HUGG), 4 channels, acks, resend XOR, splitting, time sync, close; self-test passes
 - [x] **Matrix front + login**: Login/WelcomeToTheMatrix/EnterZone/EnterZoneAck/KeyframeRequest; the real client logs in and enters the zone _(done 2026-10-20 21:10 (UTC+1))_
 - [~] **World**: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of other entities, updates, zone entities
@@ -283,8 +292,8 @@ PIN has no licence, so every PIN part is replaced by our own code, one by one (p
       swings, hit reactions/stumbles, death and ragdoll, reload, idle/turn-in-place, creature-specific moves (Aranha leap,
       Brontodon charge), ability animations on NPCs; check each against the original client (CombatView/Observer events, PIN as
       behaviour reference)
-- [ ] **Collision/physics** from game data; static-DB layer
-- [ ] **Switch the launcher** from pin-matrix + pin-game to one `reborn-server` process; remove PIN from the installer payload
+- [x] **Collision/physics** from game data; static-DB layer: our own Havok collision reader (terrain, floors, rocks; shots and line of sight blocked by walls), A* path finding for creatures, game data read from the imported static DB _(done 2026-11-17 14:11 (UTC+0))_
+- [x] **Switch the launcher** from pin-matrix + pin-game to one `reborn-server` process; remove PIN from the installer payload _(done 2026-11-17 14:11 (UTC+0))_
 
 ## Phase 8 - Dedicated servers and a server browser (owner 2026-10-29)
 **Goal:** anyone can download the server files, run them anywhere (home PC, VPS, rented box) and let anyone join; a website
@@ -329,15 +338,23 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
-- 2026-11-17 14:00 (UTC+0): Three multiplayer follow-ups for the shared world.
+- 2026-11-17 14:11 (UTC+0): Firefall Reborn now runs entirely on our own server code. The launcher and the installer start Reborn.Server, and PIN (the community server we started from, which has no licence) is no longer in the installer at all. That also settles the PIN licence question: we no longer need anyone's permission to ship.
 
-Chat channels now behave like channels: Say reaches players within 50 m, Yell within 200 m, Whisper only the player you name (if nobody by that name is in your world you get a 'not in this world' notice instead). Zone chat and the other channels still reach everyone in the world; squad, platoon and army chat wait for squads and armies to exist. The Say/Yell ranges are our best guess (the original values lived on Red 5's servers) and can be tuned.
+What this means for players: nothing changes in how you start the game. Click Play in Steam and the launcher starts the local services and our server in the background, the same as before. Checked today with a fresh launch: the launcher started reborn-server, the character logged in and landed in Coral Forest. The installer shrank from 468 MB to 416 MB of server files.
 
-Enemy camps now match the level of the player who wakes them, not the level of whoever logged in first. A level 1 friend walking up to a camp alone gets level 1 enemies; a level 10 player gets level 10.
+The collision and physics item is ticked as well. It has been done since 15 November: our own reader for the game's Havok collision data (terrain, floors and rocks; walls block shots and line of sight) plus A* path finding for creatures.
 
-No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
+Phase 7 finish line (replace everything PIN did, plus the frameworks later phases fill with content), in build order:
+1. World: range-based visibility, zone transfer, logout and leave-zone
+2. Player: switching battleframes (all 5), gear slots, consumables, scopes, reviving other players, jetpack energy and fall damage
+3. Admin commands
+4. Deployables and turrets, vehicles, thumpers and resource nodes, carryables
+5. Encounter and mission frameworks with working examples (thumper encounter, melding repulsor, LGV race)
+6. Animations part 2: hit reactions, reloads, idle, NPC ability animations
 
-Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet.
+Release still TBA, nothing to download yet.
+- 2026-11-17 14:11 (UTC+0): Our own server replaces PIN: the launcher and installer now start Reborn.Server, PIN is gone from the installer (416 MB instead of 468 MB); collision/physics item ticked (done since 2026-11-15).
+- 2026-11-17 14:00 (UTC+0): Multiplayer follow-ups: Say reaches 50 m, Yell 200 m, Whisper only the named player; enemy camps match the level of the player who wakes them; no PvP in the open world (as in the original); a downed player is seen collapsing and getting back up on the other client.
 - 2026-11-16 20:00 (UTC+0): Done: Shared world: players in a zone see each other (character, movement, shots, health, downed/death, respawn, level-up, chat) and fight the same enemies (shared camps; each enemy atta...
 - 2026-11-16 19:35 (UTC+0): Own server update: knock-backs work both ways now. Meteor Strike's impact throws the enemies it hits back from the crater, as the game's own ability data says it should.
 - 2026-11-16 19:19 (UTC+0): Own server update, animations part 1: enemies now play their death animation when you kill them (an Aranha flips over and collapses) instead of freezing upright until they vanish, and knock-backs work: a Brontodon's charge sends you flying about 13 m. Creature attack animations (bites, pounces, charges) already played; next are hit reactions and the rest of the list.
