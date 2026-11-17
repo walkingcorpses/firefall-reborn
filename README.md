@@ -34,6 +34,15 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_154456_1.jpg"><img src="images/progress/2026-11-17_154456_1.jpg" width="49%" alt="The first encounter runs on our own server: the thumper, Firefall's signature activity.
+
+How it works: call a thumper down and it lands in front of you and starts digging for 90 seconds. Every 20 seconds a wave of the zone's creatures comes at it: Aranhas, Skivers and Culex, two creatures in the first wave and one more each wave. Chat shows how full it is (25%, 50%, 75%). Defend it until it's done and everyone within 60 m gets the haul: Crystite and Sifted Earth, more for each wave survived. If nobody is left standing near it for 15 seconds, it gives up and lifts off empty.
+
+Tested in game (screenshots): an Accord Thumper standing on the platform, with an auto-turret beside it for backup. Five waves came, the turret and I fought them off (I went down once and got back up), and it finished with 650 Crystite and 45 Sifted Earth in the inventory. The kills along the way took my character from level 10 to 11.
+
+Honest notes: the original thumper rules were on Red 5's servers and are lost, so the timing, waves and haul are our own design built from the game's real pieces, and easy to tune. Creatures go for the players for now, not the thumper itself, and there's no thumper progress window yet (the status is in chat). For now you start one with !thump. Calling one in from an item comes later.
+
+Underneath it's a general encounter system, so the next world events (the melding repulsor, races) plug into the same frame. Release TBA, nothing to download yet."></a>
   <a href="images/progress/2026-11-17_153738_1.jpg"><img src="images/progress/2026-11-17_153738_1.jpg" width="49%" alt="Two more pieces of the world for our own server.
 
 Turrets fight: a turret deployable now takes its real weapon from the game data. The anti-personnel auto-turret, for example, fires 60 damage every 175 ms out to 65 m. It shoots the nearest hostile creature it can see, turns its aim toward it, and the kill counts for the player who placed it (XP and loot). Tested: spawned Aranhas around an auto-turret and it killed them within seconds, the XP went to the player. For now the hits land instantly and the turret shows no muzzle flash or tracer; the shot visuals are still to come.
@@ -43,9 +52,17 @@ Vehicles: the server can now put the game's vehicles in the world, built from th
 Still to do in this part: thumpers and resource nodes, carryables, then encounters and missions. Release TBA, nothing to download yet."></a>
   <a href="images/progress/2026-11-17_152413_2.jpg"><img src="images/progress/2026-11-17_152413_2.jpg" width="49%" alt="Started: AI and encounters (rewrite of the first creature AI), NPCs, missions"></a>
   <a href="images/progress/2026-11-17_152413_1.jpg"><img src="images/progress/2026-11-17_152413_1.jpg" width="49%" alt="Started: AI and encounters (rewrite of the first creature AI), NPCs, missions"></a>
-  <a href="images/progress/2026-11-17_150959_1.jpg"><img src="images/progress/2026-11-17_150959_1.jpg" width="49%" alt="Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21."></a>
 </p>
 
+- *2026-11-17 15:44 (UTC+0)* - The first encounter runs on our own server: the thumper, Firefall's signature activity.
+
+How it works: call a thumper down and it lands in front of you and starts digging for 90 seconds. Every 20 seconds a wave of the zone's creatures comes at it: Aranhas, Skivers and Culex, two creatures in the first wave and one more each wave. Chat shows how full it is (25%, 50%, 75%). Defend it until it's done and everyone within 60 m gets the haul: Crystite and Sifted Earth, more for each wave survived. If nobody is left standing near it for 15 seconds, it gives up and lifts off empty.
+
+Tested in game (screenshots): an Accord Thumper standing on the platform, with an auto-turret beside it for backup. Five waves came, the turret and I fought them off (I went down once and got back up), and it finished with 650 Crystite and 45 Sifted Earth in the inventory. The kills along the way took my character from level 10 to 11.
+
+Honest notes: the original thumper rules were on Red 5's servers and are lost, so the timing, waves and haul are our own design built from the game's real pieces, and easy to tune. Creatures go for the players for now, not the thumper itself, and there's no thumper progress window yet (the status is in chat). For now you start one with !thump. Calling one in from an item comes later.
+
+Underneath it's a general encounter system, so the next world events (the melding repulsor, races) plug into the same frame. Release TBA, nothing to download yet.
 - *2026-11-17 15:37 (UTC+0)* - Two more pieces of the world for our own server.
 
 Turrets fight: a turret deployable now takes its real weapon from the game data. The anti-personnel auto-turret, for example, fires 60 damage every 175 ms out to 65 m. It shoots the nearest hostile creature it can see, turns its aim toward it, and the kill counts for the player who placed it (XP and loot). Tested: spawned Aranhas around an auto-turret and it killed them within seconds, the XP went to the player. For now the hits land instantly and the turret shows no muzzle flash or tracer; the shot visuals are still to come.
@@ -55,7 +72,6 @@ Vehicles: the server can now put the game's vehicles in the world, built from th
 Still to do in this part: thumpers and resource nodes, carryables, then encounters and missions. Release TBA, nothing to download yet.
 - *2026-11-17 15:24 (UTC+0)* - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
 - *2026-11-17 15:24 (UTC+0)* - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
-- *2026-11-17 15:09 (UTC+0)* - Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -75,7 +91,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 15:37 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 15:44 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
