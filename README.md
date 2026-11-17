@@ -34,16 +34,16 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_185430_2.jpg"><img src="images/progress/2026-11-17_185430_2.jpg" width="49%" alt="Carrying things, and missions"></a>
+  <a href="images/progress/2026-11-17_185430_1.jpg"><img src="images/progress/2026-11-17_185430_1.jpg" width="49%" alt="Carrying things, and missions"></a>
   <a href="images/progress/2026-11-17_154456_1.jpg"><img src="images/progress/2026-11-17_154456_1.jpg" width="49%" alt="Thumpers are back"></a>
   <a href="images/progress/2026-11-17_153738_1.jpg"><img src="images/progress/2026-11-17_153738_1.jpg" width="49%" alt="Turrets that shoot, and vehicles"></a>
-  <a href="images/progress/2026-11-17_152413_2.jpg"><img src="images/progress/2026-11-17_152413_2.jpg" width="49%" alt="Started: AI and encounters (rewrite of the first creature AI), NPCs, missions"></a>
-  <a href="images/progress/2026-11-17_152413_1.jpg"><img src="images/progress/2026-11-17_152413_1.jpg" width="49%" alt="Started: AI and encounters (rewrite of the first creature AI), NPCs, missions"></a>
 </p>
 
+- *2026-11-17 18:54 (UTC+0)* - Carrying things, and missions
+- *2026-11-17 18:54 (UTC+0)* - Carrying things, and missions
 - *2026-11-17 15:44 (UTC+0)* - Thumpers are back
 - *2026-11-17 15:37 (UTC+0)* - Turrets that shoot, and vehicles
-- *2026-11-17 15:24 (UTC+0)* - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
-- *2026-11-17 15:24 (UTC+0)* - Started: AI and encounters (rewrite of the first creature AI), NPCs, missions
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -63,7 +63,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 15:53 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 18:54 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

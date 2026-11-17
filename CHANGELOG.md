@@ -2,6 +2,23 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 18:54 (UTC+0)** - Two more parts of the world for our own server.
+
+Carrying things: thumper parts, resonators, canisters, datapads and the rest of the game's carryable objects can now lie in the world. Walk up, press E and you pick it up; the game's own 'carrying' effect goes on you (a red resonator glows next to you). Press E again to put it down, and if you go down you drop it. Tested with a Red Resonator (screenshot).
+
+Missions: a first mission system. A mission is a list of steps: go to a place, kill a number of a creature, or carry something from one place to another. The current step gets a waypoint marker, progress shows in chat, and finishing pays out XP (the game shows its own 'Mission Reward' pop-up) plus items. Two example missions for Coral Forest:
+- Beach sweep: go down to the beach, kill three Aranha Workers, report back at the outpost. Tested in game: kills counted 1/3, 2/3, 3/3, then +6000 XP Mission Reward and 250 Crystite (screenshot).
+- Lost resonator: a resonator lies near the Culex swarm, carry it back to the outpost.
+For now you start one with !mission list and !mission start <number>.
+
+Honest notes: these are our own missions, written in a simple file so more are easy to add. The game's 563 original missions had their logic on Red 5's servers, and the game's mission window uses messages nobody has documented yet, so it isn't used yet. Hooking up that window and bringing the real missions back is Phase 4 work. The waypoint marker is wired to the game's own mission marker, but I haven't seen it on screen yet.
+
+Next in Phase 7: two more world events (melding repulsor, race), then animations part 2. Release TBA, nothing to download yet.
+
+  ![Carrying things, and missions](images/progress/2026-11-17_185430_1.jpg)
+
+  ![Carrying things, and missions](images/progress/2026-11-17_185430_2.jpg)
+
 - **2026-11-17 15:44 (UTC+0)** - The first encounter runs on our own server: the thumper, Firefall's signature activity.
 
 How it works: call a thumper down and it lands in front of you and starts digging for 90 seconds. Every 20 seconds a wave of the zone's creatures comes at it: Aranhas, Skivers and Culex, two creatures in the first wave and one more each wave. Chat shows how full it is (25%, 50%, 75%). Defend it until it's done and everyone within 60 m gets the haul: Crystite and Sifted Earth, more for each wave survived. If nobody is left standing near it for 15 seconds, it gives up and lifts off empty.
