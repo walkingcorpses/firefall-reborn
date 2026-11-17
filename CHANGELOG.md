@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 19:12 (UTC+0)** - Done: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack _(started 2026-11-16 19:19 (UTC+0))_
+
 - **2026-11-17 19:05 (UTC+0)** - Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
 
   ![AI and encounters finished: repulsor, race, and the world part of our server](images/progress/2026-11-17_190510_1.jpg)
