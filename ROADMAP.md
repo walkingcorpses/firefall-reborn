@@ -75,8 +75,9 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       friends list and the overlay's "Invite to game" start the friend's game with it; the launcher keeps it and the start menu
       joins that friend at once (tested with the launch argument on one PC). Join requests while the game already
       runs (callback 337) are handled too: the start menu checks every 3 s. Host privacy done 2026-11-17: HOST A WORLD opens a
-      window with FRIENDS CAN JOIN / INVITE ONLY, the online Steam friends with INVITE buttons (the Steam invites go out when
-      hosting starts; invite-only lets only those friends through the relay), START HOSTING. Left: the real two-PC test
+      window with FRIENDS CAN JOIN / INVITE ONLY and START HOSTING; inviting happens in the world (owner: you cannot invite before
+      hosting): !friends lists online Steam friends, !invite <name> sends a Steam invite through the launcher (host only; in
+      invite-only it also lets them in), or the Steam overlay. Left: the real two-PC test
 - [~] **Connection without router setup**: relay game traffic over Steam's networking (a small local tunnel per player),
       fallback UPnP; each friend keeps their own character, the host owns the world.
       Built: `Relay.cs` (RelayHost + RelayGuest over Steam P2P: web TCP 5000, matrix UDP 25000, game UDP 25001), session-request
@@ -349,17 +350,19 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
-- 2026-11-17 20:33 (UTC+0): Hosting a world got its own window.
+- 2026-11-17 23:53 (UTC+0): Inviting now happens where it makes sense: in your world, after you've started hosting.
 
-Press HOST A WORLD and a window opens where you pick who may come in:
-- FRIENDS CAN JOIN: any of your Steam friends can join you (from the JOIN window in the game, or 'Join Game' in Steam).
-- INVITE ONLY: only the friends you invite can get in. Anyone else is turned away.
+HOST A WORLD: pick FRIENDS CAN JOIN or INVITE ONLY, then START HOSTING. The window explains how inviting works, and no longer asks you to invite people before your world exists.
 
-Below that are your Steam friends who are online right now (those already in Firefall are marked), each with an INVITE button. Invites go out through Steam the moment your world starts, so your friend gets a normal Steam game invite, and accepting it starts their Firefall and joins you straight away. Then press START HOSTING.
+Once you're in your world:
+- !friends lists your Steam friends who are online (those already in Firefall are marked).
+- !invite <name> sends that friend a normal Steam game invite straight away. Part of the name is enough. Accepting it starts their Firefall and joins you. In an invite-only world it also lets them in.
+- The Steam overlay's 'Invite to game' works too.
 
-In a friend's JOIN window, an invite-only world is marked '(invite only)'.
+Only the host can send invites, so a guest can't send invites from the host's Steam account.
 
-Tested on one PC: the window lists the real online friends, the choices and buttons work, and the menu talks to the launcher. The screenshot uses sample names. The full two-PC trip (invite, join, play) is next, in a real session with a friend. Release TBA, nothing to download yet.
+Tested: !friends listed the online friends from Steam, and !invite with a made-up name answered that no such friend is online (no real invites were sent during testing). Sending a real invite and joining through it is part of the upcoming two-PC session. Release TBA, nothing to download yet.
+- 2026-11-17 20:33 (UTC+0): HOST window: friends can join / invite only, Steam invites to online friends, START HOSTING.
 - 2026-11-17 20:26 (UTC+0): Join from Steam ("Join Game" / overlay invites start the game and join), bigger JOIN window (7 rows).
 - 2026-11-17 19:22 (UTC+0): JOIN window (friends playing Firefall, JOIN each); start menu no longer skipped; Phase 8 + connect by address + servers provide static.vtex0-2.
 - 2026-11-17 19:12 (UTC+0): Done: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack _(started 2026-11-16 19:19 (UTC+0))_

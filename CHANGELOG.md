@@ -2,6 +2,21 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 23:53 (UTC+0)** - Inviting now happens where it makes sense: in your world, after you've started hosting.
+
+HOST A WORLD: pick FRIENDS CAN JOIN or INVITE ONLY, then START HOSTING. The window explains how inviting works, and no longer asks you to invite people before your world exists.
+
+Once you're in your world:
+- !friends lists your Steam friends who are online (those already in Firefall are marked).
+- !invite <name> sends that friend a normal Steam game invite straight away. Part of the name is enough. Accepting it starts their Firefall and joins you. In an invite-only world it also lets them in.
+- The Steam overlay's 'Invite to game' works too.
+
+Only the host can send invites, so a guest can't send invites from the host's Steam account.
+
+Tested: !friends listed the online friends from Steam, and !invite with a made-up name answered that no such friend is online (no real invites were sent during testing). Sending a real invite and joining through it is part of the upcoming two-PC session. Release TBA, nothing to download yet.
+
+  ![Invite friends from inside your world](images/progress/2026-11-17_235355_1.jpg)
+
 - **2026-11-17 20:33 (UTC+0)** - Hosting a world got its own window.
 
 Press HOST A WORLD and a window opens where you pick who may come in:

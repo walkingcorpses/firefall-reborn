@@ -34,11 +34,28 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_235355_1.jpg"><img src="images/progress/2026-11-17_235355_1.jpg" width="49%" alt="Invite friends from inside your world"></a>
   <a href="images/progress/2026-11-17_203308_1.jpg"><img src="images/progress/2026-11-17_203308_1.jpg" width="49%" alt="Host your world your way: friends or invite only"></a>
   <a href="images/progress/2026-11-17_202659_1.jpg"><img src="images/progress/2026-11-17_202659_1.jpg" width="49%" alt="Join from Steam, and a bigger JOIN window"></a>
   <a href="images/progress/2026-11-17_192244_1.jpg"><img src="images/progress/2026-11-17_192244_1.jpg" width="49%" alt="New JOIN window, and two Phase 8 additions"></a>
-  <a href="images/progress/2026-11-17_190510_1.jpg"><img src="images/progress/2026-11-17_190510_1.jpg" width="49%" alt="AI and encounters finished: repulsor, race, and the world part of our server"></a>
 </p>
+
+**Invite friends from inside your world** - *2026-11-17 23:53 (UTC+0)*
+
+Inviting now happens where it makes sense: in your world, after you've started hosting.
+
+HOST A WORLD: pick FRIENDS CAN JOIN or INVITE ONLY, then START HOSTING. The window explains how inviting works, and no longer asks you to invite people before your world exists.
+
+Once you're in your world:
+- !friends lists your Steam friends who are online (those already in Firefall are marked).
+- !invite <name> sends that friend a normal Steam game invite straight away. Part of the name is enough. Accepting it starts their Firefall and joins you. In an invite-only world it also lets them in.
+- The Steam overlay's 'Invite to game' works too.
+
+Only the host can send invites, so a guest can't send invites from the host's Steam account.
+
+Tested: !friends listed the online friends from Steam, and !invite with a made-up name answered that no such friend is online (no real invites were sent during testing). Sending a real invite and joining through it is part of the upcoming two-PC session. Release TBA, nothing to download yet.
+
+---
 
 **Host your world your way: friends or invite only** - *2026-11-17 20:33 (UTC+0)*
 
@@ -81,12 +98,6 @@ Added to Phase 8 (dedicated servers):
 - Dedicated servers provide the full-detail textures: a server hands static.vtex0/1/2 (the three sharpest texture levels, 23 GB) to players who connect, like Red 5's servers streamed them, so you don't need the separate download.
 
 Release TBA, nothing to download yet.
-
----
-
-**AI and encounters finished: repulsor, race, and the world part of our server** - *2026-11-17 19:05 (UTC+0)*
-
-Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -106,7 +117,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 22%** (29 of 138 roadmap items done) - last update 2026-11-17 20:33 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 22%** (29 of 138 roadmap items done) - last update 2026-11-17 23:53 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

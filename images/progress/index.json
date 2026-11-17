@@ -1,5 +1,11 @@
 [
  {
+  "file": "images/progress/2026-11-17_235355_1.jpg",
+  "caption": "Invite friends from inside your world",
+  "text": "Inviting now happens where it makes sense: in your world, after you've started hosting.\n\nHOST A WORLD: pick FRIENDS CAN JOIN or INVITE ONLY, then START HOSTING. The window explains how inviting works, and no longer asks you to invite people before your world exists.\n\nOnce you're in your world:\n- !friends lists your Steam friends who are online (those already in Firefall are marked).\n- !invite <name> sends that friend a normal Steam game invite straight away. Part of the name is enough. Accepting it starts their Firefall and joins you. In an invite-only world it also lets them in.\n- The Steam overlay's 'Invite to game' works too.\n\nOnly the host can send invites, so a guest can't send invites from the host's Steam account.\n\nTested: !friends listed the online friends from Steam, and !invite with a made-up name answered that no such friend is online (no real invites were sent during testing). Sending a real invite and joining through it is part of the upcoming two-PC session. Release TBA, nothing to download yet.",
+  "when": "2026-11-17 23:53 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-17_203308_1.jpg",
   "caption": "Host your world your way: friends or invite only",
   "text": "Hosting a world got its own window.\n\nPress HOST A WORLD and a window opens where you pick who may come in:\n- FRIENDS CAN JOIN: any of your Steam friends can join you (from the JOIN window in the game, or 'Join Game' in Steam).\n- INVITE ONLY: only the friends you invite can get in. Anyone else is turned away.\n\nBelow that are your Steam friends who are online right now (those already in Firefall are marked), each with an INVITE button. Invites go out through Steam the moment your world starts, so your friend gets a normal Steam game invite, and accepting it starts their Firefall and joins you straight away. Then press START HOSTING.\n\nIn a friend's JOIN window, an invite-only world is marked '(invite only)'.\n\nTested on one PC: the window lists the real online friends, the choices and buttons work, and the menu talks to the launcher. The screenshot uses sample names. The full two-PC trip (invite, join, play) is next, in a real session with a friend. Release TBA, nothing to download yet.",
