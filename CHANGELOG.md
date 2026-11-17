@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 14:25 (UTC+0)** - Done: World: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of othe...
+
 - **2026-11-17 14:11 (UTC+0)** - Firefall Reborn now runs entirely on our own server code. The launcher and the installer start Reborn.Server, and PIN (the community server we started from, which has no licence) is no longer in the installer at all. That also settles the PIN licence question: we no longer need anyone's permission to ship.
 
 What this means for players: nothing changes in how you start the game. Click Play in Steam and the launcher starts the local services and our server in the background, the same as before. Checked today with a fresh launch: the launcher started reborn-server, the character logged in and landed in Coral Forest. The installer shrank from 468 MB to 416 MB of server files.

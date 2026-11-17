@@ -79,7 +79,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 19%** (23 of 136 roadmap items done) - last update 2026-11-17 14:11 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 20%** (24 of 136 roadmap items done) - last update 2026-11-17 14:25 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
@@ -90,7 +90,7 @@ Newer screenshots are added here as the project moves along; the full history is
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
-| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `████████░░░░` 70% | 5/10 |
+| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `█████████░░░` 75% | 6/10 |
 | Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/10 |
 <!--/PROGRESS-->
 

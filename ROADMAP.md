@@ -261,7 +261,7 @@ Still open, in build order:
 Full content (968 creatures, 563 missions, all vehicles) stays in Phases 3 and 4.
 - [x] **Transport** `src/Reborn.Net`: handshake (POKE/HEHE/KISS/HUGG), 4 channels, acks, resend XOR, splitting, time sync, close; self-test passes
 - [x] **Matrix front + login**: Login/WelcomeToTheMatrix/EnterZone/EnterZoneAck/KeyframeRequest; the real client logs in and enters the zone _(done 2026-10-20 21:10 (UTC+1))_
-- [~] **World**: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of other entities, updates, zone entities
+- [x] **World**: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of other entities, updates, zone entities _(done 2026-11-17 14:25 (UTC+0))_
 - [x] **Shared world**: players in a zone see each other (character, movement, shots, health, downed/death, respawn, level-up, chat) and fight the same enemies (shared camps; each enemy attacks the nearest living player; the world keeps running when the first player leaves). Tested with two clients on one PC (`scripts/second-client.ps1`) _(done 2026-11-16 20:00 (UTC+0))_
 - [~] **Player character**: loadout/stats/appearance from RIN data, spawn pose, movement relay. Character appears with head, hair, Assault armour, starting loadout and item stats; walk/sprint/jump and camera work (2026-10-21). Weapons in hand with clip/reserve from the weapon templates; select/fire/reload handled; inventory + loadout sent at login; ability bar works (abilities ride on the backpack item) (2026-10-21)
 - [~] **Gameplay systems**: chat + `!` commands (`!level`, `!pos`, `!tp`), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
@@ -338,6 +338,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-17 14:25 (UTC+0): Done: World: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of othe...
 - 2026-11-17 14:11 (UTC+0): Firefall Reborn now runs entirely on our own server code. The launcher and the installer start Reborn.Server, and PIN (the community server we started from, which has no licence) is no longer in the installer at all. That also settles the PIN licence question: we no longer need anyone's permission to ship.
 
 What this means for players: nothing changes in how you start the game. Click Play in Steam and the launcher starts the local services and our server in the background, the same as before. Checked today with a fresh launch: the launcher started reborn-server, the character logged in and landed in Coral Forest. The installer shrank from 468 MB to 416 MB of server files.
