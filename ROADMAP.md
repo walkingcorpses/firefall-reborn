@@ -264,7 +264,7 @@ Full content (968 creatures, 563 missions, all vehicles) stays in Phases 3 and 4
 - [x] **World**: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of other entities, updates, zone entities _(done 2026-11-17 14:25 (UTC+0))_
 - [x] **Shared world**: players in a zone see each other (character, movement, shots, health, downed/death, respawn, level-up, chat) and fight the same enemies (shared camps; each enemy attacks the nearest living player; the world keeps running when the first player leaves). Tested with two clients on one PC (`scripts/second-client.ps1`) _(done 2026-11-16 20:00 (UTC+0))_
 - [x] **Player character**: loadout/stats/appearance from RIN data, spawn pose, movement relay. Character appears with head, hair, Assault armour, starting loadout and item stats; walk/sprint/jump and camera work (2026-10-21). Weapons in hand with clip/reserve from the weapon templates; select/fire/reload handled; inventory + loadout sent at login; ability bar works (abilities ride on the backpack item) (2026-10-21) _(done 2026-11-17 15:01 (UTC+0))_
-- [~] **Gameplay systems**: chat + `!` commands (`!level`, `!pos`, `!tp`), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
+- [x] **Gameplay systems**: chat + `!` commands (`!level`, `!pos`, `!tp`), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21. _(done 2026-11-17 15:09 (UTC+0))_
   **Ability system (2026-11-15):** the server runs the game's own aptitude chains (`World/Aptitude.cs`): registers, targets
   (self, area, hostiles), requirements, branches/logic/calls, durations, heals, damage, status effects; health and ammo
   packs work, Meteor Strike's impact damages enemies in its radius. Still to do: effect update/remove chains, energy/supercharge, NPC abilities.
@@ -338,6 +338,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-17 15:09 (UTC+0): Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
 - 2026-11-17 15:01 (UTC+0): Done: Player character: loadout/stats/appearance from RIN data, spawn pose, movement relay. Character appears with head, hair, Assault armour, starting loadout and item stats; walk/sprin...
 - 2026-11-17 14:50 (UTC+0): Battleframe switching (!frame, five frames, level per frame), fall damage (from landing speed; game gravity measured ~24 m/s²), reviving downed friends (hold E 3 s).
 - 2026-11-17 14:25 (UTC+0): Done: World: entities, scoping, views/keyframes/updates (GSS), zone load from game data. Real client now shows terrain + HUD + own character from our server; still to do: scoping of othe...

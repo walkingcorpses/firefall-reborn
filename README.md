@@ -34,6 +34,7 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_150959_1.jpg"><img src="images/progress/2026-11-17_150959_1.jpg" width="49%" alt="Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21."></a>
   <a href="images/progress/2026-11-17_144917_2.jpg"><img src="images/progress/2026-11-17_144917_2.jpg" width="49%" alt="Three player features for our own server.
 
 Switching battleframes: you can now change between the five battleframes (Assault, Biotech, Dreadnaught, Engineer, Recon). The server swaps your frame and puts you back where you stood, with that frame's armour, weapons, abilities and health. Each frame keeps its own level and XP, as in the original, so a new frame starts at level 1. Tested Assault to Biotech: new armour, the Biotech abilities on the bar, 361 health at level 1. For now you switch with the chat command !frame <name>. The game's own Battleframe Terminal is wired up on the server side (its frame list and its 'equip' request), but there's no terminal standing in the world yet, so that path is untested.
@@ -61,9 +62,9 @@ Enemy camps now match the level of the player who wakes them, not the level of w
 No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
 
 Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet."></a>
-  <a href="images/progress/2026-11-16_074743_1.jpg"><img src="images/progress/2026-11-16_074743_1.jpg" width="49%" alt="Own server update: three fixes. (1) Your health now comes from your battleframe, its gear and its level instead of a flat 1000 (a level 10 Assault has 576, it grows as you level). (2) The launcher no longer fails with 'could not create your account (500)' after the game was closed badly: it now waits until the database has finished starting. (3) Creatures find their way round rocks and buildings: when something blocks them they work out a path (A*) over the real world collision, e.g. Aranha Workers walked 60 m round the cliff and up the slope toward a player standing on a platform above them."></a>
 </p>
 
+- *2026-11-17 15:09 (UTC+0)* - Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
 - *2026-11-17 14:49 (UTC+0)* - Three player features for our own server.
 
 Switching battleframes: you can now change between the five battleframes (Assault, Biotech, Dreadnaught, Engineer, Recon). The server swaps your frame and puts you back where you stood, with that frame's armour, weapons, abilities and health. Each frame keeps its own level and XP, as in the original, so a new frame starts at level 1. Tested Assault to Biotech: new armour, the Biotech abilities on the bar, 361 health at level 1. For now you switch with the chat command !frame <name>. The game's own Battleframe Terminal is wired up on the server side (its frame list and its 'equip' request), but there's no terminal standing in the world yet, so that path is untested.
@@ -91,7 +92,6 @@ Enemy camps now match the level of the player who wakes them, not the level of w
 No PvP in the open world, the same as the original outside duels and arenas: your shots and abilities cannot hurt other players, while healing abilities still reach them. Checked with two clients on one PC: when one player goes down, the other sees them collapse, then stand back up on respawn (screenshot is from the second player's view).
 
 Next: Steam friend join flow, squads and squad chat, more creatures. Release still TBA, nothing to download yet.
-- *2026-11-16 07:47 (UTC+0)* - Own server update: three fixes. (1) Your health now comes from your battleframe, its gear and its level instead of a flat 1000 (a level 10 Assault has 576, it grows as you level). (2) The launcher no longer fails with 'could not create your account (500)' after the game was closed badly: it now waits until the database has finished starting. (3) Creatures find their way round rocks and buildings: when something blocks them they work out a path (A*) over the real world collision, e.g. Aranha Workers walked 60 m round the cliff and up the slope toward a player standing on a platform above them.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -111,7 +111,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 20%** (25 of 136 roadmap items done) - last update 2026-11-17 15:01 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 21%** (26 of 136 roadmap items done) - last update 2026-11-17 15:09 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
@@ -122,7 +122,7 @@ Newer screenshots are added here as the project moves along; the full history is
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
-| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `██████████░░` 80% | 7/10 |
+| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `██████████░░` 85% | 8/10 |
 | Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/10 |
 <!--/PROGRESS-->
 

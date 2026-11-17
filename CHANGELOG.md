@@ -2,6 +2,10 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 15:09 (UTC+0)** - Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.
+
+  ![Done: Gameplay systems: chat + ! commands (!level, !pos, !tp), emotes, logout, ability activation + recharge + self status effects (Afterburner dash works) done 2026-10-21.](images/progress/2026-11-17_150959_1.jpg)
+
 - **2026-11-17 15:01 (UTC+0)** - Done: Player character: loadout/stats/appearance from RIN data, spawn pose, movement relay. Character appears with head, hair, Assault armour, starting loadout and item stats; walk/sprin...
 
 - **2026-11-17 14:49 (UTC+0)** - Three player features for our own server.
