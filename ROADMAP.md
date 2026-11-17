@@ -71,13 +71,16 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       saved in research/steam-headers/), `Session` (modes single/host/join + loopback menu API with a per-run token), menu Lua:
       Single / Host / Join with a friend list (hosting friends, max 2 shown). Host click = presence "Hosting a Firefall Reborn
       world" + relay on. Needs a real two-account test (a friend on another PC); everything except that was tested on one PC.
-      Still to do: "Join" from the Steam friends list (steam://connect), host toggles public/friends-only/invite-only
+      Done 2026-11-17: a host also publishes Steam's `connect` presence ("+reborn_join <steam id>"), so "Join Game" in Steam's
+      friends list and the overlay's "Invite to game" start the friend's game with it; the launcher keeps it and the start menu
+      joins that friend at once (tested with the launch argument on one PC). Not handled yet: Steam asking a game that is already
+      running to join (the GameRichPresenceJoinRequested callback). Still to do: host toggles friends-only/invite-only
 - [~] **Connection without router setup**: relay game traffic over Steam's networking (a small local tunnel per player),
       fallback UPnP; each friend keeps their own character, the host owns the world.
       Built: `Relay.cs` (RelayHost + RelayGuest over Steam P2P: web TCP 5000, matrix UDP 25000, game UDP 25001), session-request
       callback so friends can connect. Verified through real Steam P2P loopback: 300 KB TCP byte-exact, UDP both services.
       Not yet verified: the actual cross-PC path (NAT punch/relay) and the game running through it
-- [ ] Join a Friend menu lists friends hosting right now; "Host a World" toggles public / friends-only / invite-only
+- [x] Join a Friend menu lists friends hosting right now (2026-11-17: JOIN window lists friends playing Firefall, hosting ones first, a JOIN button each; the host-mode toggle is tracked under Friends and invites) _(done 2026-11-17 20:30 (UTC+0))_
 - [ ] Squad/party mapped to Steam friends; in-game chat works between players
 
 ## Phase 3 - The game itself (server side, from the game's own data)
@@ -344,17 +347,14 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
-- 2026-11-17 19:22 (UTC+0): Two changes to the start menu, and two new items on the roadmap.
+- 2026-11-17 20:26 (UTC+0): Two changes to playing with friends.
 
-The JOIN window: the menu button is now simply called JOIN. Clicking it opens a window listing your Steam friends who are in Firefall right now, each with their own JOIN button. Friends who are hosting a world are listed first. If a friend is playing but not hosting, the window tells you to ask them to press HOST A WORLD. When nobody's online it says 'None of your friends are playing Firefall right now', as in the screenshot. BACK returns to the menu.
+Join from Steam itself: when you host a world, Steam now knows how to join you. Your friends can right-click your name in their Steam friends list and pick 'Join Game', or you can invite them from the Steam overlay. Steam starts their Firefall, and the start menu goes straight into joining you, with no clicking through menus. If their game is already open, the menu picks the request up within a few seconds. Tested on one PC by starting the game the way Steam does for 'Join Game': the menu went straight into joining. The full trip between two PCs is still to be tried in a real session with a friend.
 
-Fixed: the game went straight into the world instead of stopping at the start menu. That came from our test automation, which left its 'skip the menu' switches in the game's settings file. They're removed, and the test script now always takes them back out.
+A bigger JOIN window: the friends window is now a large panel of its own, with room for seven friends, big names and a wide JOIN button on each row. Friends who are in Firefall but not hosting are marked '(playing)'. The screenshot uses sample names to show the layout.
 
-Added to Phase 8 (dedicated servers):
-- Connect by address: a box in the JOIN window where you type a dedicated server's address, with a CONNECT button. It needs safe login over the network on the server side first, which is why it comes with the dedicated servers.
-- Dedicated servers provide the full-detail textures: a server hands static.vtex0/1/2 (the three sharpest texture levels, 23 GB) to players who connect, like Red 5's servers streamed them, so you don't need the separate download.
-
-Release TBA, nothing to download yet.
+Also noted for squads: putting everyone in a world into one squad works on the server side, but the game's own squad list needs a part of the protocol nobody has documented yet, so that's next on the research list. Release TBA, nothing to download yet.
+- 2026-11-17 19:22 (UTC+0): JOIN window (friends playing Firefall, JOIN each); start menu no longer skipped; Phase 8 + connect by address + servers provide static.vtex0-2.
 - 2026-11-17 19:12 (UTC+0): Done: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack _(started 2026-11-16 19:19 (UTC+0))_
 - 2026-11-17 19:05 (UTC+0): Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
 - 2026-11-17 18:54 (UTC+0): Carryables (pick up/put down with E); mission framework with two Coral Forest missions (goto/kill/carry steps, waypoint, XP + item rewards).

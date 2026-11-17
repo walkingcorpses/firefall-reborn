@@ -34,11 +34,23 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_202659_1.jpg"><img src="images/progress/2026-11-17_202659_1.jpg" width="49%" alt="Join from Steam, and a bigger JOIN window"></a>
   <a href="images/progress/2026-11-17_192244_1.jpg"><img src="images/progress/2026-11-17_192244_1.jpg" width="49%" alt="New JOIN window, and two Phase 8 additions"></a>
   <a href="images/progress/2026-11-17_190510_1.jpg"><img src="images/progress/2026-11-17_190510_1.jpg" width="49%" alt="AI and encounters finished: repulsor, race, and the world part of our server"></a>
   <a href="images/progress/2026-11-17_185430_2.jpg"><img src="images/progress/2026-11-17_185430_2.jpg" width="49%" alt="Carrying things, and missions"></a>
-  <a href="images/progress/2026-11-17_185430_1.jpg"><img src="images/progress/2026-11-17_185430_1.jpg" width="49%" alt="Carrying things, and missions"></a>
 </p>
+
+**Join from Steam, and a bigger JOIN window** - *2026-11-17 20:26 (UTC+0)*
+
+Two changes to playing with friends.
+
+Join from Steam itself: when you host a world, Steam now knows how to join you. Your friends can right-click your name in their Steam friends list and pick 'Join Game', or you can invite them from the Steam overlay. Steam starts their Firefall, and the start menu goes straight into joining you, with no clicking through menus. If their game is already open, the menu picks the request up within a few seconds. Tested on one PC by starting the game the way Steam does for 'Join Game': the menu went straight into joining. The full trip between two PCs is still to be tried in a real session with a friend.
+
+A bigger JOIN window: the friends window is now a large panel of its own, with room for seven friends, big names and a wide JOIN button on each row. Friends who are in Firefall but not hosting are marked '(playing)'. The screenshot uses sample names to show the layout.
+
+Also noted for squads: putting everyone in a world into one squad works on the server side, but the game's own squad list needs a part of the protocol nobody has documented yet, so that's next on the research list. Release TBA, nothing to download yet.
+
+---
 
 **New JOIN window, and two Phase 8 additions** - *2026-11-17 19:22 (UTC+0)*
 
@@ -99,13 +111,13 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 21%** (28 of 138 roadmap items done) - last update 2026-11-17 19:22 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 22%** (29 of 138 roadmap items done) - last update 2026-11-17 20:26 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
-| Phase 2 - Steam: achievements, friends, invites | `██░░░░░░░░░░` 14% | 0/11 |
+| Phase 2 - Steam: achievements, friends, invites | `███░░░░░░░░░` 23% | 1/11 |
 | Phase 3 - The game itself (server side, from the game's own data) | `░░░░░░░░░░░░` 0% | 0/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |

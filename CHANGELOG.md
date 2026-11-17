@@ -2,6 +2,16 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 20:26 (UTC+0)** - Two changes to playing with friends.
+
+Join from Steam itself: when you host a world, Steam now knows how to join you. Your friends can right-click your name in their Steam friends list and pick 'Join Game', or you can invite them from the Steam overlay. Steam starts their Firefall, and the start menu goes straight into joining you, with no clicking through menus. If their game is already open, the menu picks the request up within a few seconds. Tested on one PC by starting the game the way Steam does for 'Join Game': the menu went straight into joining. The full trip between two PCs is still to be tried in a real session with a friend.
+
+A bigger JOIN window: the friends window is now a large panel of its own, with room for seven friends, big names and a wide JOIN button on each row. Friends who are in Firefall but not hosting are marked '(playing)'. The screenshot uses sample names to show the layout.
+
+Also noted for squads: putting everyone in a world into one squad works on the server side, but the game's own squad list needs a part of the protocol nobody has documented yet, so that's next on the research list. Release TBA, nothing to download yet.
+
+  ![Join from Steam, and a bigger JOIN window](images/progress/2026-11-17_202659_1.jpg)
+
 - **2026-11-17 19:22 (UTC+0)** - Two changes to the start menu, and two new items on the roadmap.
 
 The JOIN window: the menu button is now simply called JOIN. Clicking it opens a window listing your Steam friends who are in Firefall right now, each with their own JOIN button. Friends who are hosting a world are listed first. If a friend is playing but not hosting, the window tells you to ask them to press HOST A WORLD. When nobody's online it says 'None of your friends are playing Firefall right now', as in the screenshot. BACK returns to the menu.
