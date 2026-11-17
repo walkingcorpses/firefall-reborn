@@ -34,11 +34,27 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-17_203308_1.jpg"><img src="images/progress/2026-11-17_203308_1.jpg" width="49%" alt="Host your world your way: friends or invite only"></a>
   <a href="images/progress/2026-11-17_202659_1.jpg"><img src="images/progress/2026-11-17_202659_1.jpg" width="49%" alt="Join from Steam, and a bigger JOIN window"></a>
   <a href="images/progress/2026-11-17_192244_1.jpg"><img src="images/progress/2026-11-17_192244_1.jpg" width="49%" alt="New JOIN window, and two Phase 8 additions"></a>
   <a href="images/progress/2026-11-17_190510_1.jpg"><img src="images/progress/2026-11-17_190510_1.jpg" width="49%" alt="AI and encounters finished: repulsor, race, and the world part of our server"></a>
-  <a href="images/progress/2026-11-17_185430_2.jpg"><img src="images/progress/2026-11-17_185430_2.jpg" width="49%" alt="Carrying things, and missions"></a>
 </p>
+
+**Host your world your way: friends or invite only** - *2026-11-17 20:33 (UTC+0)*
+
+Hosting a world got its own window.
+
+Press HOST A WORLD and a window opens where you pick who may come in:
+- FRIENDS CAN JOIN: any of your Steam friends can join you (from the JOIN window in the game, or 'Join Game' in Steam).
+- INVITE ONLY: only the friends you invite can get in. Anyone else is turned away.
+
+Below that are your Steam friends who are online right now (those already in Firefall are marked), each with an INVITE button. Invites go out through Steam the moment your world starts, so your friend gets a normal Steam game invite, and accepting it starts their Firefall and joins you straight away. Then press START HOSTING.
+
+In a friend's JOIN window, an invite-only world is marked '(invite only)'.
+
+Tested on one PC: the window lists the real online friends, the choices and buttons work, and the menu talks to the launcher. The screenshot uses sample names. The full two-PC trip (invite, join, play) is next, in a real session with a friend. Release TBA, nothing to download yet.
+
+---
 
 **Join from Steam, and a bigger JOIN window** - *2026-11-17 20:26 (UTC+0)*
 
@@ -71,27 +87,6 @@ Release TBA, nothing to download yet.
 **AI and encounters finished: repulsor, race, and the world part of our server** - *2026-11-17 19:05 (UTC+0)*
 
 Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_
-
----
-
-**Carrying things, and missions** - *2026-11-17 18:54 (UTC+0)*
-
-Two more parts of the world for our own server.
-
-Carrying things: thumper parts, resonators, canisters, datapads and the rest of the game's carryable objects can now lie in the world. Walk up, press E and you pick it up; the game's own 'carrying' effect goes on you (a red resonator glows next to you). Press E again to put it down, and if you go down you drop it. Tested with a Red Resonator (screenshot).
-
-Missions: a first mission system. A mission is a list of steps: go to a place, kill a number of a creature, or carry something from one place to another. The current step gets a waypoint marker, progress shows in chat, and finishing pays out XP (the game shows its own 'Mission Reward' pop-up) plus items. Two example missions for Coral Forest:
-- Beach sweep: go down to the beach, kill three Aranha Workers, report back at the outpost. Tested in game: kills counted 1/3, 2/3, 3/3, then +6000 XP Mission Reward and 250 Crystite (screenshot).
-- Lost resonator: a resonator lies near the Culex swarm, carry it back to the outpost.
-For now you start one with !mission list and !mission start <number>.
-
-Honest notes: these are our own missions, written in a simple file so more are easy to add. The game's 563 original missions had their logic on Red 5's servers, and the game's mission window uses messages nobody has documented yet, so it isn't used yet. Hooking up that window and bringing the real missions back is Phase 4 work. The waypoint marker is wired to the game's own mission marker, but I haven't seen it on screen yet.
-
-Next in Phase 7: two more world events (melding repulsor, race), then animations part 2. Release TBA, nothing to download yet.
-
-  ![Carrying things, and missions](images/progress/2026-11-17_185430_1.jpg)
-
-  ![Carrying things, and missions](images/progress/2026-11-17_185430_2.jpg)
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -111,7 +106,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 22%** (29 of 138 roadmap items done) - last update 2026-11-17 20:26 (UTC+0)
+**Overall: `████░░░░░░░░░░░░░░░░` 22%** (29 of 138 roadmap items done) - last update 2026-11-17 20:33 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

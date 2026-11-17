@@ -73,8 +73,10 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       world" + relay on. Needs a real two-account test (a friend on another PC); everything except that was tested on one PC.
       Done 2026-11-17: a host also publishes Steam's `connect` presence ("+reborn_join <steam id>"), so "Join Game" in Steam's
       friends list and the overlay's "Invite to game" start the friend's game with it; the launcher keeps it and the start menu
-      joins that friend at once (tested with the launch argument on one PC). Not handled yet: Steam asking a game that is already
-      running to join (the GameRichPresenceJoinRequested callback). Still to do: host toggles friends-only/invite-only
+      joins that friend at once (tested with the launch argument on one PC). Join requests while the game already
+      runs (callback 337) are handled too: the start menu checks every 3 s. Host privacy done 2026-11-17: HOST A WORLD opens a
+      window with FRIENDS CAN JOIN / INVITE ONLY, the online Steam friends with INVITE buttons (the Steam invites go out when
+      hosting starts; invite-only lets only those friends through the relay), START HOSTING. Left: the real two-PC test
 - [~] **Connection without router setup**: relay game traffic over Steam's networking (a small local tunnel per player),
       fallback UPnP; each friend keeps their own character, the host owns the world.
       Built: `Relay.cs` (RelayHost + RelayGuest over Steam P2P: web TCP 5000, matrix UDP 25000, game UDP 25001), session-request
@@ -347,13 +349,18 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
-- 2026-11-17 20:26 (UTC+0): Two changes to playing with friends.
+- 2026-11-17 20:33 (UTC+0): Hosting a world got its own window.
 
-Join from Steam itself: when you host a world, Steam now knows how to join you. Your friends can right-click your name in their Steam friends list and pick 'Join Game', or you can invite them from the Steam overlay. Steam starts their Firefall, and the start menu goes straight into joining you, with no clicking through menus. If their game is already open, the menu picks the request up within a few seconds. Tested on one PC by starting the game the way Steam does for 'Join Game': the menu went straight into joining. The full trip between two PCs is still to be tried in a real session with a friend.
+Press HOST A WORLD and a window opens where you pick who may come in:
+- FRIENDS CAN JOIN: any of your Steam friends can join you (from the JOIN window in the game, or 'Join Game' in Steam).
+- INVITE ONLY: only the friends you invite can get in. Anyone else is turned away.
 
-A bigger JOIN window: the friends window is now a large panel of its own, with room for seven friends, big names and a wide JOIN button on each row. Friends who are in Firefall but not hosting are marked '(playing)'. The screenshot uses sample names to show the layout.
+Below that are your Steam friends who are online right now (those already in Firefall are marked), each with an INVITE button. Invites go out through Steam the moment your world starts, so your friend gets a normal Steam game invite, and accepting it starts their Firefall and joins you straight away. Then press START HOSTING.
 
-Also noted for squads: putting everyone in a world into one squad works on the server side, but the game's own squad list needs a part of the protocol nobody has documented yet, so that's next on the research list. Release TBA, nothing to download yet.
+In a friend's JOIN window, an invite-only world is marked '(invite only)'.
+
+Tested on one PC: the window lists the real online friends, the choices and buttons work, and the menu talks to the launcher. The screenshot uses sample names. The full two-PC trip (invite, join, play) is next, in a real session with a friend. Release TBA, nothing to download yet.
+- 2026-11-17 20:26 (UTC+0): Join from Steam ("Join Game" / overlay invites start the game and join), bigger JOIN window (7 rows).
 - 2026-11-17 19:22 (UTC+0): JOIN window (friends playing Firefall, JOIN each); start menu no longer skipped; Phase 8 + connect by address + servers provide static.vtex0-2.
 - 2026-11-17 19:12 (UTC+0): Done: Animations for everything (owner 2026-11-15: "make sure you add the animations for everything later"): NPC melee/attack _(started 2026-11-16 19:19 (UTC+0))_
 - 2026-11-17 19:05 (UTC+0): Done: AI and encounters (rewrite of the first creature AI), NPCs, missions _(started 2026-11-17 15:24 (UTC+0))_

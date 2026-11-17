@@ -2,6 +2,20 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-17 20:33 (UTC+0)** - Hosting a world got its own window.
+
+Press HOST A WORLD and a window opens where you pick who may come in:
+- FRIENDS CAN JOIN: any of your Steam friends can join you (from the JOIN window in the game, or 'Join Game' in Steam).
+- INVITE ONLY: only the friends you invite can get in. Anyone else is turned away.
+
+Below that are your Steam friends who are online right now (those already in Firefall are marked), each with an INVITE button. Invites go out through Steam the moment your world starts, so your friend gets a normal Steam game invite, and accepting it starts their Firefall and joins you straight away. Then press START HOSTING.
+
+In a friend's JOIN window, an invite-only world is marked '(invite only)'.
+
+Tested on one PC: the window lists the real online friends, the choices and buttons work, and the menu talks to the launcher. The screenshot uses sample names. The full two-PC trip (invite, join, play) is next, in a real session with a friend. Release TBA, nothing to download yet.
+
+  ![Host your world your way: friends or invite only](images/progress/2026-11-17_203308_1.jpg)
+
 - **2026-11-17 20:26 (UTC+0)** - Two changes to playing with friends.
 
 Join from Steam itself: when you host a world, Steam now knows how to join you. Your friends can right-click your name in their Steam friends list and pick 'Join Game', or you can invite them from the Steam overlay. Steam starts their Firefall, and the start menu goes straight into joining you, with no clicking through menus. If their game is already open, the menu picks the request up within a few seconds. Tested on one PC by starting the game the way Steam does for 'Join Game': the menu went straight into joining. The full trip between two PCs is still to be tried in a real session with a friend.
