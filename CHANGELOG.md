@@ -2,6 +2,15 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 04:58 (UTC+0)** - More work on the battleframe abilities after checking every ability on all five frames.
+
+- Stuns and freezes now hold creatures: when an ability freezes or knocks down an enemy (Meteor Strike's impact, the Dreadnaught's Charge and others), the creature stops moving and attacking for as long as the effect lasts.
+- Delayed effects now go off: some abilities do their work a moment later (melee follow-ups, timed blasts). Those delayed steps now run, once, at the right time.
+- Charges and dashes (Afterburner, Charge): your own dash was already handled by the game; creatures that use the same kind of charge now move too.
+- Crash fix: when several rounds hit a creature at the very same moment, it could be 'killed' several times over (extra XP and repeated death messages), and in one test that knocked the game off the server. A dead target now ignores further hits, so it dies exactly once.
+
+Not done yet: placing a Supply Station or Remote Explosive (needs a real click to test, which we'll do in the playtest), and a handful of ability steps that only existed on the original servers with no data left in the game files. Release TBA, nothing to download yet.
+
 - **2026-11-18 02:43 (UTC+0)** - Two changes.
 
 Your Steam name, everywhere: every player's character now carries their full Steam name - over your head, in chat, in the squad list, in the JOIN window. It's checked every time you start the game, so if you change your Steam name, your character follows. A name you typed on the character screen is replaced by your Steam name the next time you start. If someone else in the same world already uses your exact name, you get a number after it (for example walkingcorpse2). Spaces and symbols are left out (letters, numbers, _ and - stay) so other players can whisper you by name.
