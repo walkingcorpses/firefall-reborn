@@ -178,6 +178,9 @@ are recreated **however we see fit**. They do not have to match the original; th
 - [ ] **In-game web panels** (the client loads panels such as map, market, store and news from a web host Red 5 ran, which
       served HTML plus `/ingame/api/...` data). Owner is not sure what these cover: **investigate later** - find which panels
       the client opens, what each shows, and what is missing without the host, then decide what to rebuild
+- [ ] **World map black unless zoomed out to the globe** (owner 2026-11-18: do it when more people use it). Found so far:
+      the flat map's fade mask and tiles are fine, the map's own terrain picture comes out black; notes in the work log
+      and branch `map-wip` (recorded melding perimeters + outposts replayed on join, did not fix it alone)
 - [ ] Chat, squads, **armies (guilds)**, friends list, emotes, social
 - [ ] Spectator/replay (the client supports NSR replays), screenshots/photo mode
 - [ ] Settings UI for Reborn (difficulty, mode, world name, invite policy)
