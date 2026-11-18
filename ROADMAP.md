@@ -352,6 +352,13 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 16:31 (UTC+0): The first step of the story campaign works.
+
+Lieutenant Draper is back in Copacabana, standing where he stood on the live servers (taken from the recording). Walk up to him, look at him and press E to talk. He gives his original voiced briefing, with his portrait and subtitles ('Captain Fuller has returned to the WARCOM facility, and needs your help.'), and Accord Mission: Everything is Shadow starts in your mission tracker with the next objective, 'Use Glider to Travel to WARCOM'.
+
+The objective texts are the game's own, read from its mission data.
+
+Not there yet: mission progress isn't saved between sessions, and the next part (gliding to WARCOM and the mission inside) is what we're rebuilding next. Release TBA, nothing to download yet.
 - 2026-11-18 16:25 (UTC+0): We've started rebuilding the Accord story campaign, mission by mission, as close to the original as we can. First up: Mission 1, 'Everything is Shadow'.
 
 What we have so far:

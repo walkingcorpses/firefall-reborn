@@ -34,11 +34,23 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_163150_1.jpg"><img src="images/progress/2026-11-18_163150_1.jpg" width="49%" alt="Story Mission 1 starts: talk to Lieutenant Draper"></a>
   <a href="images/progress/2026-11-18_162541_1.jpg"><img src="images/progress/2026-11-18_162541_1.jpg" width="49%" alt="The story campaign is coming back - with the original voices"></a>
   <a href="images/progress/2026-11-18_160606_1.jpg"><img src="images/progress/2026-11-18_160606_1.jpg" width="49%" alt="Missions show in the real mission tracker"></a>
   <a href="images/progress/2026-11-18_155842_1.jpg"><img src="images/progress/2026-11-18_155842_1.jpg" width="49%" alt="Races now use the objective tracker too: &#x27;Limited Time Trial - Reach the finish line&#x27;, your checkpoints (0/5) and a Time Remaining bar th..."></a>
-  <a href="images/progress/2026-11-18_150214_1.jpg"><img src="images/progress/2026-11-18_150214_1.jpg" width="49%" alt="The real objective tracker is back"></a>
 </p>
+
+**Story Mission 1 starts: talk to Lieutenant Draper** - *2026-11-18 16:31 (UTC+0)*
+
+The first step of the story campaign works.
+
+Lieutenant Draper is back in Copacabana, standing where he stood on the live servers (taken from the recording). Walk up to him, look at him and press E to talk. He gives his original voiced briefing, with his portrait and subtitles ('Captain Fuller has returned to the WARCOM facility, and needs your help.'), and Accord Mission: Everything is Shadow starts in your mission tracker with the next objective, 'Use Glider to Travel to WARCOM'.
+
+The objective texts are the game's own, read from its mission data.
+
+Not there yet: mission progress isn't saved between sessions, and the next part (gliding to WARCOM and the mission inside) is what we're rebuilding next. Release TBA, nothing to download yet.
+
+---
 
 **The story campaign is coming back - with the original voices** - *2026-11-18 16:25 (UTC+0)*
 
@@ -76,12 +88,6 @@ Tested in game: Pest Control appeared with its first objective, and abandoning i
 **Races now use the objective tracker too: 'Limited Time Trial - Reach the finish line', your checkpoints (0/5) and a Time Remaining bar th...** - *2026-11-18 15:58 (UTC+0)*
 
 Races now use the objective tracker too: 'Limited Time Trial - Reach the finish line', your checkpoints (0/5) and a Time Remaining bar that runs down. Release TBA, nothing to download yet.
-
----
-
-**The real objective tracker is back** - *2026-11-18 15:02 (UTC+0)*
-
-Started: Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards)
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -101,7 +107,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 16:25 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 16:31 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
