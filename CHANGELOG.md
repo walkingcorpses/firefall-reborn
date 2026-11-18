@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 02:09 (UTC+0)** - Done: Weapon fire, projectiles, hit detection, headshots, damage numbers, ammo/reload (dbitems::Weapons, 318 templates)
+
 - **2026-11-18 01:53 (UTC+0)** - Change to yesterday's squads: you now choose who is in your squad. Nobody joins automatically any more.
 
 How it works:
