@@ -2,6 +2,16 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 07:21 (UTC+0)** - Big find for the abilities work. The community group The Melding Wars kept network recordings of the original live game servers, including a 44-minute play session from November 2016, close to the final version of Firefall. We built tools to read them, and for the first time we can see exactly what Red 5's own server did when someone used an ability - including the parts that were never in the game files.
+
+What it showed, and what we fixed with it:
+- Speed and fire-rate boosts: the real server told the game client about every speed, turn, gravity and fire-rate change itself. Ours never did, so boosts like Adrenaline Rush (+30% run speed) and Overcharge (+20% fire rate) didn't actually change anything in game. Now they do, matching the recording exactly (Adrenaline Rush: run speed x1.3).
+- Follow-up effects: abilities often start a second effect from the first one (Adrenaline Rush's speed boost is one of those). The real server put those on the player too; now ours does.
+- Gliding: from a Glider Pad your weapon is put away while you glide and comes back when you land, like on the live server.
+- Our basic permissions (what a player may do) turned out to match the live server exactly.
+
+The recording covered Healing Wave, Emergency Response, Incendiary Grenade, Charge, Energy Sword, Adrenaline Rush, a Glider Pad, the Locust bike and more, so we'll keep using it to check other abilities. (The recordings stay private on our side: they can contain other players' details.) Release TBA, nothing to download yet.
+
 - **2026-11-18 06:49 (UTC+0)** - Two more steps on the battleframe abilities.
 
 Healing Generator heals your friends too: anyone standing near your generator now gets healed, not just you. Tested with two players: the second player's health went up tick by tick from the first player's generator. It also now lasts its real 12 seconds (it was 8).
