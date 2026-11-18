@@ -352,6 +352,13 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 14:23 (UTC+0): You can salvage items again.
+
+Salvaging takes an item from your inventory and gives you its salvage rewards, using the game's own salvage tables (36,296 items can be salvaged, with 167 different reward sets). Stacks are salvaged per unit. The item leaves your inventory and the rewards arrive with the usual loot notice.
+
+Tested in game: salvaging an Ammo Pack gave 3 Research Points. Items without salvage rewards, such as Credits, are refused and nothing is taken.
+
+Not tested yet: clicking Salvage in the inventory window itself (tested through the server so far). The gear you start with can't be salvaged yet; only items you loot can. Release TBA, nothing to download yet.
 - 2026-11-18 14:05 (UTC+0): Boss mechanic back: Giant Aranha mini-bosses lay egg sacks during the fight, and Aranha Hatchlings come out of them.
 
 How: the egg-sack move is in the game files, but it only plays the boss's animation. What hatched from it was in Red 5's lost AI scripts. The server now rebuilds that part: after the animation, 3 Aranha Hatchlings appear beside the boss at its level, on the boss's own cooldown from the game files (15 s for the main one), with at most 9 hatchlings alive around it. The number 3 is our choice.
