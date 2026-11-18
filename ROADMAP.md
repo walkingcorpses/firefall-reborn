@@ -352,6 +352,14 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 13:07 (UTC+0): Your turrets, Healing Generators and other things you build are no longer safe: creatures now go for them.
+
+- If one of your deployables is closer to a creature than you are, the creature runs to it and attacks it. Ranged creatures shoot at it, melee creatures hit it.
+- Deployables now have real health and show their health bar dropping. At zero they're destroyed and disappear, and you get a message ('Your Heavy Turret was destroyed').
+- Once the deployable is gone, the creature comes for you.
+- Only things players build count: Engineer turrets, Healing Generators, Artillery beacons and the like. Glider Pads, terminals and the Thumper aren't attacked (the Thumper's own fight comes with the encounter work).
+
+Tested in game: a strong creature (level 30) destroyed an Engineer Heavy Turret in about two seconds and then went for the player. Release TBA, nothing to download yet.
 - 2026-11-18 09:54 (UTC+0): We went through every ability in the recording of Red 5's live servers and compared it with what our server does.
 
 - Charge (Dreadnaught) now plays out like on the real servers: the charge goes through its three stages one after another, and while charging your turning is locked and gravity is off, exactly the values the live server sent. Before, only the first stage ran.
