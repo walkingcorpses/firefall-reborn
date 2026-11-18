@@ -2,6 +2,14 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 15:55 (UTC+0)** - The known loot bug from earlier today is fixed: loot you pick up now flies to you and disappears, as it should.
+
+What was wrong: when you pick something up, the game waits for the server to confirm before it removes the item from the ground. Our server did send that confirmation, but its own 'what can this player see' system forgot about loot about a second after it dropped, and then threw the confirmation away. If you picked something up within that first second it worked; otherwise the item stayed on the ground and the game kept asking for it. That's why it looked random.
+
+How we found it: we read how the game client handles loot (which messages remove an item and what it checks), then watched the running game while picking things up. That showed the confirmation never arriving, and our server's log showed where it was being dropped.
+
+Tested in game: loot dropping right on top of you and loot you walk onto both disappear after pickup now (both stayed every time before), and the Crystite goes into your inventory once. Release TBA, nothing to download yet.
+
 - **2026-11-18 15:37 (UTC+0)** - Two things from playtesting:
 
 1) Fixed: flying creatures could not be hurt. The server kept creatures like the Culex at ground level, but the game draws them hovering several metres up. Shots aimed at what you see went over the server's idea of where the creature was, so its health never dropped. Flying bodies (Culex, drones and the like) now have a hit area that reaches up to where the game draws them. This is our estimate of the hover height and still needs checking in real play.
