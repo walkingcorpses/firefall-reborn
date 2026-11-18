@@ -110,7 +110,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behaviour strings in `dbcharacter::Monster`)
 - [ ] The original roster: **968 named enemy types** (Aranha family, Chosen, Gaea creatures, Melding creatures, bandits,
       raiders, robots...) with health/damage scaling by level (`MonsterScaling`)
-- [ ] Elites, **bosses** (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters
+- [~] Elites, **bosses** (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters _(started 2026-11-18 13:32 (UTC+0))_
 - [ ] Drops: loot tables, crystite/resources, salvage
 
 ### 3C - Quests and story
@@ -352,6 +352,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 13:32 (UTC+0): Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters
 - 2026-11-18 13:27 (UTC+0): Fix: bandits and other rifle-carrying enemies (Bandit Punks, Black Hills Bandits, soldiers) were doing only 1 damage per shot.
 
 Their rifles have a placeholder damage of 1 in the game files. The real number came from each creature's own damage modifier applied to the level damage table, so that's what the server uses now. A level-13 Bandit Punk now hits for 43 per shot instead of 1, so bandit camps are a real fight again.

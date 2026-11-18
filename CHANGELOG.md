@@ -2,6 +2,24 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 13:32 (UTC+0)** - Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters
+
+  ![Until now every creature of the same level had the same health, so a King Skiver or even Baneclaw went down like a normal Skiver.
+
+The game files give each creature its own health and damage multipliers, and the server now uses them:
+- Skiver: 1.5x health
+- King Skiver: 25x
+- Hisser Queen: 35x
+- Baneclaw: 3500x
+- Brontodon King: 3850x
+1,093 of the 3,109 creature types have one.
+
+Co-op: 52 boss-type creatures (King Skiver, Hisser Queen, Giant Aranha, Skoraith, Septix and more) also get tougher for each extra player in the zone, using the game's own player-count tables (for example +77% health with 4 players).
+
+Tested at level 13: Skiver 1,836 health, King Skiver 30,600, Baneclaw 4.28 million. Baneclaw then flattened the test character.
+
+Not done yet: boss phases and special mechanics. Those were scripts on Red 5's servers and are lost, so they will have to be rebuilt. Release TBA, nothing to download yet.](images/progress/2026-11-18_133208_1.jpg)
+
 - **2026-11-18 13:27 (UTC+0)** - Fix: bandits and other rifle-carrying enemies (Bandit Punks, Black Hills Bandits, soldiers) were doing only 1 damage per shot.
 
 Their rifles have a placeholder damage of 1 in the game files. The real number came from each creature's own damage modifier applied to the level damage table, so that's what the server uses now. A level-13 Bandit Punk now hits for 43 per shot instead of 1, so bandit camps are a real fight again.
