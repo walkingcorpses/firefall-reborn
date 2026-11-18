@@ -352,6 +352,17 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 16:25 (UTC+0): We've started rebuilding the Accord story campaign, mission by mission, as close to the original as we can. First up: Mission 1, 'Everything is Shadow'.
+
+What we have so far:
+- The mission's own map (WARCOM) is in the game files and loads.
+- The original voice acting works. The server can play any of the game's dialog scenes, with the voice, the character portrait and the subtitles, exactly as the old server did. Tested: Lieutenant Draper's intro ('ARES, 35? I'm Lieutenant Draper.').
+- The whole mission script is in the game files as dialog lines: Draper's briefing in Copacabana, gliding to WARCOM, Captain Fuller inside, Aranha in the halls, the forced blast door, the fallen security team, the stealthed Chosen ambush revealed by the fire-suppression halon, the Arclight data, the Ultimate Ability fight and the trip back to New Eden. We've written it all out in order.
+- The live-server recording shows exactly where Lieutenant Draper stood in Copacabana.
+
+What has to be rebuilt by hand: where things are inside WARCOM, the doors, consoles and enemy waves, and the order of events. No guide for this mission survives online, so we're working from the game files and the dialog.
+
+Next: Draper in his real spot and talking to him to start the mission. Release TBA, nothing to download yet.
 - 2026-11-18 16:06 (UTC+0): Missions now appear in the game's own mission tracker (top right), the way the live servers showed them, not just in chat.
 
 - When you start a mission, its name and current objective appear in the tracker, for example 'Pest Control - Go down to the beach'.

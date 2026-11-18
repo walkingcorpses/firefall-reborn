@@ -34,11 +34,27 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_162541_1.jpg"><img src="images/progress/2026-11-18_162541_1.jpg" width="49%" alt="The story campaign is coming back - with the original voices"></a>
   <a href="images/progress/2026-11-18_160606_1.jpg"><img src="images/progress/2026-11-18_160606_1.jpg" width="49%" alt="Missions show in the real mission tracker"></a>
   <a href="images/progress/2026-11-18_155842_1.jpg"><img src="images/progress/2026-11-18_155842_1.jpg" width="49%" alt="Races now use the objective tracker too: &#x27;Limited Time Trial - Reach the finish line&#x27;, your checkpoints (0/5) and a Time Remaining bar th..."></a>
   <a href="images/progress/2026-11-18_150214_1.jpg"><img src="images/progress/2026-11-18_150214_1.jpg" width="49%" alt="The real objective tracker is back"></a>
-  <a href="images/progress/2026-11-18_144747_1.jpg"><img src="images/progress/2026-11-18_144747_1.jpg" width="49%" alt="Loot drops on the ground again"></a>
 </p>
+
+**The story campaign is coming back - with the original voices** - *2026-11-18 16:25 (UTC+0)*
+
+We've started rebuilding the Accord story campaign, mission by mission, as close to the original as we can. First up: Mission 1, 'Everything is Shadow'.
+
+What we have so far:
+- The mission's own map (WARCOM) is in the game files and loads.
+- The original voice acting works. The server can play any of the game's dialog scenes, with the voice, the character portrait and the subtitles, exactly as the old server did. Tested: Lieutenant Draper's intro ('ARES, 35? I'm Lieutenant Draper.').
+- The whole mission script is in the game files as dialog lines: Draper's briefing in Copacabana, gliding to WARCOM, Captain Fuller inside, Aranha in the halls, the forced blast door, the fallen security team, the stealthed Chosen ambush revealed by the fire-suppression halon, the Arclight data, the Ultimate Ability fight and the trip back to New Eden. We've written it all out in order.
+- The live-server recording shows exactly where Lieutenant Draper stood in Copacabana.
+
+What has to be rebuilt by hand: where things are inside WARCOM, the doors, consoles and enemy waves, and the order of events. No guide for this mission survives online, so we're working from the game files and the dialog.
+
+Next: Draper in his real spot and talking to him to start the mission. Release TBA, nothing to download yet.
+
+---
 
 **Missions show in the real mission tracker** - *2026-11-18 16:06 (UTC+0)*
 
@@ -66,22 +82,6 @@ Races now use the objective tracker too: 'Limited Time Trial - Reach the finish 
 **The real objective tracker is back** - *2026-11-18 15:02 (UTC+0)*
 
 Started: Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards)
-
----
-
-**Loot drops on the ground again** - *2026-11-18 14:47 (UTC+0)*
-
-Kill loot now drops on the ground like it did on the live servers, instead of going straight into your bag.
-
-When a creature dies, its loot lies where it fell: Crystite crystals, Health and Ammo Powerups, gear. Point at it to see what it is (for example '4x Crystite'). Walk over it to pick it up, and the usual pickup notice shows.
-
-- Gear belongs to whoever got the kill. Crystite and power-ups are free for anyone.
-- Health Powerups only get picked up when you're hurt.
-- Loot left lying around disappears after 2 minutes. That's our choice; the original time isn't known.
-
-How we know: the live-server recording turned out to contain 108 pieces of ground loot. That showed us exactly how the server described loot on the ground and what the game sends when you walk over it. (This corrects my earlier note that the live game picked loot up automatically.)
-
-Tested in game: a kill dropped Crystite and a Health Powerup on the ground; walking over them picked both up, they disappeared, and the Crystite count went up. Release TBA, nothing to download yet.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -101,7 +101,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 16:06 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 16:25 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
