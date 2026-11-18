@@ -1,5 +1,11 @@
 [
  {
+  "file": "images/progress/2026-11-18_150214_1.jpg",
+  "caption": "The real objective tracker is back",
+  "text": "Started: Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards)",
+  "when": "2026-11-18 15:02 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-18_144747_1.jpg",
   "caption": "Loot drops on the ground again",
   "text": "Kill loot now drops on the ground like it did on the live servers, instead of going straight into your bag.\n\nWhen a creature dies, its loot lies where it fell: Crystite crystals, Health and Ammo Powerups, gear. Point at it to see what it is (for example '4x Crystite'). Walk over it to pick it up, and the usual pickup notice shows.\n\n- Gear belongs to whoever got the kill. Crystite and power-ups are free for anyone.\n- Health Powerups only get picked up when you're hurt.\n- Loot left lying around disappears after 2 minutes. That's our choice; the original time isn't known.\n\nHow we know: the live-server recording turned out to contain 108 pieces of ground loot. That showed us exactly how the server described loot on the ground and what the game sends when you walk over it. (This corrects my earlier note that the live game picked loot up automatically.)\n\nTested in game: a kill dropped Crystite and a Health Powerup on the ground; walking over them picked both up, they disappeared, and the Crystite count went up. Release TBA, nothing to download yet.",

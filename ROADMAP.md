@@ -118,7 +118,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] **Campaign (golden path)**: Accord missions 1-22 in order (Everything is Shadow ... Homecoming), level gates 9-18+
 - [ ] **Arcs and job boards**: 233 named open-world story/job lines (Indexing the Shipments, Chain Reaction, ...)
 - [ ] **Daily and repeatable** missions, **bounties**, **challenges**, mission ledger UI
-- [ ] Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards)
+- [~] Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards) _(started 2026-11-18 15:02 (UTC+0))_
 - [ ] XP, levels, **elite ranks**, battleframe levels, certification points, perks
 
 ### 3D - NPCs and the world
@@ -352,6 +352,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 15:02 (UTC+0): Started: Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards)
 - 2026-11-18 14:47 (UTC+0): Kill loot now drops on the ground like it did on the live servers, instead of going straight into your bag.
 
 When a creature dies, its loot lies where it fell: Crystite crystals, Health and Ammo Powerups, gear. Point at it to see what it is (for example '4x Crystite'). Walk over it to pick it up, and the usual pickup notice shows.

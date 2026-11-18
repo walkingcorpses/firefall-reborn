@@ -2,6 +2,10 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 15:02 (UTC+0)** - Started: Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards)
+
+  ![The real objective tracker is back](images/progress/2026-11-18_150214_1.jpg)
+
 - **2026-11-18 14:47 (UTC+0)** - Kill loot now drops on the ground like it did on the live servers, instead of going straight into your bag.
 
 When a creature dies, its loot lies where it fell: Crystite crystals, Health and Ammo Powerups, gear. Point at it to see what it is (for example '4x Crystite'). Walk over it to pick it up, and the usual pickup notice shows.

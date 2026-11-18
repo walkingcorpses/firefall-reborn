@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_150214_1.jpg"><img src="images/progress/2026-11-18_150214_1.jpg" width="49%" alt="The real objective tracker is back"></a>
   <a href="images/progress/2026-11-18_144747_1.jpg"><img src="images/progress/2026-11-18_144747_1.jpg" width="49%" alt="Loot drops on the ground again"></a>
   <a href="images/progress/2026-11-18_135658_1.jpg"><img src="images/progress/2026-11-18_135658_1.jpg" width="49%" alt="Each creature&#x27;s behaviour settings are still in the game files, even though the AI scripts that used them are lost."></a>
   <a href="images/progress/2026-11-18_133208_1.jpg"><img src="images/progress/2026-11-18_133208_1.jpg" width="49%" alt="Until now every creature of the same level had the same health, so a King Skiver or even Baneclaw went down like a normal Skiver."></a>
-  <a href="images/progress/2026-11-18_131848_1.jpg"><img src="images/progress/2026-11-18_131848_1.jpg" width="49%" alt="Phase 3B (enemies) has started."></a>
 </p>
+
+**The real objective tracker is back** - *2026-11-18 15:02 (UTC+0)*
+
+Started: Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards)
+
+---
 
 **Loot drops on the ground again** - *2026-11-18 14:47 (UTC+0)*
 
@@ -65,12 +71,6 @@ Started: AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behav
 **Until now every creature of the same level had the same health, so a King Skiver or even Baneclaw went down like a normal Skiver.** - *2026-11-18 13:32 (UTC+0)*
 
 Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters
-
----
-
-**Phase 3B (enemies) has started.** - *2026-11-18 13:18 (UTC+0)*
-
-Started: Creature spawning and despawning per zone/sub-zone (dbzonemetadata, 565 sub-zone records)
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -90,14 +90,14 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█████░░░░░░░░░░░░░░░` 27%** (34 of 138 roadmap items done) - last update 2026-11-18 14:47 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 15:02 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
 | Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 32% | 2/11 |
-| Phase 3 - The game itself (server side, from the game's own data) | `██░░░░░░░░░░` 16% | 4/38 |
+| Phase 3 - The game itself (server side, from the game's own data) | `██░░░░░░░░░░` 17% | 4/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
