@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 01:22 (UTC+0)** - --help
+
 - **2026-11-17 23:53 (UTC+0)** - Inviting now happens where it makes sense: in your world, after you've started hosting.
 
 HOST A WORLD: pick FRIENDS CAN JOIN or INVITE ONLY, then START HOSTING. The window explains how inviting works, and no longer asks you to invite people before your world exists.

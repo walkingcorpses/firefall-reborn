@@ -350,18 +350,8 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
-- 2026-11-17 23:53 (UTC+0): Inviting now happens where it makes sense: in your world, after you've started hosting.
-
-HOST A WORLD: pick FRIENDS CAN JOIN or INVITE ONLY, then START HOSTING. The window explains how inviting works, and no longer asks you to invite people before your world exists.
-
-Once you're in your world:
-- !friends lists your Steam friends who are online (those already in Firefall are marked).
-- !invite <name> sends that friend a normal Steam game invite straight away. Part of the name is enough. Accepting it starts their Firefall and joins you. In an invite-only world it also lets them in.
-- The Steam overlay's 'Invite to game' works too.
-
-Only the host can send invites, so a guest can't send invites from the host's Steam account.
-
-Tested: !friends listed the online friends from Steam, and !invite with a made-up name answered that no such friend is online (no real invites were sent during testing). Sending a real invite and joining through it is part of the upcoming two-PC session. Release TBA, nothing to download yet.
+- 2026-11-18 01:22 (UTC+0): --help
+- 2026-11-17 23:53 (UTC+0): Invites from inside the world (!friends, !invite <name>, host only); HOST window = privacy + START.
 - 2026-11-17 20:33 (UTC+0): HOST window: friends can join / invite only, Steam invites to online friends, START HOSTING.
 - 2026-11-17 20:26 (UTC+0): Join from Steam ("Join Game" / overlay invites start the game and join), bigger JOIN window (7 rows).
 - 2026-11-17 19:22 (UTC+0): JOIN window (friends playing Firefall, JOIN each); start menu no longer skipped; Phase 8 + connect by address + servers provide static.vtex0-2.
