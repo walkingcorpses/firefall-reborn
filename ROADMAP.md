@@ -96,7 +96,7 @@ Order = what makes the game feel alive soonest. See `CONTENT.md` for the full li
 - [x] Weapon fire, projectiles, hit detection, headshots, damage numbers, ammo/reload (`dbitems::Weapons`, 318 templates) _(done 2026-11-18 02:09 (UTC+0))_
 - [x] Health, shields, death and respawn, resurrect by other players _(done 2026-11-18 02:17 (UTC+0))_
 - [ ] Battleframe abilities: all 5 frames (Assault, Biotech, Dreadnaught, Engineer, Recon) incl. cooldowns/energy (`apt::*` defs)
-- [ ] Status effects, buffs/debuffs, damage types, resistances
+- [x] Status effects, buffs/debuffs, damage types, resistances _(done 2026-11-18 05:48 (UTC+0))_
 - [ ] Gliding and jetpack rules (energy, fall damage)
 - [ ] Turrets and deployables (engineer), player-built objects
 
@@ -352,6 +352,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 05:48 (UTC+0): Done: Status effects, buffs/debuffs, damage types, resistances
 - 2026-11-18 04:58 (UTC+0): More work on the battleframe abilities after checking every ability on all five frames.
 
 - Stuns and freezes now hold creatures: when an ability freezes or knocks down an enemy (Meteor Strike's impact, the Dreadnaught's Charge and others), the creature stops moving and attacking for as long as the effect lasts.

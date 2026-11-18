@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 05:48 (UTC+0)** - Done: Status effects, buffs/debuffs, damage types, resistances
+
 - **2026-11-18 04:58 (UTC+0)** - More work on the battleframe abilities after checking every ability on all five frames.
 
 - Stuns and freezes now hold creatures: when an ability freezes or knocks down an enemy (Meteor Strike's impact, the Dreadnaught's Charge and others), the creature stops moving and attacking for as long as the effect lasts.
