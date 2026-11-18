@@ -1,5 +1,11 @@
 [
  {
+  "file": "images/progress/2026-11-18_235721_1.jpg",
+  "caption": "New Eden's towns are populated again.",
+  "text": "Started: All NPCs: 453 town/story characters (vendors, quest givers, ambient wanderers, guards) with interactions",
+  "when": "2026-11-18 23:57 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-18_230703_2.jpg",
   "caption": "Bikes: E now gets you in",
   "text": "Vehicles: pressing E next to a bike now gets you in. Found in a playtest: after !vehicle 28 the Cobra Cycle stood there but E did nothing. Cause: when you look at something, the game asks the server what you can do with it, and the server never answered for vehicles, so no prompt appeared and E was ignored. Now an empty vehicle within 5 m answers with the 'get in' interaction: the bike gets the highlight outline, and E puts you in the driver seat with the vehicle HUD (speed, gear) and the driving tips (W/S accelerate/reverse, A/D steer, Space brake). Tested with !vehicle 28 on the test client (seat + HUD confirmed); the real E key press still needs a check in normal play. Still being worked on: the world map is black unless zoomed all the way out to the globe - found where the game draws it, fix in progress. Release date still TBA, nothing to download yet.",

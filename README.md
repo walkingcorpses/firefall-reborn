@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_235721_1.jpg"><img src="images/progress/2026-11-18_235721_1.jpg" width="49%" alt="New Eden&#x27;s towns are populated again."></a>
   <a href="images/progress/2026-11-18_230703_2.jpg"><img src="images/progress/2026-11-18_230703_2.jpg" width="49%" alt="Bikes: E now gets you in"></a>
   <a href="images/progress/2026-11-18_230703_1.jpg"><img src="images/progress/2026-11-18_230703_1.jpg" width="49%" alt="Bikes: E now gets you in"></a>
   <a href="images/progress/2026-11-18_163150_1.jpg"><img src="images/progress/2026-11-18_163150_1.jpg" width="49%" alt="Story Mission 1 starts: talk to Lieutenant Draper"></a>
-  <a href="images/progress/2026-11-18_162541_1.jpg"><img src="images/progress/2026-11-18_162541_1.jpg" width="49%" alt="The story campaign is coming back - with the original voices"></a>
 </p>
+
+**New Eden's towns are populated again.** - *2026-11-18 23:57 (UTC+0)*
+
+Started: All NPCs: 453 town/story characters (vendors, quest givers, ambient wanderers, guards) with interactions
+
+---
 
 **Bikes: E now gets you in** - *2026-11-18 23:07 (UTC+0)*
 
@@ -55,22 +61,6 @@ Lieutenant Draper is back in Copacabana, standing where he stood on the live ser
 The objective texts are the game's own, read from its mission data.
 
 Not there yet: mission progress isn't saved between sessions, and the next part (gliding to WARCOM and the mission inside) is what we're rebuilding next. Release TBA, nothing to download yet.
-
----
-
-**The story campaign is coming back - with the original voices** - *2026-11-18 16:25 (UTC+0)*
-
-We've started rebuilding the Accord story campaign, mission by mission, as close to the original as we can. First up: Mission 1, 'Everything is Shadow'.
-
-What we have so far:
-- The mission's own map (WARCOM) is in the game files and loads.
-- The original voice acting works. The server can play any of the game's dialog scenes, with the voice, the character portrait and the subtitles, exactly as the old server did. Tested: Lieutenant Draper's intro ('ARES, 35? I'm Lieutenant Draper.').
-- The whole mission script is in the game files as dialog lines: Draper's briefing in Copacabana, gliding to WARCOM, Captain Fuller inside, Aranha in the halls, the forced blast door, the fallen security team, the stealthed Chosen ambush revealed by the fire-suppression halon, the Arclight data, the Ultimate Ability fight and the trip back to New Eden. We've written it all out in order.
-- The live-server recording shows exactly where Lieutenant Draper stood in Copacabana.
-
-What has to be rebuilt by hand: where things are inside WARCOM, the doors, consoles and enemy waves, and the order of events. No guide for this mission survives online, so we're working from the game files and the dialog.
-
-Next: Draper in his real spot and talking to him to start the mission. Release TBA, nothing to download yet.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -90,14 +80,14 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█████░░░░░░░░░░░░░░░` 27%** (34 of 139 roadmap items done) - last update 2026-11-18 23:24 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 139 roadmap items done) - last update 2026-11-18 23:57 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
 | Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 32% | 2/11 |
-| Phase 3 - The game itself (server side, from the game's own data) | `██░░░░░░░░░░` 17% | 4/38 |
+| Phase 3 - The game itself (server side, from the game's own data) | `██░░░░░░░░░░` 18% | 4/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 9% | 1/11 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
