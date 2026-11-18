@@ -2,6 +2,20 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 14:47 (UTC+0)** - Kill loot now drops on the ground like it did on the live servers, instead of going straight into your bag.
+
+When a creature dies, its loot lies where it fell: Crystite crystals, Health and Ammo Powerups, gear. Point at it to see what it is (for example '4x Crystite'). Walk over it to pick it up, and the usual pickup notice shows.
+
+- Gear belongs to whoever got the kill. Crystite and power-ups are free for anyone.
+- Health Powerups only get picked up when you're hurt.
+- Loot left lying around disappears after 2 minutes. That's our choice; the original time isn't known.
+
+How we know: the live-server recording turned out to contain 108 pieces of ground loot. That showed us exactly how the server described loot on the ground and what the game sends when you walk over it. (This corrects my earlier note that the live game picked loot up automatically.)
+
+Tested in game: a kill dropped Crystite and a Health Powerup on the ground; walking over them picked both up, they disappeared, and the Crystite count went up. Release TBA, nothing to download yet.
+
+  ![Loot drops on the ground again](images/progress/2026-11-18_144747_1.jpg)
+
 - **2026-11-18 14:23 (UTC+0)** - You can salvage items again.
 
 Salvaging takes an item from your inventory and gives you its salvage rewards, using the game's own salvage tables (36,296 items can be salvaged, with 167 different reward sets). Stacks are salvaged per unit. The item leaves your inventory and the rewards arrive with the usual loot notice.

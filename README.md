@@ -34,11 +34,27 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_144747_1.jpg"><img src="images/progress/2026-11-18_144747_1.jpg" width="49%" alt="Loot drops on the ground again"></a>
   <a href="images/progress/2026-11-18_135658_1.jpg"><img src="images/progress/2026-11-18_135658_1.jpg" width="49%" alt="Each creature&#x27;s behaviour settings are still in the game files, even though the AI scripts that used them are lost."></a>
   <a href="images/progress/2026-11-18_133208_1.jpg"><img src="images/progress/2026-11-18_133208_1.jpg" width="49%" alt="Until now every creature of the same level had the same health, so a King Skiver or even Baneclaw went down like a normal Skiver."></a>
   <a href="images/progress/2026-11-18_131848_1.jpg"><img src="images/progress/2026-11-18_131848_1.jpg" width="49%" alt="Phase 3B (enemies) has started."></a>
-  <a href="images/progress/2026-11-18_055847_1.jpg"><img src="images/progress/2026-11-18_055847_1.jpg" width="49%" alt="Gliding works. Step onto a Glider Pad and it throws you into the air; you then glide with the game&#x27;s own glider HUD until you touch the g..."></a>
 </p>
+
+**Loot drops on the ground again** - *2026-11-18 14:47 (UTC+0)*
+
+Kill loot now drops on the ground like it did on the live servers, instead of going straight into your bag.
+
+When a creature dies, its loot lies where it fell: Crystite crystals, Health and Ammo Powerups, gear. Point at it to see what it is (for example '4x Crystite'). Walk over it to pick it up, and the usual pickup notice shows.
+
+- Gear belongs to whoever got the kill. Crystite and power-ups are free for anyone.
+- Health Powerups only get picked up when you're hurt.
+- Loot left lying around disappears after 2 minutes. That's our choice; the original time isn't known.
+
+How we know: the live-server recording turned out to contain 108 pieces of ground loot. That showed us exactly how the server described loot on the ground and what the game sends when you walk over it. (This corrects my earlier note that the live game picked loot up automatically.)
+
+Tested in game: a kill dropped Crystite and a Health Powerup on the ground; walking over them picked both up, they disappeared, and the Crystite count went up. Release TBA, nothing to download yet.
+
+---
 
 **Each creature's behaviour settings are still in the game files, even though the AI scripts that used them are lost.** - *2026-11-18 13:56 (UTC+0)*
 
@@ -55,12 +71,6 @@ Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses i
 **Phase 3B (enemies) has started.** - *2026-11-18 13:18 (UTC+0)*
 
 Started: Creature spawning and despawning per zone/sub-zone (dbzonemetadata, 565 sub-zone records)
-
----
-
-**Gliding works. Step onto a Glider Pad and it throws you into the air; you then glide with the game's own glider HUD until you touch the g...** - *2026-11-18 05:58 (UTC+0)*
-
-Done: Gliding and jetpack rules (energy, fall damage)
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -80,7 +90,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█████░░░░░░░░░░░░░░░` 27%** (34 of 138 roadmap items done) - last update 2026-11-18 14:23 (UTC+0)
+**Overall: `█████░░░░░░░░░░░░░░░` 27%** (34 of 138 roadmap items done) - last update 2026-11-18 14:47 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
