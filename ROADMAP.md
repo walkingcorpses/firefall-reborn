@@ -352,6 +352,15 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 14:05 (UTC+0): Boss mechanic back: Giant Aranha mini-bosses lay egg sacks during the fight, and Aranha Hatchlings come out of them.
+
+How: the egg-sack move is in the game files, but it only plays the boss's animation. What hatched from it was in Red 5's lost AI scripts. The server now rebuilds that part: after the animation, 3 Aranha Hatchlings appear beside the boss at its level, on the boss's own cooldown from the game files (15 s for the main one), with at most 9 hatchlings alive around it. The number 3 is our choice.
+
+Also from the creature behaviour settings:
+- More special moves are read, including the Fire Hisser's Flutter and the Crystal Aranha's ability.
+- 255 gunner types now hold their own preferred combat distance.
+
+Tested in game: a Giant Aranha laid two egg sacks 22 seconds apart, with 3 hatchlings each time. Release TBA, nothing to download yet.
 - 2026-11-18 13:56 (UTC+0): Started: AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behaviour strings in dbcharacter::Monster)
 - 2026-11-18 13:51 (UTC+0): Started: Drops: loot tables, crystite/resources, salvage
 - 2026-11-18 13:32 (UTC+0): Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters
