@@ -2,6 +2,12 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 15:37 (UTC+0)** - Two things from playtesting:
+
+1) Fixed: flying creatures could not be hurt. The server kept creatures like the Culex at ground level, but the game draws them hovering several metres up. Shots aimed at what you see went over the server's idea of where the creature was, so its health never dropped. Flying bodies (Culex, drones and the like) now have a hit area that reaches up to where the game draws them. This is our estimate of the hover height and still needs checking in real play.
+
+2) Known bug: loot that stays on the ground after pickup. Picking loot up always works: the Crystite or item goes into your inventory and the pickup notice shows. But sometimes the crystal stays on the ground afterwards. In our tests the same setup sometimes cleared it and sometimes didn't, so the cause is inside the game client, not in what the server sends. Next step is to look at how the game itself removes picked-up loot, instead of guessing. Release TBA, nothing to download yet.
+
 - **2026-11-18 15:02 (UTC+0)** - Started: Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards)
 
   ![The real objective tracker is back](images/progress/2026-11-18_150214_1.jpg)
