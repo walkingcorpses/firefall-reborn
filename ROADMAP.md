@@ -352,6 +352,11 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 13:27 (UTC+0): Fix: bandits and other rifle-carrying enemies (Bandit Punks, Black Hills Bandits, soldiers) were doing only 1 damage per shot.
+
+Their rifles have a placeholder damage of 1 in the game files. The real number came from each creature's own damage modifier applied to the level damage table, so that's what the server uses now. A level-13 Bandit Punk now hits for 43 per shot instead of 1, so bandit camps are a real fight again.
+
+This is our reading of the files. Red 5's exact formula was on their servers, and the live recording has almost no creature hits on the player to check it against. Creatures that already had real weapon damage (Aranhas, Culex and so on) are unchanged. Release TBA, nothing to download yet.
 - 2026-11-18 13:18 (UTC+0): Started: Creature spawning and despawning per zone/sub-zone (dbzonemetadata, 565 sub-zone records)
 - 2026-11-18 13:07 (UTC+0): Your turrets, Healing Generators and other things you build are no longer safe: creatures now go for them.
 

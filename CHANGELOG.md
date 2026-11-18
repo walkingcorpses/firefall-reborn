@@ -2,6 +2,12 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 13:27 (UTC+0)** - Fix: bandits and other rifle-carrying enemies (Bandit Punks, Black Hills Bandits, soldiers) were doing only 1 damage per shot.
+
+Their rifles have a placeholder damage of 1 in the game files. The real number came from each creature's own damage modifier applied to the level damage table, so that's what the server uses now. A level-13 Bandit Punk now hits for 43 per shot instead of 1, so bandit camps are a real fight again.
+
+This is our reading of the files. Red 5's exact formula was on their servers, and the live recording has almost no creature hits on the player to check it against. Creatures that already had real weapon damage (Aranhas, Culex and so on) are unchanged. Release TBA, nothing to download yet.
+
 - **2026-11-18 13:18 (UTC+0)** - Started: Creature spawning and despawning per zone/sub-zone (dbzonemetadata, 565 sub-zone records)
 
   ![Phase 3B (enemies) has started.
