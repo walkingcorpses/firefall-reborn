@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_155842_1.jpg"><img src="images/progress/2026-11-18_155842_1.jpg" width="49%" alt="Races now use the objective tracker too: &#x27;Limited Time Trial - Reach the finish line&#x27;, your checkpoints (0/5) and a Time Remaining bar th..."></a>
   <a href="images/progress/2026-11-18_150214_1.jpg"><img src="images/progress/2026-11-18_150214_1.jpg" width="49%" alt="The real objective tracker is back"></a>
   <a href="images/progress/2026-11-18_144747_1.jpg"><img src="images/progress/2026-11-18_144747_1.jpg" width="49%" alt="Loot drops on the ground again"></a>
   <a href="images/progress/2026-11-18_135658_1.jpg"><img src="images/progress/2026-11-18_135658_1.jpg" width="49%" alt="Each creature&#x27;s behaviour settings are still in the game files, even though the AI scripts that used them are lost."></a>
-  <a href="images/progress/2026-11-18_133208_1.jpg"><img src="images/progress/2026-11-18_133208_1.jpg" width="49%" alt="Until now every creature of the same level had the same health, so a King Skiver or even Baneclaw went down like a normal Skiver."></a>
 </p>
+
+**Races now use the objective tracker too: 'Limited Time Trial - Reach the finish line', your checkpoints (0/5) and a Time Remaining bar th...** - *2026-11-18 15:58 (UTC+0)*
+
+Races now use the objective tracker too: 'Limited Time Trial - Reach the finish line', your checkpoints (0/5) and a Time Remaining bar that runs down. Release TBA, nothing to download yet.
+
+---
 
 **The real objective tracker is back** - *2026-11-18 15:02 (UTC+0)*
 
@@ -65,12 +71,6 @@ Tested in game: a kill dropped Crystite and a Health Powerup on the ground; walk
 **Each creature's behaviour settings are still in the game files, even though the AI scripts that used them are lost.** - *2026-11-18 13:56 (UTC+0)*
 
 Started: AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behaviour strings in dbcharacter::Monster)
-
----
-
-**Until now every creature of the same level had the same health, so a King Skiver or even Baneclaw went down like a normal Skiver.** - *2026-11-18 13:32 (UTC+0)*
-
-Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -90,7 +90,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 15:55 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 15:58 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

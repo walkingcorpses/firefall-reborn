@@ -352,6 +352,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 15:58 (UTC+0): Races now use the objective tracker too: 'Limited Time Trial - Reach the finish line', your checkpoints (0/5) and a Time Remaining bar that runs down. Release TBA, nothing to download yet.
 - 2026-11-18 15:55 (UTC+0): The known loot bug from earlier today is fixed: loot you pick up now flies to you and disappears, as it should.
 
 What was wrong: when you pick something up, the game waits for the server to confirm before it removes the item from the ground. Our server did send that confirmation, but its own 'what can this player see' system forgot about loot about a second after it dropped, and then threw the confirmation away. If you picked something up within that first second it worked; otherwise the item stayed on the ground and the game kept asking for it. That's why it looked random.
