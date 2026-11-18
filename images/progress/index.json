@@ -1,5 +1,11 @@
 [
  {
+  "file": "images/progress/2026-11-18_131848_1.jpg",
+  "caption": "Phase 3B (enemies) has started.",
+  "text": "Started: Creature spawning and despawning per zone/sub-zone (dbzonemetadata, 565 sub-zone records)",
+  "when": "2026-11-18 13:18 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-18_055847_1.jpg",
   "caption": "Gliding works. Step onto a Glider Pad and it throws you into the air; you then glide with the game's own glider HUD until you touch the g...",
   "text": "Done: Gliding and jetpack rules (energy, fall damage)",

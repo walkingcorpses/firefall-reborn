@@ -2,6 +2,20 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 13:18 (UTC+0)** - Started: Creature spawning and despawning per zone/sub-zone (dbzonemetadata, 565 sub-zone records)
+
+  ![Phase 3B (enemies) has started.
+
+Red 5's spawn tables (which creature lives where) were kept on their servers and are lost. But the recording of the live servers we found shows every creature the player saw on a 44-minute trip through Coral Forest in 2016: 838 creatures of 140 kinds, with their exact positions.
+
+From that we rebuilt the enemy camps: 78 camps now sit where those creatures really stood - Aranha nests, Skiver packs, Culex, Spitting Aranha, Bandits and Black Hills Bandits, Brinewyrms, Nautilus, Melding Carcasses and more. They fill when you come near, empty when you leave and come back a while after you clear them, at your level (the recording shows they scaled to the player). The 9 hand-made camps around Praia Tropical stay.
+
+Tested in game: teleported to a recorded Aranha spot and the camp filled right where the recording had it.
+
+Also in the recording, for later: 352 friendly town NPCs (Copacabana civilians, Accord and ARES soldiers, scientists) with their spots, for the towns work, and a Chosen invasion (152 Chosen) for the world events.
+
+Not covered: the parts of Coral Forest the recording player never went to, and the other zones. Release TBA, nothing to download yet.](images/progress/2026-11-18_131848_1.jpg)
+
 - **2026-11-18 13:07 (UTC+0)** - Your turrets, Healing Generators and other things you build are no longer safe: creatures now go for them.
 
 - If one of your deployables is closer to a creature than you are, the creature runs to it and attacks it. Ranged creatures shoot at it, melee creatures hit it.

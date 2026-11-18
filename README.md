@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_131848_1.jpg"><img src="images/progress/2026-11-18_131848_1.jpg" width="49%" alt="Phase 3B (enemies) has started."></a>
   <a href="images/progress/2026-11-18_055847_1.jpg"><img src="images/progress/2026-11-18_055847_1.jpg" width="49%" alt="Gliding works. Step onto a Glider Pad and it throws you into the air; you then glide with the game&#x27;s own glider HUD until you touch the g..."></a>
   <a href="images/progress/2026-11-18_024349_2.jpg"><img src="images/progress/2026-11-18_024349_2.jpg" width="49%" alt="Your Steam name is your name in game + Engineer turrets build"></a>
   <a href="images/progress/2026-11-18_024349_1.jpg"><img src="images/progress/2026-11-18_024349_1.jpg" width="49%" alt="Your Steam name is your name in game + Engineer turrets build"></a>
-  <a href="images/progress/2026-11-18_021710_1.jpg"><img src="images/progress/2026-11-18_021710_1.jpg" width="49%" alt="The second combat item is done: what happens when you go down, and how you get back up."></a>
 </p>
+
+**Phase 3B (enemies) has started.** - *2026-11-18 13:18 (UTC+0)*
+
+Started: Creature spawning and despawning per zone/sub-zone (dbzonemetadata, 565 sub-zone records)
+
+---
 
 **Gliding works. Step onto a Glider Pad and it throws you into the air; you then glide with the game's own glider HUD until you touch the g...** - *2026-11-18 05:58 (UTC+0)*
 
@@ -55,12 +61,6 @@ Your Steam name, everywhere: every player's character now carries their full Ste
 Engineer turrets: the Engineer's Heavy Turret ability now really builds its turret where you aim (up to 4 m away, one at a time - placing a new one replaces the old). It fights for you: in our test it shot the first Aranha that came into range. This came out of a check of every ability on all five battleframes; the other abilities that still skip a step (dashes like Afterburner and Charge, some timed effects, the Supply Station and Remote Explosive placement) are next on the list.
 
 Tested: names for three cases (our pre-Steam test name, a name typed in game, and a second account with the same Steam name), the turret in game with the Engineer. Release TBA, nothing to download yet.
-
----
-
-**The second combat item is done: what happens when you go down, and how you get back up.** - *2026-11-18 02:17 (UTC+0)*
-
-Done: Health, shields, death and respawn, resurrect by other players
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -80,14 +80,14 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█████░░░░░░░░░░░░░░░` 26%** (34 of 138 roadmap items done) - last update 2026-11-18 13:07 (UTC+0)
+**Overall: `█████░░░░░░░░░░░░░░░` 26%** (34 of 138 roadmap items done) - last update 2026-11-18 13:18 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
 | Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 32% | 2/11 |
-| Phase 3 - The game itself (server side, from the game's own data) | `█░░░░░░░░░░░` 11% | 4/38 |
+| Phase 3 - The game itself (server side, from the game's own data) | `█░░░░░░░░░░░` 12% | 4/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |

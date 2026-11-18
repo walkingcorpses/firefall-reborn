@@ -106,7 +106,7 @@ missing was the brain: `AIEngine` was an empty stub. First version written (priv
 creatures spawned with `
 pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wander near home, notice a hostile player within
 35 m, run at them and melee on a cooldown. Untested in game: needs the owner to watch it (pose orientation/animation values are guesses)._
-- [ ] Creature spawning and despawning per zone/sub-zone (`dbzonemetadata`, 565 sub-zone records)
+- [~] Creature spawning and despawning per zone/sub-zone (`dbzonemetadata`, 565 sub-zone records) _(started 2026-11-18 13:18 (UTC+0))_
 - [ ] AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behaviour strings in `dbcharacter::Monster`)
 - [ ] The original roster: **968 named enemy types** (Aranha family, Chosen, Gaea creatures, Melding creatures, bandits,
       raiders, robots...) with health/damage scaling by level (`MonsterScaling`)
@@ -352,6 +352,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 13:18 (UTC+0): Started: Creature spawning and despawning per zone/sub-zone (dbzonemetadata, 565 sub-zone records)
 - 2026-11-18 13:07 (UTC+0): Your turrets, Healing Generators and other things you build are no longer safe: creatures now go for them.
 
 - If one of your deployables is closer to a creature than you are, the creature runs to it and attacks it. Ranged creatures shoot at it, melee creatures hit it.
