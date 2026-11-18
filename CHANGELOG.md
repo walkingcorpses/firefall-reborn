@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 13:51 (UTC+0)** - Started: Drops: loot tables, crystite/resources, salvage
+
 - **2026-11-18 13:32 (UTC+0)** - Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters
 
   ![Until now every creature of the same level had the same health, so a King Skiver or even Baneclaw went down like a normal Skiver.

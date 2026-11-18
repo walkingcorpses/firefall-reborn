@@ -111,7 +111,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] The original roster: **968 named enemy types** (Aranha family, Chosen, Gaea creatures, Melding creatures, bandits,
       raiders, robots...) with health/damage scaling by level (`MonsterScaling`)
 - [~] Elites, **bosses** (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters _(started 2026-11-18 13:32 (UTC+0))_
-- [ ] Drops: loot tables, crystite/resources, salvage
+- [~] Drops: loot tables, crystite/resources, salvage _(started 2026-11-18 13:51 (UTC+0))_
 
 ### 3C - Quests and story
 - [ ] **All original missions: 563** (285 achievement-type, 43 secret) with their **1715 objectives** and **442 rewards**
@@ -352,6 +352,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 13:51 (UTC+0): Started: Drops: loot tables, crystite/resources, salvage
 - 2026-11-18 13:32 (UTC+0): Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters
 - 2026-11-18 13:27 (UTC+0): Fix: bandits and other rifle-carrying enemies (Bandit Punks, Black Hills Bandits, soldiers) were doing only 1 damage per shot.
 
