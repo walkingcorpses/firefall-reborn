@@ -34,11 +34,28 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_160606_1.jpg"><img src="images/progress/2026-11-18_160606_1.jpg" width="49%" alt="Missions show in the real mission tracker"></a>
   <a href="images/progress/2026-11-18_155842_1.jpg"><img src="images/progress/2026-11-18_155842_1.jpg" width="49%" alt="Races now use the objective tracker too: &#x27;Limited Time Trial - Reach the finish line&#x27;, your checkpoints (0/5) and a Time Remaining bar th..."></a>
   <a href="images/progress/2026-11-18_150214_1.jpg"><img src="images/progress/2026-11-18_150214_1.jpg" width="49%" alt="The real objective tracker is back"></a>
   <a href="images/progress/2026-11-18_144747_1.jpg"><img src="images/progress/2026-11-18_144747_1.jpg" width="49%" alt="Loot drops on the ground again"></a>
-  <a href="images/progress/2026-11-18_135658_1.jpg"><img src="images/progress/2026-11-18_135658_1.jpg" width="49%" alt="Each creature&#x27;s behaviour settings are still in the game files, even though the AI scripts that used them are lost."></a>
 </p>
+
+**Missions show in the real mission tracker** - *2026-11-18 16:06 (UTC+0)*
+
+Missions now appear in the game's own mission tracker (top right), the way the live servers showed them, not just in chat.
+
+- When you start a mission, its name and current objective appear in the tracker, for example 'Pest Control - Go down to the beach'.
+- Kill objectives show their count ('Defeat 3/10 enemies').
+- Each objective updates as you go and is marked done when finished.
+- Abandoning a mission clears it from the tracker.
+
+How: the live-server recording contains exactly how the old server drove this tracker. The mission name comes from the game's own mission list; the objective texts can be anything, which is what the story missions need.
+
+Also looked at: the main Accord story campaign is all in the game files, in order (from 'Everything is Shadow' to 'Homecoming'), with every objective's text, for example 'Meet with Lieutenant Draper', 'Use Glider to Travel to WARCOM'. What made each objective happen (the NPCs, the instanced areas, the scripted events) was on Red 5's servers and has to be rebuilt.
+
+Tested in game: Pest Control appeared with its first objective, and abandoning it cleared the tracker. Not tested yet: finishing a whole mission. Release TBA, nothing to download yet.
+
+---
 
 **Races now use the objective tracker too: 'Limited Time Trial - Reach the finish line', your checkpoints (0/5) and a Time Remaining bar th...** - *2026-11-18 15:58 (UTC+0)*
 
@@ -65,12 +82,6 @@ When a creature dies, its loot lies where it fell: Crystite crystals, Health and
 How we know: the live-server recording turned out to contain 108 pieces of ground loot. That showed us exactly how the server described loot on the ground and what the game sends when you walk over it. (This corrects my earlier note that the live game picked loot up automatically.)
 
 Tested in game: a kill dropped Crystite and a Health Powerup on the ground; walking over them picked both up, they disappeared, and the Crystite count went up. Release TBA, nothing to download yet.
-
----
-
-**Each creature's behaviour settings are still in the game files, even though the AI scripts that used them are lost.** - *2026-11-18 13:56 (UTC+0)*
-
-Started: AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behaviour strings in dbcharacter::Monster)
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -90,7 +101,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 15:58 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 138 roadmap items done) - last update 2026-11-18 16:06 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

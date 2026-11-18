@@ -352,6 +352,18 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 16:06 (UTC+0): Missions now appear in the game's own mission tracker (top right), the way the live servers showed them, not just in chat.
+
+- When you start a mission, its name and current objective appear in the tracker, for example 'Pest Control - Go down to the beach'.
+- Kill objectives show their count ('Defeat 3/10 enemies').
+- Each objective updates as you go and is marked done when finished.
+- Abandoning a mission clears it from the tracker.
+
+How: the live-server recording contains exactly how the old server drove this tracker. The mission name comes from the game's own mission list; the objective texts can be anything, which is what the story missions need.
+
+Also looked at: the main Accord story campaign is all in the game files, in order (from 'Everything is Shadow' to 'Homecoming'), with every objective's text, for example 'Meet with Lieutenant Draper', 'Use Glider to Travel to WARCOM'. What made each objective happen (the NPCs, the instanced areas, the scripted events) was on Red 5's servers and has to be rebuilt.
+
+Tested in game: Pest Control appeared with its first objective, and abandoning it cleared the tracker. Not tested yet: finishing a whole mission. Release TBA, nothing to download yet.
 - 2026-11-18 15:58 (UTC+0): Races now use the objective tracker too: 'Limited Time Trial - Reach the finish line', your checkpoints (0/5) and a Time Remaining bar that runs down. Release TBA, nothing to download yet.
 - 2026-11-18 15:55 (UTC+0): The known loot bug from earlier today is fixed: loot you pick up now flies to you and disappears, as it should.
 
