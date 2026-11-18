@@ -352,6 +352,16 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 06:49 (UTC+0): Two more steps on the battleframe abilities.
+
+Healing Generator heals your friends too: anyone standing near your generator now gets healed, not just you. Tested with two players: the second player's health went up tick by tick from the first player's generator. It also now lasts its real 12 seconds (it was 8).
+
+We checked the abilities against the original game: the in-game descriptions and numbers in the game files, plus the Firefall wiki (the 1.6-era pages match our files exactly):
+- Overcharge (Assault): +20% rate of fire, no heat and unlimited ammo for 4 seconds, 30 s recharge. Our version already does exactly that.
+- Heavy Armor (Dreadnaught): you take 50% less damage for 6 seconds, 30 s recharge. Confirmed with an automatic test.
+- Healing Generator (Biotech): 12 seconds, 5 m heal radius, about 6 health per second. Now matches.
+
+Some ability steps only existed on Red 5's servers. We searched the files the community saved from the old servers as well: they list those steps but almost never their values, so where a step's job is clear from the ability's own description (like Overcharge's unlimited ammo) we build it from that. Release TBA, nothing to download yet.
 - 2026-11-18 06:35 (UTC+0): More work on the battleframe abilities item (Assault, Biotech, Dreadnaught, Engineer, Recon).
 
 - All five ultimates (the abilities that need a full supercharge bar) now tested and working: Assault Shockwave (hit for 1051), Biotech Heroism (buffs), Dreadnaught Absorption Bomb (two hits of 1262), Engineer Anti-Personnel Turret (built, and it killed a creature), Recon Artillery Strike.
