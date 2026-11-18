@@ -2,6 +2,24 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 01:53 (UTC+0)** - Change to yesterday's squads: you now choose who is in your squad. Nobody joins automatically any more.
+
+How it works:
+- Invite with the game's own squad invite (or type !squad invite <name>). Your friend gets the game's own 'Squad Invitation' notice (press N to view) and can accept or decline it. Unanswered invites run out.
+- Once they accept, both of you see the squad list top left (leader marked with a star) and the squad marker over each other's heads.
+- !squad accept / !squad decline / !squad leave work as chat commands too; the leader can !squad kick <name> and hand over the lead with !squad lead <name>. Up to 5 per squad.
+- Squad chat now only reaches your squad. Leaving the world takes you out of the squad.
+
+Tested with two game clients: the invite notice showed up, the accept came through the game's own button path, both squad lists filled, and a kick cleared both. With nobody accepting, nobody joined.
+
+Also new: the connection relay (how friends reach your world through Steam without any router setup) now carries the real game. On one PC we sent everything through Steam's own peer-to-peer network to ourselves: login, loading, the world and playing all ran through it with a perfect connection rating. What still needs a real friend is the internet path between two different homes.
+
+Not there yet: the squad list shows level 1 for everyone, and the game's kick/promote buttons are wired by best guess (the !squad commands work for sure). Release TBA, nothing to download yet.
+
+  ![Squads are now by invitation + the game runs through the Steam relay](images/progress/2026-11-18_015311_1.jpg)
+
+  ![Squads are now by invitation + the game runs through the Steam relay](images/progress/2026-11-18_015311_2.jpg)
+
 - **2026-11-18 01:23 (UTC+0)** - Done: Squad/party mapped to Steam friends; in-game chat works between players
 
   ![Everyone who joins your world is now in your squad, and the game's own squad list shows it.

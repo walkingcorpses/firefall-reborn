@@ -34,11 +34,29 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_015311_2.jpg"><img src="images/progress/2026-11-18_015311_2.jpg" width="49%" alt="Squads are now by invitation + the game runs through the Steam relay"></a>
+  <a href="images/progress/2026-11-18_015311_1.jpg"><img src="images/progress/2026-11-18_015311_1.jpg" width="49%" alt="Squads are now by invitation + the game runs through the Steam relay"></a>
   <a href="images/progress/2026-11-18_012332_1.jpg"><img src="images/progress/2026-11-18_012332_1.jpg" width="49%" alt="Everyone who joins your world is now in your squad, and the game&#x27;s own squad list shows it."></a>
   <a href="images/progress/2026-11-17_235355_1.jpg"><img src="images/progress/2026-11-17_235355_1.jpg" width="49%" alt="Invite friends from inside your world"></a>
-  <a href="images/progress/2026-11-17_203308_1.jpg"><img src="images/progress/2026-11-17_203308_1.jpg" width="49%" alt="Host your world your way: friends or invite only"></a>
-  <a href="images/progress/2026-11-17_202659_1.jpg"><img src="images/progress/2026-11-17_202659_1.jpg" width="49%" alt="Join from Steam, and a bigger JOIN window"></a>
 </p>
+
+**Squads are now by invitation + the game runs through the Steam relay** - *2026-11-18 01:53 (UTC+0)*
+
+Change to yesterday's squads: you now choose who is in your squad. Nobody joins automatically any more.
+
+How it works:
+- Invite with the game's own squad invite (or type !squad invite <name>). Your friend gets the game's own 'Squad Invitation' notice (press N to view) and can accept or decline it. Unanswered invites run out.
+- Once they accept, both of you see the squad list top left (leader marked with a star) and the squad marker over each other's heads.
+- !squad accept / !squad decline / !squad leave work as chat commands too; the leader can !squad kick <name> and hand over the lead with !squad lead <name>. Up to 5 per squad.
+- Squad chat now only reaches your squad. Leaving the world takes you out of the squad.
+
+Tested with two game clients: the invite notice showed up, the accept came through the game's own button path, both squad lists filled, and a kick cleared both. With nobody accepting, nobody joined.
+
+Also new: the connection relay (how friends reach your world through Steam without any router setup) now carries the real game. On one PC we sent everything through Steam's own peer-to-peer network to ourselves: login, loading, the world and playing all ran through it with a perfect connection rating. What still needs a real friend is the internet path between two different homes.
+
+Not there yet: the squad list shows level 1 for everyone, and the game's kick/promote buttons are wired by best guess (the !squad commands work for sure). Release TBA, nothing to download yet.
+
+---
 
 **Everyone who joins your world is now in your squad, and the game's own squad list shows it.** - *2026-11-18 01:23 (UTC+0)*
 
@@ -60,34 +78,6 @@ Once you're in your world:
 Only the host can send invites, so a guest can't send invites from the host's Steam account.
 
 Tested: !friends listed the online friends from Steam, and !invite with a made-up name answered that no such friend is online (no real invites were sent during testing). Sending a real invite and joining through it is part of the upcoming two-PC session. Release TBA, nothing to download yet.
-
----
-
-**Host your world your way: friends or invite only** - *2026-11-17 20:33 (UTC+0)*
-
-Hosting a world got its own window.
-
-Press HOST A WORLD and a window opens where you pick who may come in:
-- FRIENDS CAN JOIN: any of your Steam friends can join you (from the JOIN window in the game, or 'Join Game' in Steam).
-- INVITE ONLY: only the friends you invite can get in. Anyone else is turned away.
-
-Below that are your Steam friends who are online right now (those already in Firefall are marked), each with an INVITE button. Invites go out through Steam the moment your world starts, so your friend gets a normal Steam game invite, and accepting it starts their Firefall and joins you straight away. Then press START HOSTING.
-
-In a friend's JOIN window, an invite-only world is marked '(invite only)'.
-
-Tested on one PC: the window lists the real online friends, the choices and buttons work, and the menu talks to the launcher. The screenshot uses sample names. The full two-PC trip (invite, join, play) is next, in a real session with a friend. Release TBA, nothing to download yet.
-
----
-
-**Join from Steam, and a bigger JOIN window** - *2026-11-17 20:26 (UTC+0)*
-
-Two changes to playing with friends.
-
-Join from Steam itself: when you host a world, Steam now knows how to join you. Your friends can right-click your name in their Steam friends list and pick 'Join Game', or you can invite them from the Steam overlay. Steam starts their Firefall, and the start menu goes straight into joining you, with no clicking through menus. If their game is already open, the menu picks the request up within a few seconds. Tested on one PC by starting the game the way Steam does for 'Join Game': the menu went straight into joining. The full trip between two PCs is still to be tried in a real session with a friend.
-
-A bigger JOIN window: the friends window is now a large panel of its own, with room for seven friends, big names and a wide JOIN button on each row. Friends who are in Firefall but not hosting are marked '(playing)'. The screenshot uses sample names to show the layout.
-
-Also noted for squads: putting everyone in a world into one squad works on the server side, but the game's own squad list needs a part of the protocol nobody has documented yet, so that's next on the research list. Release TBA, nothing to download yet.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -107,7 +97,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█████░░░░░░░░░░░░░░░` 23%** (30 of 138 roadmap items done) - last update 2026-11-18 01:23 (UTC+0)
+**Overall: `█████░░░░░░░░░░░░░░░` 23%** (30 of 138 roadmap items done) - last update 2026-11-18 01:53 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

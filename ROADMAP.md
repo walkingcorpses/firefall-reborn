@@ -82,9 +82,11 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       fallback UPnP; each friend keeps their own character, the host owns the world.
       Built: `Relay.cs` (RelayHost + RelayGuest over Steam P2P: web TCP 5000, matrix UDP 25000, game UDP 25001), session-request
       callback so friends can connect. Verified through real Steam P2P loopback: 300 KB TCP byte-exact, UDP both services.
-      Not yet verified: the actual cross-PC path (NAT punch/relay) and the game running through it
+      2026-11-18: the real game runs through it on one PC (scripts/relay-loop-test.ps1: login, world, play, qos 100).
+      Not yet verified: the actual cross-PC path (NAT punch/relay)
 - [x] Join a Friend menu lists friends hosting right now (2026-11-17: JOIN window lists friends playing Firefall, hosting ones first, a JOIN button each; the host-mode toggle is tracked under Friends and invites) _(done 2026-11-17 20:30 (UTC+0))_
-- [x] Squad/party mapped to Steam friends; in-game chat works between players _(done 2026-11-18 01:23 (UTC+0))_
+- [x] Squad/party mapped to Steam friends; in-game chat works between players (2026-11-18: squads by invitation - the game's own
+      invite popup or !squad invite/accept/leave/kick/lead; squad chat only reaches the squad) _(done 2026-11-18 01:23 (UTC+0))_
 
 ## Phase 3 - The game itself (server side, from the game's own data)
 The client already ships all assets, maps, abilities and AI definitions; only the server brain is missing.
@@ -350,6 +352,19 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 01:53 (UTC+0): Change to yesterday's squads: you now choose who is in your squad. Nobody joins automatically any more.
+
+How it works:
+- Invite with the game's own squad invite (or type !squad invite <name>). Your friend gets the game's own 'Squad Invitation' notice (press N to view) and can accept or decline it. Unanswered invites run out.
+- Once they accept, both of you see the squad list top left (leader marked with a star) and the squad marker over each other's heads.
+- !squad accept / !squad decline / !squad leave work as chat commands too; the leader can !squad kick <name> and hand over the lead with !squad lead <name>. Up to 5 per squad.
+- Squad chat now only reaches your squad. Leaving the world takes you out of the squad.
+
+Tested with two game clients: the invite notice showed up, the accept came through the game's own button path, both squad lists filled, and a kick cleared both. With nobody accepting, nobody joined.
+
+Also new: the connection relay (how friends reach your world through Steam without any router setup) now carries the real game. On one PC we sent everything through Steam's own peer-to-peer network to ourselves: login, loading, the world and playing all ran through it with a perfect connection rating. What still needs a real friend is the internet path between two different homes.
+
+Not there yet: the squad list shows level 1 for everyone, and the game's kick/promote buttons are wired by best guess (the !squad commands work for sure). Release TBA, nothing to download yet.
 - 2026-11-18 01:23 (UTC+0): Done: Squad/party mapped to Steam friends; in-game chat works between players
 - 2026-11-18 01:22 (UTC+0): --help
 - 2026-11-17 23:53 (UTC+0): Invites from inside the world (!friends, !invite <name>, host only); HOST window = privacy + START.
