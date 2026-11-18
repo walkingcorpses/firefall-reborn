@@ -2,6 +2,18 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 13:56 (UTC+0)** - Started: AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behaviour strings in dbcharacter::Monster)
+
+  ![Each creature's behaviour settings are still in the game files, even though the AI scripts that used them are lost. The server now reads those settings:
+
+- Special attacks: 60 creature types now use their own abilities in combat, on their own cooldowns, chances and ranges. Examples: Alpha Trapjaw Tremors and Proxy Mines, Magma Salamander Flame Breath, Magma Hisser Fire Flutter, Rockhorn Ground Pound, Blood King Dreadnaught Shield Wall, Chosen Dreadnaught Artillery Strike, Melded Varant Head Slam.
+- Aggro range: 67 creature types notice you at their own distance instead of one fixed range.
+- Gunfights: 297 gunner types fire in bursts (hold the trigger, then pause) and 42 keep their own preferred distance.
+
+Tested in game: an Alpha Trapjaw laid Proxy Mines from 6 m and kept using Tremors and Proxy Mines on their cooldowns while fighting.
+
+Not checked yet: the burst timing in game, and the Rockhorn Guardian's Ground Pound (it killed the test character before using it). Release TBA, nothing to download yet.](images/progress/2026-11-18_135658_1.jpg)
+
 - **2026-11-18 13:51 (UTC+0)** - Started: Drops: loot tables, crystite/resources, salvage
 
 - **2026-11-18 13:32 (UTC+0)** - Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters

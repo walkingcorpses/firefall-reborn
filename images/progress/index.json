@@ -1,5 +1,11 @@
 [
  {
+  "file": "images/progress/2026-11-18_135658_1.jpg",
+  "caption": "Each creature's behaviour settings are still in the game files, even though the AI scripts that used them are lost.",
+  "text": "Started: AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behaviour strings in dbcharacter::Monster)",
+  "when": "2026-11-18 13:56 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-18_133208_1.jpg",
   "caption": "Until now every creature of the same level had the same health, so a King Skiver or even Baneclaw went down like a normal Skiver.",
   "text": "Started: Elites, bosses (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters",
