@@ -2,6 +2,18 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 02:43 (UTC+0)** - Two changes.
+
+Your Steam name, everywhere: every player's character now carries their full Steam name - over your head, in chat, in the squad list, in the JOIN window. It's checked every time you start the game, so if you change your Steam name, your character follows. A name you typed on the character screen is replaced by your Steam name the next time you start. If someone else in the same world already uses your exact name, you get a number after it (for example walkingcorpse2). Spaces and symbols are left out (letters, numbers, _ and - stay) so other players can whisper you by name.
+
+Engineer turrets: the Engineer's Heavy Turret ability now really builds its turret where you aim (up to 4 m away, one at a time - placing a new one replaces the old). It fights for you: in our test it shot the first Aranha that came into range. This came out of a check of every ability on all five battleframes; the other abilities that still skip a step (dashes like Afterburner and Charge, some timed effects, the Supply Station and Remote Explosive placement) are next on the list.
+
+Tested: names for three cases (our pre-Steam test name, a name typed in game, and a second account with the same Steam name), the turret in game with the Engineer. Release TBA, nothing to download yet.
+
+  ![Your Steam name is your name in game + Engineer turrets build](images/progress/2026-11-18_024349_1.jpg)
+
+  ![Your Steam name is your name in game + Engineer turrets build](images/progress/2026-11-18_024349_2.jpg)
+
 - **2026-11-18 02:17 (UTC+0)** - Done: Health, shields, death and respawn, resurrect by other players
 
   ![The second combat item is done: what happens when you go down, and how you get back up.

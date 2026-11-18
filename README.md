@@ -34,11 +34,23 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_024349_2.jpg"><img src="images/progress/2026-11-18_024349_2.jpg" width="49%" alt="Your Steam name is your name in game + Engineer turrets build"></a>
+  <a href="images/progress/2026-11-18_024349_1.jpg"><img src="images/progress/2026-11-18_024349_1.jpg" width="49%" alt="Your Steam name is your name in game + Engineer turrets build"></a>
   <a href="images/progress/2026-11-18_021710_1.jpg"><img src="images/progress/2026-11-18_021710_1.jpg" width="49%" alt="The second combat item is done: what happens when you go down, and how you get back up."></a>
   <a href="images/progress/2026-11-18_015311_2.jpg"><img src="images/progress/2026-11-18_015311_2.jpg" width="49%" alt="Squads are now by invitation + the game runs through the Steam relay"></a>
-  <a href="images/progress/2026-11-18_015311_1.jpg"><img src="images/progress/2026-11-18_015311_1.jpg" width="49%" alt="Squads are now by invitation + the game runs through the Steam relay"></a>
-  <a href="images/progress/2026-11-18_012332_1.jpg"><img src="images/progress/2026-11-18_012332_1.jpg" width="49%" alt="Everyone who joins your world is now in your squad, and the game&#x27;s own squad list shows it."></a>
 </p>
+
+**Your Steam name is your name in game + Engineer turrets build** - *2026-11-18 02:43 (UTC+0)*
+
+Two changes.
+
+Your Steam name, everywhere: every player's character now carries their full Steam name - over your head, in chat, in the squad list, in the JOIN window. It's checked every time you start the game, so if you change your Steam name, your character follows. A name you typed on the character screen is replaced by your Steam name the next time you start. If someone else in the same world already uses your exact name, you get a number after it (for example walkingcorpse2). Spaces and symbols are left out (letters, numbers, _ and - stay) so other players can whisper you by name.
+
+Engineer turrets: the Engineer's Heavy Turret ability now really builds its turret where you aim (up to 4 m away, one at a time - placing a new one replaces the old). It fights for you: in our test it shot the first Aranha that came into range. This came out of a check of every ability on all five battleframes; the other abilities that still skip a step (dashes like Afterburner and Charge, some timed effects, the Supply Station and Remote Explosive placement) are next on the list.
+
+Tested: names for three cases (our pre-Steam test name, a name typed in game, and a second account with the same Steam name), the turret in game with the Engineer. Release TBA, nothing to download yet.
+
+---
 
 **The second combat item is done: what happens when you go down, and how you get back up.** - *2026-11-18 02:17 (UTC+0)*
 
@@ -61,12 +73,6 @@ Tested with two game clients: the invite notice showed up, the accept came throu
 Also new: the connection relay (how friends reach your world through Steam without any router setup) now carries the real game. On one PC we sent everything through Steam's own peer-to-peer network to ourselves: login, loading, the world and playing all ran through it with a perfect connection rating. What still needs a real friend is the internet path between two different homes.
 
 Not there yet: the squad list shows level 1 for everyone, and the game's kick/promote buttons are wired by best guess (the !squad commands work for sure). Release TBA, nothing to download yet.
-
----
-
-**Everyone who joins your world is now in your squad, and the game's own squad list shows it.** - *2026-11-18 01:23 (UTC+0)*
-
-Done: Squad/party mapped to Steam friends; in-game chat works between players
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -86,7 +92,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█████░░░░░░░░░░░░░░░` 24%** (32 of 138 roadmap items done) - last update 2026-11-18 02:17 (UTC+0)
+**Overall: `█████░░░░░░░░░░░░░░░` 24%** (32 of 138 roadmap items done) - last update 2026-11-18 02:43 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
