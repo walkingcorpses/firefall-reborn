@@ -94,7 +94,7 @@ Order = what makes the game feel alive soonest. See `CONTENT.md` for the full li
 
 ### 3A - Combat core
 - [x] Weapon fire, projectiles, hit detection, headshots, damage numbers, ammo/reload (`dbitems::Weapons`, 318 templates) _(done 2026-11-18 02:09 (UTC+0))_
-- [ ] Health, shields, death and respawn, resurrect by other players
+- [x] Health, shields, death and respawn, resurrect by other players _(done 2026-11-18 02:17 (UTC+0))_
 - [ ] Battleframe abilities: all 5 frames (Assault, Biotech, Dreadnaught, Engineer, Recon) incl. cooldowns/energy (`apt::*` defs)
 - [ ] Status effects, buffs/debuffs, damage types, resistances
 - [ ] Gliding and jetpack rules (energy, fall damage)
@@ -352,6 +352,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 02:17 (UTC+0): Done: Health, shields, death and respawn, resurrect by other players
 - 2026-11-18 02:09 (UTC+0): Done: Weapon fire, projectiles, hit detection, headshots, damage numbers, ammo/reload (dbitems::Weapons, 318 templates)
 - 2026-11-18 01:53 (UTC+0): Change to yesterday's squads: you now choose who is in your squad. Nobody joins automatically any more.
 

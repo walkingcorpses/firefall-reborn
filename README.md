@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_021710_1.jpg"><img src="images/progress/2026-11-18_021710_1.jpg" width="49%" alt="The second combat item is done: what happens when you go down, and how you get back up."></a>
   <a href="images/progress/2026-11-18_015311_2.jpg"><img src="images/progress/2026-11-18_015311_2.jpg" width="49%" alt="Squads are now by invitation + the game runs through the Steam relay"></a>
   <a href="images/progress/2026-11-18_015311_1.jpg"><img src="images/progress/2026-11-18_015311_1.jpg" width="49%" alt="Squads are now by invitation + the game runs through the Steam relay"></a>
   <a href="images/progress/2026-11-18_012332_1.jpg"><img src="images/progress/2026-11-18_012332_1.jpg" width="49%" alt="Everyone who joins your world is now in your squad, and the game&#x27;s own squad list shows it."></a>
-  <a href="images/progress/2026-11-17_235355_1.jpg"><img src="images/progress/2026-11-17_235355_1.jpg" width="49%" alt="Invite friends from inside your world"></a>
 </p>
+
+**The second combat item is done: what happens when you go down, and how you get back up.** - *2026-11-18 02:17 (UTC+0)*
+
+Done: Health, shields, death and respawn, resurrect by other players
+
+---
 
 **Squads are now by invitation + the game runs through the Steam relay** - *2026-11-18 01:53 (UTC+0)*
 
@@ -61,23 +67,6 @@ Not there yet: the squad list shows level 1 for everyone, and the game's kick/pr
 **Everyone who joins your world is now in your squad, and the game's own squad list shows it.** - *2026-11-18 01:23 (UTC+0)*
 
 Done: Squad/party mapped to Steam friends; in-game chat works between players
-
----
-
-**Invite friends from inside your world** - *2026-11-17 23:53 (UTC+0)*
-
-Inviting now happens where it makes sense: in your world, after you've started hosting.
-
-HOST A WORLD: pick FRIENDS CAN JOIN or INVITE ONLY, then START HOSTING. The window explains how inviting works, and no longer asks you to invite people before your world exists.
-
-Once you're in your world:
-- !friends lists your Steam friends who are online (those already in Firefall are marked).
-- !invite <name> sends that friend a normal Steam game invite straight away. Part of the name is enough. Accepting it starts their Firefall and joins you. In an invite-only world it also lets them in.
-- The Steam overlay's 'Invite to game' works too.
-
-Only the host can send invites, so a guest can't send invites from the host's Steam account.
-
-Tested: !friends listed the online friends from Steam, and !invite with a made-up name answered that no such friend is online (no real invites were sent during testing). Sending a real invite and joining through it is part of the upcoming two-PC session. Release TBA, nothing to download yet.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -97,14 +86,14 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█████░░░░░░░░░░░░░░░` 24%** (31 of 138 roadmap items done) - last update 2026-11-18 02:09 (UTC+0)
+**Overall: `█████░░░░░░░░░░░░░░░` 24%** (32 of 138 roadmap items done) - last update 2026-11-18 02:17 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
 | Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 32% | 2/11 |
-| Phase 3 - The game itself (server side, from the game's own data) | `░░░░░░░░░░░░` 3% | 1/38 |
+| Phase 3 - The game itself (server side, from the game's own data) | `█░░░░░░░░░░░` 5% | 2/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |

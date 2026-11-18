@@ -2,6 +2,22 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 02:17 (UTC+0)** - Done: Health, shields, death and respawn, resurrect by other players
+
+  ![The second combat item is done: what happens when you go down, and how you get back up.
+
+How it works now:
+- When your health hits zero you go down and bleed out, with the game's own bleedout screen and its timer. If nobody helps, you respawn after 20 seconds.
+- Respawn Now (R) brings you back at the spawn point straight away.
+- A friend can walk up and hold E for 3 seconds to revive you where you lie, with a quarter of your health.
+- New: Self Revive (G) works. It costs 250 Credits, stands you up where you fell with full health, and the Credits come off your wallet. If you can't afford it the button stays greyed out and Respawn Now still works.
+
+About shields: Firefall's battleframes in this version have no separate shield bar (the game sends 0), so protection comes from abilities and armour effects, which already reduce damage.
+
+Tested in game: down -> self revive took 250 of 400 Credits and stood the character up at full health; a second try with 150 left was refused and the bleedout screen stayed usable. Revives by a friend were tested earlier with two clients; the real hold-E prompt still needs the two-PC playtest.
+
+Note: Credits come from daily rewards, repeatable missions and events in the original game (not from kills), so you'll earn them once that part of the economy is in. Release TBA, nothing to download yet.](images/progress/2026-11-18_021710_1.jpg)
+
 - **2026-11-18 02:09 (UTC+0)** - Done: Weapon fire, projectiles, hit detection, headshots, damage numbers, ammo/reload (dbitems::Weapons, 318 templates)
 
 - **2026-11-18 01:53 (UTC+0)** - Change to yesterday's squads: you now choose who is in your squad. Nobody joins automatically any more.
