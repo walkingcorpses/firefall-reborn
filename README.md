@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_012332_1.jpg"><img src="images/progress/2026-11-18_012332_1.jpg" width="49%" alt="Everyone who joins your world is now in your squad, and the game&#x27;s own squad list shows it."></a>
   <a href="images/progress/2026-11-17_235355_1.jpg"><img src="images/progress/2026-11-17_235355_1.jpg" width="49%" alt="Invite friends from inside your world"></a>
   <a href="images/progress/2026-11-17_203308_1.jpg"><img src="images/progress/2026-11-17_203308_1.jpg" width="49%" alt="Host your world your way: friends or invite only"></a>
   <a href="images/progress/2026-11-17_202659_1.jpg"><img src="images/progress/2026-11-17_202659_1.jpg" width="49%" alt="Join from Steam, and a bigger JOIN window"></a>
-  <a href="images/progress/2026-11-17_192244_1.jpg"><img src="images/progress/2026-11-17_192244_1.jpg" width="49%" alt="New JOIN window, and two Phase 8 additions"></a>
 </p>
+
+**Everyone who joins your world is now in your squad, and the game's own squad list shows it.** - *2026-11-18 01:23 (UTC+0)*
+
+Done: Squad/party mapped to Steam friends; in-game chat works between players
+
+---
 
 **Invite friends from inside your world** - *2026-11-17 23:53 (UTC+0)*
 
@@ -82,22 +88,6 @@ Join from Steam itself: when you host a world, Steam now knows how to join you. 
 A bigger JOIN window: the friends window is now a large panel of its own, with room for seven friends, big names and a wide JOIN button on each row. Friends who are in Firefall but not hosting are marked '(playing)'. The screenshot uses sample names to show the layout.
 
 Also noted for squads: putting everyone in a world into one squad works on the server side, but the game's own squad list needs a part of the protocol nobody has documented yet, so that's next on the research list. Release TBA, nothing to download yet.
-
----
-
-**New JOIN window, and two Phase 8 additions** - *2026-11-17 19:22 (UTC+0)*
-
-Two changes to the start menu, and two new items on the roadmap.
-
-The JOIN window: the menu button is now simply called JOIN. Clicking it opens a window listing your Steam friends who are in Firefall right now, each with their own JOIN button. Friends who are hosting a world are listed first. If a friend is playing but not hosting, the window tells you to ask them to press HOST A WORLD. When nobody's online it says 'None of your friends are playing Firefall right now', as in the screenshot. BACK returns to the menu.
-
-Fixed: the game went straight into the world instead of stopping at the start menu. That came from our test automation, which left its 'skip the menu' switches in the game's settings file. They're removed, and the test script now always takes them back out.
-
-Added to Phase 8 (dedicated servers):
-- Connect by address: a box in the JOIN window where you type a dedicated server's address, with a CONNECT button. It needs safe login over the network on the server side first, which is why it comes with the dedicated servers.
-- Dedicated servers provide the full-detail textures: a server hands static.vtex0/1/2 (the three sharpest texture levels, 23 GB) to players who connect, like Red 5's servers streamed them, so you don't need the separate download.
-
-Release TBA, nothing to download yet.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -117,13 +107,13 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████░░░░░░░░░░░░░░░░` 22%** (29 of 138 roadmap items done) - last update 2026-11-18 01:22 (UTC+0)
+**Overall: `█████░░░░░░░░░░░░░░░` 23%** (30 of 138 roadmap items done) - last update 2026-11-18 01:23 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
-| Phase 2 - Steam: achievements, friends, invites | `███░░░░░░░░░` 23% | 1/11 |
+| Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 32% | 2/11 |
 | Phase 3 - The game itself (server side, from the game's own data) | `░░░░░░░░░░░░` 0% | 0/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |

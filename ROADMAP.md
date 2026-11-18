@@ -84,7 +84,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       callback so friends can connect. Verified through real Steam P2P loopback: 300 KB TCP byte-exact, UDP both services.
       Not yet verified: the actual cross-PC path (NAT punch/relay) and the game running through it
 - [x] Join a Friend menu lists friends hosting right now (2026-11-17: JOIN window lists friends playing Firefall, hosting ones first, a JOIN button each; the host-mode toggle is tracked under Friends and invites) _(done 2026-11-17 20:30 (UTC+0))_
-- [ ] Squad/party mapped to Steam friends; in-game chat works between players
+- [x] Squad/party mapped to Steam friends; in-game chat works between players _(done 2026-11-18 01:23 (UTC+0))_
 
 ## Phase 3 - The game itself (server side, from the game's own data)
 The client already ships all assets, maps, abilities and AI definitions; only the server brain is missing.
@@ -350,6 +350,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 01:23 (UTC+0): Done: Squad/party mapped to Steam friends; in-game chat works between players
 - 2026-11-18 01:22 (UTC+0): --help
 - 2026-11-17 23:53 (UTC+0): Invites from inside the world (!friends, !invite <name>, host only); HOST window = privacy + START.
 - 2026-11-17 20:33 (UTC+0): HOST window: friends can join / invite only, Steam invites to online friends, START HOSTING.

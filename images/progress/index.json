@@ -1,5 +1,11 @@
 [
  {
+  "file": "images/progress/2026-11-18_012332_1.jpg",
+  "caption": "Everyone who joins your world is now in your squad, and the game's own squad list shows it.",
+  "text": "Done: Squad/party mapped to Steam friends; in-game chat works between players",
+  "when": "2026-11-18 01:23 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-17_235355_1.jpg",
   "caption": "Invite friends from inside your world",
   "text": "Inviting now happens where it makes sense: in your world, after you've started hosting.\n\nHOST A WORLD: pick FRIENDS CAN JOIN or INVITE ONLY, then START HOSTING. The window explains how inviting works, and no longer asks you to invite people before your world exists.\n\nOnce you're in your world:\n- !friends lists your Steam friends who are online (those already in Firefall are marked).\n- !invite <name> sends that friend a normal Steam game invite straight away. Part of the name is enough. Accepting it starts their Firefall and joins you. In an invite-only world it also lets them in.\n- The Steam overlay's 'Invite to game' works too.\n\nOnly the host can send invites, so a guest can't send invites from the host's Steam account.\n\nTested: !friends listed the online friends from Steam, and !invite with a made-up name answered that no such friend is online (no real invites were sent during testing). Sending a real invite and joining through it is part of the upcoming two-PC session. Release TBA, nothing to download yet.",

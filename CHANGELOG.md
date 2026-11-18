@@ -2,6 +2,18 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 01:23 (UTC+0)** - Done: Squad/party mapped to Steam friends; in-game chat works between players
+
+  ![Everyone who joins your world is now in your squad, and the game's own squad list shows it.
+
+Top left of the HUD you now see your squad: every player in the world with their health bar, and a star next to the leader (the host, or whoever was there first). Squadmates get the green squad marker over their heads, so you can find each other. When a friend leaves, the list clears; when they come back, it fills again.
+
+How we got there: the old servers' squad system was never documented anywhere. We took the game client apart with Ghidra (a free reverse-engineering tool) and followed the code that builds the squad list back to the network message it reads, then made our server send that message the exact way the client expects.
+
+Tested with two game clients in one world: both lists showed both players with the right leader; leaving cleared it; rejoining brought it back. Chat between players already worked.
+
+Not there yet: the list shows level 1 for everyone, and the game's own invite / kick / promote buttons don't do anything yet (for now your squad = everyone in your world). Release TBA, nothing to download yet.](images/progress/2026-11-18_012332_1.jpg)
+
 - **2026-11-18 01:22 (UTC+0)** - --help
 
 - **2026-11-17 23:53 (UTC+0)** - Inviting now happens where it makes sense: in your world, after you've started hosting.
