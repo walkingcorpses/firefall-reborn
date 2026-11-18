@@ -352,6 +352,16 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 06:35 (UTC+0): More work on the battleframe abilities item (Assault, Biotech, Dreadnaught, Engineer, Recon).
+
+- All five ultimates (the abilities that need a full supercharge bar) now tested and working: Assault Shockwave (hit for 1051), Biotech Heroism (buffs), Dreadnaught Absorption Bomb (two hits of 1262), Engineer Anti-Personnel Turret (built, and it killed a creature), Recon Artillery Strike.
+- Artillery Strike works end to end: the beacon now lands on the ground where you aim (ability shots used to only 'land' on a creature), the beacon appears, and the strike pounds the area (our test dummy died to it); the beacon then goes away.
+- Healing Generator (Biotech) works: it's placed, then heals you while you stand near it, and disappears after its time is up.
+- These abilities work by putting their effects on the object they create (the beacon, the generator), which our server couldn't do before; that now works for any such ability.
+- Your energy bar now uses your battleframe's real numbers (300 to 500 energy, recharging 75 to 125 per second) instead of the same made-up values for everyone. Ability cooldowns already came from each ability's own recharge value.
+- Fixed: the Anti-Personnel Turret had 4 million health by mistake; deployables now get their real health.
+
+Still to do for this item: placing a Supply Station or Remote Explosive (needs a real click, which is on the playtest list), the Healing Generator healing friends standing near you (only the owner for now), and some ability steps that existed only on the original servers. Release TBA, nothing to download yet.
 - 2026-11-18 05:58 (UTC+0): Done: Gliding and jetpack rules (energy, fall damage)
 - 2026-11-18 05:48 (UTC+0): Done: Status effects, buffs/debuffs, damage types, resistances
 - 2026-11-18 04:58 (UTC+0): More work on the battleframe abilities after checking every ability on all five frames.
