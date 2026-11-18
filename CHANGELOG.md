@@ -2,6 +2,17 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-18 05:58 (UTC+0)** - Done: Gliding and jetpack rules (energy, fall damage)
+
+  ![Gliding works. Step onto a Glider Pad and it throws you into the air; you then glide with the game's own glider HUD until you touch the ground again.
+
+How it works, the Firefall way:
+- In Firefall you can't open a glider whenever you like: a Glider Pad (and its ~40 coloured variants) launches you and gives you the glider for that flight. Our server now reads each pad's trigger from the game data, so standing on one launches you (about 42 m/s in our test).
+- While you're airborne from a pad, gliding is allowed; once you land, it's switched off again.
+- The jetpack and its energy bar were already working (the game runs them itself with your battleframe's numbers), and fall damage was done earlier, so this roadmap item is complete.
+
+Tested in game: placed a Glider Pad under the character -> launched, glider HUD on, glided about 1.1 km over 88 seconds without any input, landed, glider switched off. Pads are placed with a calldown in the game; the item side of that comes with the inventory work. Release TBA, nothing to download yet.](images/progress/2026-11-18_055847_1.jpg)
+
 - **2026-11-18 05:48 (UTC+0)** - Done: Status effects, buffs/debuffs, damage types, resistances
 
 - **2026-11-18 04:58 (UTC+0)** - More work on the battleframe abilities after checking every ability on all five frames.

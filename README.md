@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-18_055847_1.jpg"><img src="images/progress/2026-11-18_055847_1.jpg" width="49%" alt="Gliding works. Step onto a Glider Pad and it throws you into the air; you then glide with the game&#x27;s own glider HUD until you touch the g..."></a>
   <a href="images/progress/2026-11-18_024349_2.jpg"><img src="images/progress/2026-11-18_024349_2.jpg" width="49%" alt="Your Steam name is your name in game + Engineer turrets build"></a>
   <a href="images/progress/2026-11-18_024349_1.jpg"><img src="images/progress/2026-11-18_024349_1.jpg" width="49%" alt="Your Steam name is your name in game + Engineer turrets build"></a>
   <a href="images/progress/2026-11-18_021710_1.jpg"><img src="images/progress/2026-11-18_021710_1.jpg" width="49%" alt="The second combat item is done: what happens when you go down, and how you get back up."></a>
-  <a href="images/progress/2026-11-18_015311_2.jpg"><img src="images/progress/2026-11-18_015311_2.jpg" width="49%" alt="Squads are now by invitation + the game runs through the Steam relay"></a>
 </p>
+
+**Gliding works. Step onto a Glider Pad and it throws you into the air; you then glide with the game's own glider HUD until you touch the g...** - *2026-11-18 05:58 (UTC+0)*
+
+Done: Gliding and jetpack rules (energy, fall damage)
+
+---
 
 **Your Steam name is your name in game + Engineer turrets build** - *2026-11-18 02:43 (UTC+0)*
 
@@ -55,24 +61,6 @@ Tested: names for three cases (our pre-Steam test name, a name typed in game, an
 **The second combat item is done: what happens when you go down, and how you get back up.** - *2026-11-18 02:17 (UTC+0)*
 
 Done: Health, shields, death and respawn, resurrect by other players
-
----
-
-**Squads are now by invitation + the game runs through the Steam relay** - *2026-11-18 01:53 (UTC+0)*
-
-Change to yesterday's squads: you now choose who is in your squad. Nobody joins automatically any more.
-
-How it works:
-- Invite with the game's own squad invite (or type !squad invite <name>). Your friend gets the game's own 'Squad Invitation' notice (press N to view) and can accept or decline it. Unanswered invites run out.
-- Once they accept, both of you see the squad list top left (leader marked with a star) and the squad marker over each other's heads.
-- !squad accept / !squad decline / !squad leave work as chat commands too; the leader can !squad kick <name> and hand over the lead with !squad lead <name>. Up to 5 per squad.
-- Squad chat now only reaches your squad. Leaving the world takes you out of the squad.
-
-Tested with two game clients: the invite notice showed up, the accept came through the game's own button path, both squad lists filled, and a kick cleared both. With nobody accepting, nobody joined.
-
-Also new: the connection relay (how friends reach your world through Steam without any router setup) now carries the real game. On one PC we sent everything through Steam's own peer-to-peer network to ourselves: login, loading, the world and playing all ran through it with a perfect connection rating. What still needs a real friend is the internet path between two different homes.
-
-Not there yet: the squad list shows level 1 for everyone, and the game's kick/promote buttons are wired by best guess (the !squad commands work for sure). Release TBA, nothing to download yet.
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -92,14 +80,14 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `█████░░░░░░░░░░░░░░░` 25%** (33 of 138 roadmap items done) - last update 2026-11-18 05:48 (UTC+0)
+**Overall: `█████░░░░░░░░░░░░░░░` 26%** (34 of 138 roadmap items done) - last update 2026-11-18 05:58 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
 | Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 32% | 2/11 |
-| Phase 3 - The game itself (server side, from the game's own data) | `█░░░░░░░░░░░` 8% | 3/38 |
+| Phase 3 - The game itself (server side, from the game's own data) | `█░░░░░░░░░░░` 11% | 4/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 10% | 1/10 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
