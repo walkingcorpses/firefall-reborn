@@ -352,6 +352,13 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-18 09:54 (UTC+0): We went through every ability in the recording of Red 5's live servers and compared it with what our server does.
+
+- Charge (Dreadnaught) now plays out like on the real servers: the charge goes through its three stages one after another, and while charging your turning is locked and gravity is off, exactly the values the live server sent. Before, only the first stage ran.
+- The general fix behind it: when an ability's effect ends and starts the next effect (many abilities work in stages like this), that next effect now really goes on your character. This helps a lot of abilities, not just Charge.
+- Adrenaline Rush, Incendiary Grenade, Energy Sword, Emergency Response and Healing Wave: the effects and timings follow the game's own data. The recording showed some effects lasting longer, but that turned out to be how the old server tidied up, not a different duration.
+
+Still open: two effects the live server added on top for Incendiary Grenade and Emergency Response come from server-side triggers the game files don't describe; we'll keep working on those. Release TBA, nothing to download yet.
 - 2026-11-18 07:21 (UTC+0): Big find for the abilities work. The community group The Melding Wars kept network recordings of the original live game servers, including a 44-minute play session from November 2016, close to the final version of Firefall. We built tools to read them, and for the first time we can see exactly what Red 5's own server did when someone used an ability - including the parts that were never in the game files.
 
 What it showed, and what we fixed with it:
