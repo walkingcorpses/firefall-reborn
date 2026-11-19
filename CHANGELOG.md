@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-19 00:54 (UTC+0)** - Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
+
 - **2026-11-18 23:57 (UTC+0)** - Started: All NPCs: 453 town/story characters (vendors, quest givers, ambient wanderers, guards) with interactions
 
   ![New Eden's towns are populated again. Copacabana, the watchtowers and the other spots the 2016 live-server recording passed through now have their people back: 329 Accord townsfolk (civilians at the bars and stalls, Accord soldiers, watchtower guards, officers, quest givers such as Spicy Al, Teobalde Palmeiro, Doctor Abrams, Luau Larry, the supply officers) stand exactly where the live servers had them, facing the way they faced, at their recorded level. 85 town fixtures are back too: Battleframe Stations and Garages, New You terminals, Molecular Printers, Marketplace terminals, Army and Accord terminals, glider pads, Teleportals, Codex entries, LGV rental. NPCs that could be talked to on the live servers offer E again (Lieutenant Draper still starts the first story mission). Also fixed on the way: entering a busy town could drop you out of the game (connection lost) - our server's packet resend was encoded wrong; measured the right encoding on the live recordings and fixed it. Not done yet: what each townsperson says when you talk to them, vendor stock (no recording ever opened a vendor, so the stock has to be rebuilt), the Red Bean Store, and other zones (only New Eden was recorded). Release date still TBA, nothing to download yet.](images/progress/2026-11-18_235721_1.jpg)

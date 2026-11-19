@@ -124,7 +124,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 ### 3D - NPCs and the world
 - [~] **All NPCs: 453 town/story characters** (vendors, quest givers, ambient wanderers, guards) with interactions _(started 2026-11-18 23:57 (UTC+0))_
 - [ ] Dialogue and voice: **39,261 dialogue script lines** wired to NPCs and missions; battle chatter
-- [ ] Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
+- [~] Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_
 - [ ] The 5 open-world zones: New Eden/Coral Forest, Sertao, Devil's Tusk (Diamond Head), plus hub/lab zones
 - [ ] Day/night and weather if the data supports it; ambient life
 
@@ -355,6 +355,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-19 00:54 (UTC+0): Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
 - 2026-11-18 23:57 (UTC+0): Started: All NPCs: 453 town/story characters (vendors, quest givers, ambient wanderers, guards) with interactions
 - 2026-11-18 23:07 (UTC+0): Vehicles: pressing E next to a bike now gets you in. Found in a playtest: after !vehicle 28 the Cobra Cycle stood there but E did nothing. Cause: when you look at something, the game asks the server what you can do with it, and the server never answered for vehicles, so no prompt appeared and E was ignored. Now an empty vehicle within 5 m answers with the 'get in' interaction: the bike gets the highlight outline, and E puts you in the driver seat with the vehicle HUD (speed, gear) and the driving tips (W/S accelerate/reverse, A/D steer, Space brake). Tested with !vehicle 28 on the test client (seat + HUD confirmed); the real E key press still needs a check in normal play. Still being worked on: the world map is black unless zoomed all the way out to the globe - found where the game draws it, fix in progress. Release date still TBA, nothing to download yet.
 - 2026-11-18 16:31 (UTC+0): The first step of the story campaign works.
