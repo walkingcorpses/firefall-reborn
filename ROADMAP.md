@@ -123,7 +123,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 
 ### 3D - NPCs and the world
 - [~] **All NPCs: 453 town/story characters** (vendors, quest givers, ambient wanderers, guards) with interactions _(started 2026-11-18 23:57 (UTC+0))_
-- [ ] Dialogue and voice: **39,261 dialogue script lines** wired to NPCs and missions; battle chatter
+- [~] Dialogue and voice: **39,261 dialogue script lines** wired to NPCs and missions; battle chatter _(started 2026-11-25 09:18 (UTC+0))_
 - [~] Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_
 - [ ] The 5 open-world zones: New Eden/Coral Forest, Sertao, Devil's Tusk (Diamond Head), plus hub/lab zones
 - [ ] Day/night and weather if the data supports it; ambient life
@@ -355,6 +355,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 09:18 (UTC+0): Started: Dialogue and voice: 39,261 dialogue script lines wired to NPCs and missions; battle chatter
 - 2026-11-25 09:04 (UTC+0): More shops: there are now four more places to spend Credits in New Eden, and buying works end to end.
 
 - Supply Officer Cross (Copacabana) and Supply Officer Booker: walk up and press E to open their shop. They sell field supplies: Personal Thumper I/II/III (500 / 1,500 / 4,000 Credits), Squad Thumper I/II (2,500 / 5,000), 1-Use Glider Pad (300), 1-Use Jump Pad (200), 1-Use Mobile Battleframe Station (800) and Recharging Ammo Pack (2,000).
