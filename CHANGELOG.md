@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 09:40 (UTC+0)** - Done: Server-side RB ledger per character (balance, history, anti-duplicate), shown in the existing wallet UI (rb_balance)
+
 - **2026-11-25 09:18 (UTC+0)** - Started: Dialogue and voice: 39,261 dialogue script lines wired to NPCs and missions; battle chatter
 
 - **2026-11-25 09:04 (UTC+0)** - More shops: there are now four more places to spend Credits in New Eden, and buying works end to end.

@@ -341,12 +341,12 @@ lists public servers so players can find them. Builds on Phase 4 (modes, join by
 ## Store and premium currency (recreated, earned not bought)
 The original store sold things for Red Beans (RB, the premium currency). We rebuild the whole store, but **there is no real
 money anywhere**: RB is a special currency **earned in game for free**.
-- [ ] Keep the original store, **Red Bean Store**, vendor token machines (loot boxes), cosmetics, New You items, warpaints,
-      boosts, extra character slots, name changes, VIP-style perks - all priced in RB
-- [ ] **Earning RB**: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements,
-      boss and raid first-clears, exploration finds (vistas, SIN imprints), event participation, level milestones
+- [~] Keep the original store, **Red Bean Store**, vendor token machines (loot boxes), cosmetics, New You items, warpaints,
+      boosts, extra character slots, name changes, VIP-style perks - all priced in RB _(started 2026-11-25 09:45 (UTC+0))_
+- [~] **Earning RB**: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements,
+      boss and raid first-clears, exploration finds (vistas, SIN imprints), event participation, level milestones _(started 2026-11-25 09:45 (UTC+0))_
 - [ ] Earn rates tuned so everything is reachable by playing (no grind walls); single player and multiplayer both earn
-- [ ] Server-side RB ledger per character (balance, history, anti-duplicate), shown in the existing wallet UI (`rb_balance`)
+- [x] Server-side RB ledger per character (balance, history, anti-duplicate), shown in the existing wallet UI (`rb_balance`) _(done 2026-11-25 09:40 (UTC+0))_
 - [ ] Rebuild the store web pages and `/ingame` store API so the in-game store panel works
 - [ ] "VIP" becomes a free earned perk track instead of a subscription
 - [ ] No payment code, no purchase flows, no account data collection
@@ -355,6 +355,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 09:40 (UTC+0): Done: Server-side RB ledger per character (balance, history, anti-duplicate), shown in the existing wallet UI (rb_balance)
 - 2026-11-25 09:18 (UTC+0): Started: Dialogue and voice: 39,261 dialogue script lines wired to NPCs and missions; battle chatter
 - 2026-11-25 09:04 (UTC+0): More shops: there are now four more places to spend Credits in New Eden, and buying works end to end.
 
