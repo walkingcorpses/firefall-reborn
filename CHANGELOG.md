@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 16:34 (UTC+0)** - Started: Progress counters for "do X n times" achievements (kill counts, thumper returns, 25 races, distances)
+
 - **2026-11-25 16:11 (UTC+0)** - Roadmap clean-up: progress figure corrected
 
 - **2026-11-25 16:11 (UTC+0)** - Roadmap clean-up: we went through every item and fixed the ones that were marked wrong. 15 things that are already partly working were still shown as not started. They now show as in progress:
