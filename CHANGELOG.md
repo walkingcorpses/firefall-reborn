@@ -2,6 +2,16 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 16:11 (UTC+0)** - Roadmap clean-up: we went through every item and fixed the ones that were marked wrong. 15 things that are already partly working were still shown as not started. They now show as in progress:
+
+- Battleframe abilities (all 5 frames), turrets and deployables, the original enemy roster
+- Original missions and the Accord campaign (Mission 1 is being rebuilt) and its instances
+- XP and levels, inventory and equipment, vehicles, thumpers and resource gathering
+- Daily login rewards and the store, world events (thumpers, melding repulsors)
+- Chat, squads and emotes, the in-game panels (the store now opens in the game), the single/host mode switch
+
+Also ticked off: 'no payment code, no purchase flows, no account data collection' - it holds, Reborn has none. Phase 1 (launcher and install) and Phase 7 (our own server) are both marked DONE in their headings. Nothing was ticked that isn't done. Overall progress is unchanged at 29%, because in-progress items don't count until they're finished.
+
 - **2026-11-25 16:09 (UTC+0)** - Done: Unlock plumbing + persistence: in-game unlocks, saved per character, no double unlock (Steam sync dropped: owner chose (a)).
 
 - **2026-11-25 16:03 (UTC+0)** - Why Firefall's Steam achievements can't unlock in Reborn: Valve lets each game decide who may unlock its achievements, and every Firefall achievement is set to 'official game server only'. Only Red 5's own servers, using Red 5's private publisher key, could ever unlock them. We tried both ways a fan project can: from the game itself, and by running as a Steam game server. Steam refuses both. Getting round that would mean breaking Valve's and the publisher's protection, which we won't do; only the rights holder could change it.

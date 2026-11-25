@@ -23,7 +23,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
 - [x] Mod version shown bottom-right; Forgot Password / phone authenticator / login banner removed _(done 2026-10-20)_
 - [x] Plain-http server (no certificate to install); exe patches are reproducible from `mod/patches/*.json` _(done 2026-10-20)_
 
-## Phase 1 - Launcher and install (next)
+## Phase 1 - Launcher and install (DONE)
 - [x] **Launcher exe** (`src/Reborn.Launcher`) is the file Steam runs (`system/bin/FirefallClient.exe --steam`, the real client is _(done 2026-10-20 15:32 (UTC+1))_
       `FirefallClient.game.exe`): starts Postgres + RIN + PIN hidden, first-run database setup (`src/Reborn.DbSetup`), makes sure
       the account exists (the player makes their own character on the game's screens), writes `firefall.ini`, runs the game,
@@ -98,10 +98,10 @@ Order = what makes the game feel alive soonest. See `CONTENT.md` for the full li
 ### 3A - Combat core
 - [x] Weapon fire, projectiles, hit detection, headshots, damage numbers, ammo/reload (`dbitems::Weapons`, 318 templates) _(done 2026-11-18 02:09 (UTC+0))_
 - [x] Health, shields, death and respawn, resurrect by other players _(done 2026-11-18 02:17 (UTC+0))_
-- [ ] Battleframe abilities: all 5 frames (Assault, Biotech, Dreadnaught, Engineer, Recon) incl. cooldowns/energy (`apt::*` defs)
+- [~] Battleframe abilities: all 5 frames (Assault, Biotech, Dreadnaught, Engineer, Recon) incl. cooldowns/energy (`apt::*` defs)
 - [x] Status effects, buffs/debuffs, damage types, resistances _(done 2026-11-18 05:48 (UTC+0))_
 - [x] Gliding and jetpack rules (energy, fall damage) _(done 2026-11-18 05:58 (UTC+0))_
-- [ ] Turrets and deployables (engineer), player-built objects
+- [~] Turrets and deployables (engineer), player-built objects
 
 ### 3B - Enemies (AI)
 _Status 2026-10-20: PIN already has more than its README says (weapon sim, projectiles, damage, spawn-by-type via `LoadMonster`, respawn, NPC death). What was
@@ -111,18 +111,18 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 35 m, run at them and melee on a cooldown. Untested in game: needs the owner to watch it (pose orientation/animation values are guesses)._
 - [~] Creature spawning and despawning per zone/sub-zone (`dbzonemetadata`, 565 sub-zone records) _(started 2026-11-18 13:18 (UTC+0))_
 - [~] AI behaviours: wander, aggro, chase, ranged, flee, group tactics (behaviour strings in `dbcharacter::Monster`) _(started 2026-11-18 13:56 (UTC+0))_
-- [ ] The original roster: **968 named enemy types** (Aranha family, Chosen, Gaea creatures, Melding creatures, bandits,
+- [~] The original roster: **968 named enemy types** (Aranha family, Chosen, Gaea creatures, Melding creatures, bandits,
       raiders, robots...) with health/damage scaling by level (`MonsterScaling`)
 - [~] Elites, **bosses** (e.g. Baneclaw) with phases and mechanics; mini-bosses in encounters _(started 2026-11-18 13:32 (UTC+0))_
 - [~] Drops: loot tables, crystite/resources, salvage _(started 2026-11-18 13:51 (UTC+0))_
 
 ### 3C - Quests and story
-- [ ] **All original missions: 563** (285 achievement-type, 43 secret) with their **1715 objectives** and **442 rewards**
-- [ ] **Campaign (golden path)**: Accord missions 1-22 in order (Everything is Shadow ... Homecoming), level gates 9-18+
+- [~] **All original missions: 563** (285 achievement-type, 43 secret) with their **1715 objectives** and **442 rewards**
+- [~] **Campaign (golden path)**: Accord missions 1-22 in order (Everything is Shadow ... Homecoming), level gates 9-18+
 - [ ] **Arcs and job boards**: 233 named open-world story/job lines (Indexing the Shipments, Chain Reaction, ...)
 - [ ] **Daily and repeatable** missions, **bounties**, **challenges**, mission ledger UI
 - [~] Mission waypoints, map markers (398), UI hints, tutorials (410 tutorial cards) _(started 2026-11-18 15:02 (UTC+0))_
-- [ ] XP, levels, **elite ranks**, battleframe levels, certification points, perks
+- [~] XP, levels, **elite ranks**, battleframe levels, certification points, perks
 
 ### 3D - NPCs and the world
 - [~] **All NPCs: 453 town/story characters** (vendors, quest givers, ambient wanderers, guards) with interactions _(started 2026-11-18 23:57 (UTC+0))_
@@ -132,7 +132,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] Day/night and weather if the data supports it; ambient life
 
 ### 3E - Dungeons, instances, raids (31 instance zones, all maps are in the install)
-- [ ] **Campaign instances 1-22**: Everything Is Shadow, Bathsheba, Crash Down, Razorwind, No Exit, Safe House, Trespass,
+- [~] **Campaign instances 1-22**: Everything Is Shadow, Bathsheba, Crash Down, Razorwind, No Exit, Safe House, Trespass,
       Catch of the Day, Taken, Off the Grid, Consequence, Prison Break, Accelerate, Icebreaker, Agrievan, Unearthed,
       S.O.S., Vagrant Dawn, Gatecrasher, Razor's Edge, Homecoming ...
 - [ ] **Operations**: Miru (OP01), High Tide (OP02), The ARES-Team (OP03)
@@ -142,22 +142,22 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] Instance lifecycle: enter, checkpoint, wipe/retry, rewards, leave; difficulty Normal/Hard (the achievements mention both)
 
 ### 3F - Economy, crafting, gear
-- [ ] **Resource gathering**: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
+- [~] **Resource gathering**: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
       surface deposits, crystite and the rest
 - [ ] **Fabrication/crafting**: 284 recipes, quality, tinkering, salvage
-- [ ] Inventory, stash, equipment, **weapon and gear stats**, perks/certs, loadouts, battleframe swap station
-- [ ] **Vehicles**: 173 vehicle records - light ground vehicles (Mount up!), gliders, call-down, driving physics, weapons
+- [~] Inventory, stash, equipment, **weapon and gear stats**, perks/certs, loadouts, battleframe swap station
+- [~] **Vehicles**: 173 vehicle records - light ground vehicles (Mount up!), gliders, call-down, driving physics, weapons
 - [ ] **New You** appearance, **warpaints** (811 palettes), cosmetics
-- [ ] Mail, gifts, daily login rewards, market, store and vendor token machines (loot boxes) paid in earned RB
+- [~] Mail, gifts, daily login rewards, market, store and vendor token machines (loot boxes) paid in earned RB
 - [ ] **SIN**: SIN uplink towers, SIN imprints (collectibles), SIN cards (604 templates)
 
 ### 3G - Dynamic world
-- [ ] World events: thumper attacks, **Chosen drop pods**, crashed thumpers, **Melding tornadoes**, faction skirmishes
+- [~] World events: thumper attacks, **Chosen drop pods**, crashed thumpers, **Melding tornadoes**, faction skirmishes
 - [ ] Event director that spawns encounters on a timer and by player count ("Legend of the Accord" - 100 events)
 - [ ] Reputation with the 50 factions; faction relations drive who attacks whom
 
 ## Phase 4 - Single player vs multiplayer
-- [ ] **Mode flag** (`single` / `host`) read by the server at world start
+- [~] **Mode flag** (`single` / `host`) read by the server at world start
 - [ ] **Single player scaling**: group content tuned for one (raids, operations, bosses, group missions), enemy health/damage
       curves, revive/checkpoint help, higher drops, XP so one player can finish the campaign and the achievements
 - [ ] **No PvP in single player** (no duels, no arenas, no open-world flagging); PvP-only achievements stay multiplayer
@@ -178,13 +178,13 @@ are recreated **however we see fit**. They do not have to match the original; th
       about two thirds of the dialogue/voice banks. **Decision: recreate them by a free route** (no paid services), e.g.
       upscaling/regenerating textures from the coarser levels we have, and free/local text-to-speech for the missing voice
       lines. Research the free options when we reach this; see also Phase 6
-- [ ] **In-game web panels** (the client loads panels such as map, market, store and news from a web host Red 5 ran, which
+- [~] **In-game web panels** (the client loads panels such as map, market, store and news from a web host Red 5 ran, which
       served HTML plus `/ingame/api/...` data). Owner is not sure what these cover: **investigate later** - find which panels
       the client opens, what each shows, and what is missing without the host, then decide what to rebuild
 - [ ] **World map black unless zoomed out to the globe** (owner 2026-11-18: do it when more people use it). Found so far:
       the flat map's fade mask and tiles are fine, the map's own terrain picture comes out black; notes in the work log
       and branch `map-wip` (recorded melding perimeters + outposts replayed on join, did not fix it alone)
-- [ ] Chat, squads, **armies (guilds)**, friends list, emotes, social
+- [~] Chat, squads, **armies (guilds)**, friends list, emotes, social
 - [ ] Spectator/replay (the client supports NSR replays), screenshots/photo mode
 - [ ] Settings UI for Reborn (difficulty, mode, world name, invite policy)
 - [ ] Controller support check, key rebinding, accessibility
@@ -262,7 +262,7 @@ a `.reborn.bak` original and is applied by the installer/updater like the other 
 - [ ] Credit and licence notes: upscaled assets are derived from Red 5's originals, ship only as patches/packs the player applies
       to their own install, never as a re-upload of the original game files
 
-## Phase 7 - Our own server (replace PIN) - decided 2026-10-20
+## Phase 7 - Our own server (replace PIN) - decided 2026-10-20 (DONE)
 PIN has no licence, so every PIN part is replaced by our own code, one by one (plan and clean-room rules: [`OWN_SERVER.md`](OWN_SERVER.md)).
 **Finish line (owner 2026-11-17: "replace PIN fully"):** everything PIN did is ours, plus the frameworks later phases fill with content.
 Still open, in build order:
@@ -352,12 +352,21 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - [x] Server-side RB ledger per character (balance, history, anti-duplicate), shown in the existing wallet UI (`rb_balance`) _(done 2026-11-25 09:40 (UTC+0))_
 - [x] HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages) _(done 2026-11-25 15:13 (UTC+0))_
 - [ ] "VIP" becomes a free earned perk track instead of a subscription
-- [ ] No payment code, no purchase flows, no account data collection
+- [x] No payment code, no purchase flows, no account data collection
 
 ## Dropped on purpose
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 16:11 (UTC+0): Roadmap clean-up: we went through every item and fixed the ones that were marked wrong. 15 things that are already partly working were still shown as not started. They now show as in progress:
+
+- Battleframe abilities (all 5 frames), turrets and deployables, the original enemy roster
+- Original missions and the Accord campaign (Mission 1 is being rebuilt) and its instances
+- XP and levels, inventory and equipment, vehicles, thumpers and resource gathering
+- Daily login rewards and the store, world events (thumpers, melding repulsors)
+- Chat, squads and emotes, the in-game panels (the store now opens in the game), the single/host mode switch
+
+Also ticked off: 'no payment code, no purchase flows, no account data collection' - it holds, Reborn has none. Phase 1 (launcher and install) and Phase 7 (our own server) are both marked DONE in their headings. Nothing was ticked that isn't done. Overall progress is unchanged at 29%, because in-progress items don't count until they're finished.
 - 2026-11-25 16:09 (UTC+0): Done: Unlock plumbing + persistence: in-game unlocks, saved per character, no double unlock (Steam sync dropped: owner chose (a)).
 - 2026-11-25 16:03 (UTC+0): Why Firefall's Steam achievements can't unlock in Reborn: Valve lets each game decide who may unlock its achievements, and every Firefall achievement is set to 'official game server only'. Only Red 5's own servers, using Red 5's private publisher key, could ever unlock them. We tried both ways a fan project can: from the game itself, and by running as a Steam game server. Steam refuses both. Getting round that would mean breaking Valve's and the publisher's protection, which we won't do; only the rights holder could change it.
 

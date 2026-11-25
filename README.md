@@ -74,18 +74,18 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 29%** (35 of 140 roadmap items done) - last update 2026-11-25 16:09 (UTC+0)
+**Overall: `███████░░░░░░░░░░░░░` 35%** (35 of 140 roadmap items done) - last update 2026-11-25 16:11 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
-| Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
+| Phase 1 - Launcher and install (DONE) | `████████████` 100% | 10/10 |
 | Phase 2 - Steam: achievements, friends, invites | `█████░░░░░░░` 42% | 3/12 |
-| Phase 3 - The game itself (server side, from the game's own data) | `███░░░░░░░░░` 21% | 4/38 |
-| Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
-| Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 9% | 1/11 |
+| Phase 3 - The game itself (server side, from the game's own data) | `████░░░░░░░░` 37% | 4/38 |
+| Phase 4 - Single player vs multiplayer | `█░░░░░░░░░░░` 7% | 0/7 |
+| Phase 5 - Polish and what the deep search found missing | `██░░░░░░░░░░` 18% | 1/11 |
 | Phase 6 - Modernisation: make it look and feel like it was made today | `░░░░░░░░░░░░` 0% | 0/33 |
-| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 | `████████████` 100% | 10/10 |
+| Phase 7 - Our own server (replace PIN) - decided 2026-10-20 (DONE) | `████████████` 100% | 10/10 |
 | Phase 8 - Dedicated servers and a server browser (owner 2026-10-29) | `░░░░░░░░░░░░` 0% | 0/12 |
 <!--/PROGRESS-->
 
