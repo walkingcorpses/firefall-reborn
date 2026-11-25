@@ -357,6 +357,11 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 16:03 (UTC+0): Why Firefall's Steam achievements can't unlock in Reborn: Valve lets each game decide who may unlock its achievements, and every Firefall achievement is set to 'official game server only'. Only Red 5's own servers, using Red 5's private publisher key, could ever unlock them. We tried both ways a fan project can: from the game itself, and by running as a Steam game server. Steam refuses both. Getting round that would mean breaking Valve's and the publisher's protection, which we won't do; only the rights holder could change it.
+
+So achievements now live inside the game, where Firefall always showed them: the Atlas Records panel. All 285 of the game's achievements are there (the 117 Steam ones included) with the game's own ACHIEVEMENT UNLOCKED! banner, and each one pays its Atlas Points in Red Beans, once per character. Your achievements and Atlas Points are saved on your character.
+
+The Steam thread title is updated to match: it now says 'achievements back in game' instead of 'all 117 achievements'. Release date still TBA, nothing to download yet.
 - 2026-11-25 15:54 (UTC+0): Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
 - 2026-11-25 15:35 (UTC+0): Started: Earning RB: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements,
 - 2026-11-25 15:27 (UTC+0): Started: Earning RB: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements,
