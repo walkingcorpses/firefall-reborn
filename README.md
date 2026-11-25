@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-25_155452_2.jpg"><img src="images/progress/2026-11-25_155452_2.jpg" width="49%" alt="Achievements work again, inside the game itself."></a>
+  <a href="images/progress/2026-11-25_155452_1.jpg"><img src="images/progress/2026-11-25_155452_1.jpg" width="49%" alt="Achievements work again, inside the game itself."></a>
   <a href="images/progress/2026-11-25_151337_1.jpg"><img src="images/progress/2026-11-25_151337_1.jpg" width="49%" alt="The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are."></a>
   <a href="images/progress/2026-11-25_094630_5.jpg"><img src="images/progress/2026-11-25_094630_5.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
-  <a href="images/progress/2026-11-25_094630_4.jpg"><img src="images/progress/2026-11-25_094630_4.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
-  <a href="images/progress/2026-11-25_094630_3.jpg"><img src="images/progress/2026-11-25_094630_3.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
 </p>
+
+**Achievements work again, inside the game itself.** - *2026-11-25 15:54 (UTC+0)*
+
+Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
+
+---
 
 **The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are.** - *2026-11-25 15:13 (UTC+0)*
 
@@ -68,13 +74,13 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 139 roadmap items done) - last update 2026-11-25 15:36 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 29%** (34 of 139 roadmap items done) - last update 2026-11-25 15:54 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
-| Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 32% | 2/11 |
+| Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 36% | 2/11 |
 | Phase 3 - The game itself (server side, from the game's own data) | `███░░░░░░░░░` 21% | 4/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 9% | 1/11 |

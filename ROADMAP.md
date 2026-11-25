@@ -48,7 +48,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       ships their code, otherwise rebuild that part ourselves. RIN, AeroMessages, FauFau, SDBrowser are MIT.
 
 ## Phase 2 - Steam: achievements, friends, invites
-- [ ] **Achievements must work.** The client never calls Steam stats (Red 5's servers unlocked them), so our own process
+- [~] **Achievements must work.** The client never calls Steam stats (Red 5's servers unlocked them), so our own process _(started 2026-11-25 15:54 (UTC+0))_
       calls `SteamUserStats` for app 227700. 117 achievements, API ids in `achievements.json`
   - [~] Unlock plumbing + persistence (progress counters, no double unlock, syncs to Steam).
         Built `SteamStats` in the launcher (loads the game's `steam_api64.dll`, reads all 117 achievements from the owner's account: works).
@@ -56,7 +56,9 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
         117 achievements in Steam's schema has `permission 2` and the stat type is ACHIEVEMENTS (bit fields 1-4), i.e. set only by
         Red 5's official game server through the Web API with their publisher key. Options: (a) track achievements ourselves in game
         (own unlock popups + per-account list, no Steam sync); (b) ask the rights holder for a way to unlock; (c) local-only emulation
-        of Steam stats. Owner to decide.
+        of Steam stats. **Owner decided 2026-11-25: (a)** - tracked by our server in the game's own Atlas Records panel
+        (the game's 285 achievements, the 117 Steam ones among them with the same ids), the game's own "Achievement unlocked"
+        pop-up, each unlock pays its Atlas points in Red Beans; no Steam sync.
         Re-tested with the real SDK 1.30 headers (slots confirmed): client `SetAchievement` false; also tried the Steam GAME SERVER route
         (`SteamGsStats.cs`: anonymous game server logs on fine, loads the user's stats, `SetUserAchievement` false). So it is not a wrong
         vtable slot: Steam refuses both. Not attempted on purpose: editing Steam's cached schema (appcache/stats) to flip `permission`,
@@ -355,6 +357,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 15:54 (UTC+0): Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
 - 2026-11-25 15:35 (UTC+0): Started: Earning RB: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements,
 - 2026-11-25 15:27 (UTC+0): Started: Earning RB: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements,
 - 2026-11-25 15:13 (UTC+0): Done: HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages)

@@ -2,6 +2,34 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 15:54 (UTC+0)** - Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
+
+  ![Achievements work again, inside the game itself.
+
+Steam only accepts achievement unlocks from Red 5's own game server, so a fan server can't unlock the Steam ones. Instead Reborn tracks achievements itself and shows them where Firefall always did: in the Atlas Records panel (Achievements in the system menu). All 285 of the game's achievements are there, including the 117 that were on Steam, with their real names, descriptions and Atlas Points.
+
+How it works:
+- When you earn one you get the game's own ACHIEVEMENT UNLOCKED! banner, a chat line, and the Atlas Records panel marks it Completed with the date.
+- Every achievement pays its Atlas Points in Red Beans (10 to 250 RB), once per character.
+- Your achievements and your Atlas Points total are kept on your character and come back every time you log in.
+
+Achievements that unlock today: Double Digits, Out of the Teens, Thirtysomething, Pushing Forty and Does it Every Time (battleframe levels 10 / 20 / 30 / 40 / 45) and It's Dangerous to go Alone (join a squad). More will follow as the parts of the game behind them are rebuilt: kill counts, thumper returns, vehicle call-downs, vistas, races and missions.
+
+Tested in the game: the banner appears on unlock, the panel shows the completed achievements and the right total (30 Atlas Points for three), and each one paid once. Not covered yet: the reward items some achievements list (Red Beans are paid instead for now) and nothing is sent to Steam. Release date still TBA, nothing to download yet.](images/progress/2026-11-25_155452_1.jpg)
+
+  ![Achievements work again, inside the game itself.
+
+Steam only accepts achievement unlocks from Red 5's own game server, so a fan server can't unlock the Steam ones. Instead Reborn tracks achievements itself and shows them where Firefall always did: in the Atlas Records panel (Achievements in the system menu). All 285 of the game's achievements are there, including the 117 that were on Steam, with their real names, descriptions and Atlas Points.
+
+How it works:
+- When you earn one you get the game's own ACHIEVEMENT UNLOCKED! banner, a chat line, and the Atlas Records panel marks it Completed with the date.
+- Every achievement pays its Atlas Points in Red Beans (10 to 250 RB), once per character.
+- Your achievements and your Atlas Points total are kept on your character and come back every time you log in.
+
+Achievements that unlock today: Double Digits, Out of the Teens, Thirtysomething, Pushing Forty and Does it Every Time (battleframe levels 10 / 20 / 30 / 40 / 45) and It's Dangerous to go Alone (join a squad). More will follow as the parts of the game behind them are rebuilt: kill counts, thumper returns, vehicle call-downs, vistas, races and missions.
+
+Tested in the game: the banner appears on unlock, the panel shows the completed achievements and the right total (30 Atlas Points for three), and each one paid once. Not covered yet: the reward items some achievements list (Red Beans are paid instead for now) and nothing is sent to Steam. Release date still TBA, nothing to download yet.](images/progress/2026-11-25_155452_2.jpg)
+
 - **2026-11-25 15:35 (UTC+0)** - Started: Earning RB: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements, _(started 2026-11-25 15:27 (UTC+0))_
 
 - **2026-11-25 15:27 (UTC+0)** - Started: Earning RB: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements,

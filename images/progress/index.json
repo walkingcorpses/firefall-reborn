@@ -1,5 +1,17 @@
 [
  {
+  "file": "images/progress/2026-11-25_155452_2.jpg",
+  "caption": "Achievements work again, inside the game itself.",
+  "text": "Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process",
+  "when": "2026-11-25 15:54 (UTC+0)"
+ },
+ {
+  "file": "images/progress/2026-11-25_155452_1.jpg",
+  "caption": "Achievements work again, inside the game itself.",
+  "text": "Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process",
+  "when": "2026-11-25 15:54 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-25_151337_1.jpg",
   "caption": "The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are.",
   "text": "Done: HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages)",
