@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 15:27 (UTC+0)** - Started: Earning RB: missions and campaign chapters, daily login rewards, dailies/bounties/challenges, achievements,
+
 - **2026-11-25 15:13 (UTC+0)** - Done: HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages)
 
   ![The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are. You no longer have to walk to the Starter Packs kiosks in New Eden.
