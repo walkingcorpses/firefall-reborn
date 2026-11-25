@@ -2,6 +2,15 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 09:04 (UTC+0)** - More shops: there are now four more places to spend Credits in New Eden, and buying works end to end.
+
+- Supply Officer Cross (Copacabana) and Supply Officer Booker: walk up and press E to open their shop. They sell field supplies: Personal Thumper I/II/III (500 / 1,500 / 4,000 Credits), Squad Thumper I/II (2,500 / 5,000), 1-Use Glider Pad (300), 1-Use Jump Pad (200), 1-Use Mobile Battleframe Station (800) and Recharging Ammo Pack (2,000).
+- Accord Quartermaster (by the Army Terminals in Copacabana): press E to open his shop. He sells Accord Supply Cache (1,000), Accord Emergency Glider (1,500), Ranger Supplies (750), Squad Thumper III (9,000), 1-Use Mobile Battleframe Station (800) and Recharging Ammo Pack (2,000).
+- LGV Rental Terminals (three in New Eden): 1-Use Cobra, Zephyr and Vapor LGVs (600-800), 1-Use Locust Chopper (2,500) and 1-day rentals of the Cobra K-12, Cheetah Model S and Locust (1,500-3,000).
+- Tested one purchase each at Luau Larry, Supply Officer Cross, the Accord Quartermaster and an LGV Rental Terminal: the Credits are taken, the item lands in your inventory and is still there after logging out. If you cannot afford something, the game refuses it before asking the server.
+
+The original stock lists were kept on Red 5's servers and no recording ever opened a shop, so these lists are ours, picked from the game's own items to fit each seller. Not done yet: checking that every bought item works when used (some calldowns and rentals may not yet), shops in the other zones, NPC greetings and the Red Bean Store. Release date still TBA, nothing to download yet.
+
 - **2026-11-25 09:04 (UTC+0)** - Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_
 
 - **2026-11-19 00:54 (UTC+0)** - Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")

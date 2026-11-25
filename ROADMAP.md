@@ -124,7 +124,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 ### 3D - NPCs and the world
 - [~] **All NPCs: 453 town/story characters** (vendors, quest givers, ambient wanderers, guards) with interactions _(started 2026-11-18 23:57 (UTC+0))_
 - [ ] Dialogue and voice: **39,261 dialogue script lines** wired to NPCs and missions; battle chatter
-- [~] Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_ _(started 2026-11-25 09:04 (UTC+0))_
+- [~] Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_
 - [ ] The 5 open-world zones: New Eden/Coral Forest, Sertao, Devil's Tusk (Diamond Head), plus hub/lab zones
 - [ ] Day/night and weather if the data supports it; ambient life
 
@@ -355,7 +355,14 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
-- 2026-11-25 09:04 (UTC+0): Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_
+- 2026-11-25 09:04 (UTC+0): More shops: there are now four more places to spend Credits in New Eden, and buying works end to end.
+
+- Supply Officer Cross (Copacabana) and Supply Officer Booker: walk up and press E to open their shop. They sell field supplies: Personal Thumper I/II/III (500 / 1,500 / 4,000 Credits), Squad Thumper I/II (2,500 / 5,000), 1-Use Glider Pad (300), 1-Use Jump Pad (200), 1-Use Mobile Battleframe Station (800) and Recharging Ammo Pack (2,000).
+- Accord Quartermaster (by the Army Terminals in Copacabana): press E to open his shop. He sells Accord Supply Cache (1,000), Accord Emergency Glider (1,500), Ranger Supplies (750), Squad Thumper III (9,000), 1-Use Mobile Battleframe Station (800) and Recharging Ammo Pack (2,000).
+- LGV Rental Terminals (three in New Eden): 1-Use Cobra, Zephyr and Vapor LGVs (600-800), 1-Use Locust Chopper (2,500) and 1-day rentals of the Cobra K-12, Cheetah Model S and Locust (1,500-3,000).
+- Tested one purchase each at Luau Larry, Supply Officer Cross, the Accord Quartermaster and an LGV Rental Terminal: the Credits are taken, the item lands in your inventory and is still there after logging out. If you cannot afford something, the game refuses it before asking the server.
+
+The original stock lists were kept on Red 5's servers and no recording ever opened a shop, so these lists are ours, picked from the game's own items to fit each seller. Not done yet: checking that every bought item works when used (some calldowns and rentals may not yet), shops in the other zones, NPC greetings and the Red Bean Store. Release date still TBA, nothing to download yet.
 - 2026-11-19 00:54 (UTC+0): Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
 - 2026-11-18 23:57 (UTC+0): Started: All NPCs: 453 town/story characters (vendors, quest givers, ambient wanderers, guards) with interactions
 - 2026-11-18 23:07 (UTC+0): Vehicles: pressing E next to a bike now gets you in. Found in a playtest: after !vehicle 28 the Cobra Cycle stood there but E did nothing. Cause: when you look at something, the game asks the server what you can do with it, and the server never answered for vehicles, so no prompt appeared and E was ignored. Now an empty vehicle within 5 m answers with the 'get in' interaction: the bike gets the highlight outline, and E puts you in the driver seat with the vehicle HUD (speed, gear) and the driving tips (W/S accelerate/reverse, A/D steer, Space brake). Tested with !vehicle 28 on the test client (seat + HUD confirmed); the real E key press still needs a check in normal play. Still being worked on: the world map is black unless zoomed all the way out to the globe - found where the game draws it, fix in progress. Release date still TBA, nothing to download yet.
