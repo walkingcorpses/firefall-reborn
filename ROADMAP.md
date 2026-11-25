@@ -147,6 +147,9 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] **Fabrication/crafting**: 284 recipes, quality, tinkering, salvage
 - [~] Inventory, stash, equipment, **weapon and gear stats**, perks/certs, loadouts, battleframe swap station
 - [~] **Vehicles**: 173 vehicle records - light ground vehicles (Mount up!), gliders, call-down, driving physics, weapons
+- [ ] **Vehicle and glider-pad rentals**: the shops' "Activate Rental" items (Cobra K-12, Cheetah, Locust; Crystalwing and
+      Angel Wings glider pads) run server-only steps (Subtype343) whose data is lost; need a garage/unlock list and a calldown
+- [ ] **Pets**: pet items (Boon Boon Tiki, Baby Red Panda, Ankylot, 9 Tailed Fox) run server-only steps (Subtype127/89): spawn a pet that follows you
 - [ ] **New You** appearance, **warpaints** (811 palettes), cosmetics
 - [~] Mail, gifts, daily login rewards, market, store and vendor token machines (loot boxes) paid in earned RB
 - [ ] **SIN**: SIN uplink towers, SIN imprints (collectibles), SIN cards (604 templates)
@@ -358,6 +361,17 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 16:56 (UTC+0): We checked every item the shops sell by buying and using each one in the game. 
+
+Fixed:
+- All 10 thumpers (Personal and Squad Thumper I-III, the Tiki thumpers) did nothing when used. They now call a thumper down in front of you and start the thumper fight: defend it while it digs, then collect the haul. For now every tier digs like the Accord Thumper.
+- The 4 one-use vehicles (1-Use Cobra, Zephyr, Vapor LGV, Locust Chopper) did nothing either. Now the vehicle appears in front of you - press E to drive. The first one unlocks the Test Drive achievement.
+
+Working as they should: Fireworks, King Cake, Jump Pad and Glider Pad, Mobile Battleframe Station, Accord Supply Cache, Ranger Supplies, XP and Reputation boosts, Emergency Glider, Celestial Wings and the Red Bean Medkit. The Recharging Ammo Pack only works when your ammo isn't full, as in the original, and isn't used up if it can't work.
+
+Taken out of the shops for now: the 8 'Activate Rental' items (vehicles and glider pads) and the 4 pets. In the original they needed parts of Red 5's servers that are lost (a garage for rented vehicles, pets that follow you), so using them did nothing - we won't sell something that doesn't work. They come back once those parts are rebuilt (both are on the roadmap now). The Red Bean Store has 10 items until then.
+
+Tested in the game: a Personal Thumper I started the thumper fight, a 1-Use Cobra LGV put a Cobra XLR in front of the player, each was used up once, and the store now lists 10 items. Release date still TBA, nothing to download yet.
 - 2026-11-25 16:40 (UTC+0): Started: Progress counters for "do X n times" achievements (kill counts, thumper returns, 25 races, distances)
 - 2026-11-25 16:34 (UTC+0): Started: Progress counters for "do X n times" achievements (kill counts, thumper returns, 25 races, distances)
 - 2026-11-25 16:11 (UTC+0): Roadmap clean-up: we went through every item and fixed the ones that were marked wrong. 15 things that are already partly working were still shown as not started. They now show as in progress:
