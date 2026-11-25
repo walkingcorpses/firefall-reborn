@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 16:11 (UTC+0)** - Roadmap clean-up: progress figure corrected
+
 - **2026-11-25 16:11 (UTC+0)** - Roadmap clean-up: we went through every item and fixed the ones that were marked wrong. 15 things that are already partly working were still shown as not started. They now show as in progress:
 
 - Battleframe abilities (all 5 frames), turrets and deployables, the original enemy roster
