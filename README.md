@@ -25,7 +25,7 @@ whole world on your PC, so the game starts again and keeps working.
 - **Host a World / Join a Friend.** Invite Steam friends and play together, with no router setup. Multiplayer is harder and has PvP.
 - **Everything Firefall had, rebuilt:** the campaign, hundreds of missions and world events, the original creatures, bosses and NPCs,
   operations, raids and dungeons, crafting, thumpers, vehicles, battleframes and abilities.
-- **Steam achievements that really unlock.** All 117 of them.
+- **Achievements are back.** All of the game's achievements (the 117 Steam ones included) in the in-game Atlas Records panel, with the game's own unlock banner, each paying its Atlas Points in Red Beans. Steam itself only accepts unlocks from Red 5's servers, so they are not synced to Steam.
 - **A free in-game currency.** The old premium store comes back, paid for with Red Beans you **earn by playing**. No real money, ever.
 - **One installer.** It finds your Firefall folder, installs everything and keeps itself updated.
 - **A modern look (later).** Upscaled textures, a refreshed UI and modern render settings, so it looks like it was made today.
