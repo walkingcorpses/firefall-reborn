@@ -74,13 +74,13 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 29%** (34 of 139 roadmap items done) - last update 2026-11-25 16:05 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 29%** (35 of 140 roadmap items done) - last update 2026-11-25 16:09 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
 | Phase 0 - Make it run (DONE) | `████████████` 100% | 7/7 |
 | Phase 1 - Launcher and install (next) | `████████████` 100% | 10/10 |
-| Phase 2 - Steam: achievements, friends, invites | `████░░░░░░░░` 36% | 2/11 |
+| Phase 2 - Steam: achievements, friends, invites | `█████░░░░░░░` 42% | 3/12 |
 | Phase 3 - The game itself (server side, from the game's own data) | `███░░░░░░░░░` 21% | 4/38 |
 | Phase 4 - Single player vs multiplayer | `░░░░░░░░░░░░` 0% | 0/7 |
 | Phase 5 - Polish and what the deep search found missing | `█░░░░░░░░░░░` 9% | 1/11 |

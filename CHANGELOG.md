@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 16:09 (UTC+0)** - Done: Unlock plumbing + persistence: in-game unlocks, saved per character, no double unlock (Steam sync dropped: owner chose (a)).
+
 - **2026-11-25 16:03 (UTC+0)** - Why Firefall's Steam achievements can't unlock in Reborn: Valve lets each game decide who may unlock its achievements, and every Firefall achievement is set to 'official game server only'. Only Red 5's own servers, using Red 5's private publisher key, could ever unlock them. We tried both ways a fan project can: from the game itself, and by running as a Steam game server. Steam refuses both. Getting round that would mean breaking Valve's and the publisher's protection, which we won't do; only the rights holder could change it.
 
 So achievements now live inside the game, where Firefall always showed them: the Atlas Records panel. All 285 of the game's achievements are there (the 117 Steam ones included) with the game's own ACHIEVEMENT UNLOCKED! banner, and each one pays its Atlas Points in Red Beans, once per character. Your achievements and Atlas Points are saved on your character.

@@ -50,7 +50,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
 ## Phase 2 - Steam: achievements, friends, invites
 - [~] **Achievements must work.** The client never calls Steam stats (Red 5's servers unlocked them), so our own process _(started 2026-11-25 15:54 (UTC+0))_
       calls `SteamUserStats` for app 227700. 117 achievements, API ids in `achievements.json`
-  - [~] Unlock plumbing + persistence (progress counters, no double unlock, syncs to Steam).
+  - [x] Unlock plumbing + persistence: in-game unlocks, saved per character, no double unlock (Steam sync dropped: owner chose (a)). _(done 2026-11-25 16:09 (UTC+0))_
         Built `SteamStats` in the launcher (loads the game's `steam_api64.dll`, reads all 117 achievements from the owner's account: works).
         **BLOCKER (2026-10-20): Steam refuses to unlock them from our side.** `SetAchievement`/`SetStat` do nothing: every one of the
         117 achievements in Steam's schema has `permission 2` and the stat type is ACHIEVEMENTS (bit fields 1-4), i.e. set only by
@@ -64,7 +64,8 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
         vtable slot: Steam refuses both. Not attempted on purpose: editing Steam's cached schema (appcache/stats) to flip `permission`,
         because that bypasses the publisher's access control and Steam validates server-side anyway
   - [ ] Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand")
-  - [ ] Progression ones (frame levels 10/20/30..., join a squad, vehicle summons, thumper returns)
+  - [ ] Progress counters for "do X n times" achievements (kill counts, thumper returns, 25 races, distances)
+  - [~] Progression ones (frame levels 10/20/30..., join a squad, vehicle summons, thumper returns): frame levels 10-45 and join a squad unlock
   - [ ] Kill-count ones (Chosen, Aranha, Gaea, Melding, Threshers, Hissers, Claws...) once combat exists
   - [ ] Mission/arc ones (campaign missions, world events)
   - [ ] PvP ones (executions, duels) - multiplayer only
@@ -357,6 +358,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 16:09 (UTC+0): Done: Unlock plumbing + persistence: in-game unlocks, saved per character, no double unlock (Steam sync dropped: owner chose (a)).
 - 2026-11-25 16:03 (UTC+0): Why Firefall's Steam achievements can't unlock in Reborn: Valve lets each game decide who may unlock its achievements, and every Firefall achievement is set to 'official game server only'. Only Red 5's own servers, using Red 5's private publisher key, could ever unlock them. We tried both ways a fan project can: from the game itself, and by running as a Steam game server. Steam refuses both. Getting round that would mean breaking Valve's and the publisher's protection, which we won't do; only the rights holder could change it.
 
 So achievements now live inside the game, where Firefall always showed them: the Atlas Records panel. All 285 of the game's achievements are there (the 117 Steam ones included) with the game's own ACHIEVEMENT UNLOCKED! banner, and each one pays its Atlas Points in Red Beans, once per character. Your achievements and Atlas Points are saved on your character.
