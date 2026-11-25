@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 09:04 (UTC+0)** - Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_
+
 - **2026-11-19 00:54 (UTC+0)** - Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
 
 - **2026-11-18 23:57 (UTC+0)** - Started: All NPCs: 453 town/story characters (vendors, quest givers, ambient wanderers, guards) with interactions
