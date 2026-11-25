@@ -355,6 +355,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 09:46 (UTC+0): The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thumpers, glider and jump pads, Mobile Battleframe Station), the Accord Quartermaster (Ranger Supplies, Accord Supply Cache, Squad Thumper III, Emergency Glider), an LGV Rental Terminal (1-use LGVs, Locust Chopper, 1-day rentals) - all priced in Credits - and the Red Bean Store at the Starter Packs kiosks, priced in Red Beans (shown as Red Bean Reward Tokens; RB is earned by playing, 100 a day for logging in for now).
 - 2026-11-25 09:40 (UTC+0): Done: Server-side RB ledger per character (balance, history, anti-duplicate), shown in the existing wallet UI (rb_balance)
 - 2026-11-25 09:18 (UTC+0): Started: Dialogue and voice: 39,261 dialogue script lines wired to NPCs and missions; battle chatter
 - 2026-11-25 09:04 (UTC+0): More shops: there are now four more places to spend Credits in New Eden, and buying works end to end.

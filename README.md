@@ -34,33 +34,15 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
-  <a href="images/progress/2026-11-18_235721_1.jpg"><img src="images/progress/2026-11-18_235721_1.jpg" width="49%" alt="New Eden&#x27;s towns are populated again."></a>
-  <a href="images/progress/2026-11-18_230703_2.jpg"><img src="images/progress/2026-11-18_230703_2.jpg" width="49%" alt="Bikes: E now gets you in"></a>
-  <a href="images/progress/2026-11-18_230703_1.jpg"><img src="images/progress/2026-11-18_230703_1.jpg" width="49%" alt="Bikes: E now gets you in"></a>
-  <a href="images/progress/2026-11-18_163150_1.jpg"><img src="images/progress/2026-11-18_163150_1.jpg" width="49%" alt="Story Mission 1 starts: talk to Lieutenant Draper"></a>
+  <a href="images/progress/2026-11-25_094630_5.jpg"><img src="images/progress/2026-11-25_094630_5.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
+  <a href="images/progress/2026-11-25_094630_4.jpg"><img src="images/progress/2026-11-25_094630_4.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
+  <a href="images/progress/2026-11-25_094630_3.jpg"><img src="images/progress/2026-11-25_094630_3.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
+  <a href="images/progress/2026-11-25_094630_2.jpg"><img src="images/progress/2026-11-25_094630_2.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
 </p>
 
-**New Eden's towns are populated again.** - *2026-11-18 23:57 (UTC+0)*
+**The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu...** - *2026-11-25 09:46 (UTC+0)*
 
-Started: All NPCs: 453 town/story characters (vendors, quest givers, ambient wanderers, guards) with interactions
-
----
-
-**Bikes: E now gets you in** - *2026-11-18 23:07 (UTC+0)*
-
-Vehicles: pressing E next to a bike now gets you in. Found in a playtest: after !vehicle 28 the Cobra Cycle stood there but E did nothing. Cause: when you look at something, the game asks the server what you can do with it, and the server never answered for vehicles, so no prompt appeared and E was ignored. Now an empty vehicle within 5 m answers with the 'get in' interaction: the bike gets the highlight outline, and E puts you in the driver seat with the vehicle HUD (speed, gear) and the driving tips (W/S accelerate/reverse, A/D steer, Space brake). Tested with !vehicle 28 on the test client (seat + HUD confirmed); the real E key press still needs a check in normal play. Still being worked on: the world map is black unless zoomed all the way out to the globe - found where the game draws it, fix in progress. Release date still TBA, nothing to download yet.
-
----
-
-**Story Mission 1 starts: talk to Lieutenant Draper** - *2026-11-18 16:31 (UTC+0)*
-
-The first step of the story campaign works.
-
-Lieutenant Draper is back in Copacabana, standing where he stood on the live servers (taken from the recording). Walk up to him, look at him and press E to talk. He gives his original voiced briefing, with his portrait and subtitles ('Captain Fuller has returned to the WARCOM facility, and needs your help.'), and Accord Mission: Everything is Shadow starts in your mission tracker with the next objective, 'Use Glider to Travel to WARCOM'.
-
-The objective texts are the game's own, read from its mission data.
-
-Not there yet: mission progress isn't saved between sessions, and the next part (gliding to WARCOM and the mission inside) is what we're rebuilding next. Release TBA, nothing to download yet.
+The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thumpers, glider and jump pads, Mobile Battleframe Station), the Accord Quartermaster (Ranger Supplies, Accord Supply Cache, Squad Thumper III, Emergency Glider), an LGV Rental Terminal (1-use LGVs, Locust Chopper, 1-day rentals) - all priced in Credits - and the Red Bean Store at the Starter Packs kiosks, priced in Red Beans (shown as Red Bean Reward Tokens; RB is earned by playing, 100 a day for logging in for now).
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -80,7 +62,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 139 roadmap items done) - last update 2026-11-25 09:40 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 139 roadmap items done) - last update 2026-11-25 09:46 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
