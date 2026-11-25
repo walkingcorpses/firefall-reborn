@@ -2,6 +2,14 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-25 15:13 (UTC+0)** - Done: HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages)
+
+  ![The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are. You no longer have to walk to the Starter Packs kiosks in New Eden.
+
+How it works: in the live game that icon opened Red 5's web store, and those pages are gone, so the click did nothing. The icon now opens the game's own shop panel on the Red Bean Store stock: the same 18 items as the kiosks (XP and reputation boosts, Celestial Wings, 7-day LGV rentals and more), priced in Red Beans. Your balance shows at the bottom of the panel. The store link on the Dashboard opens it too.
+
+Tested in the game: the icon click opened the panel and the server sent all 18 items. Red Beans are still earned only by playing (100 a day for logging in for now). Next: more ways to earn Red Beans (level milestones, missions, achievements, events).](images/progress/2026-11-25_151337_1.jpg)
+
 - **2026-11-25 09:46 (UTC+0)** - The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thumpers, glider and jump pads, Mobile Battleframe Station), the Accord Quartermaster (Ranger Supplies, Accord Supply Cache, Squad Thumper III, Emergency Glider), an LGV Rental Terminal (1-use LGVs, Locust Chopper, 1-day rentals) - all priced in Credits - and the Red Bean Store at the Starter Packs kiosks, priced in Red Beans (shown as Red Bean Reward Tokens; RB is earned by playing, 100 a day for logging in for now).
 
   ![The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thumpers, glider and jump pads, Mobile Battleframe Station), the Accord Quartermaster (Ranger Supplies, Accord Supply Cache, Squad Thumper III, Emergency Glider), an LGV Rental Terminal (1-use LGVs, Locust Chopper, 1-day rentals) - all priced in Credits - and the Red Bean Store at the Starter Packs kiosks, priced in Red Beans (shown as Red Bean Reward Tokens; RB is earned by playing, 100 a day for logging in for now).](images/progress/2026-11-25_094630_1.jpg)

@@ -347,7 +347,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
       boss and raid first-clears, exploration finds (vistas, SIN imprints), event participation, level milestones _(started 2026-11-25 09:45 (UTC+0))_
 - [ ] Earn rates tuned so everything is reachable by playing (no grind walls); single player and multiplayer both earn
 - [x] Server-side RB ledger per character (balance, history, anti-duplicate), shown in the existing wallet UI (`rb_balance`) _(done 2026-11-25 09:40 (UTC+0))_
-- [ ] Rebuild the store web pages and `/ingame` store API so the in-game store panel works
+- [x] HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages) _(done 2026-11-25 15:13 (UTC+0))_
 - [ ] "VIP" becomes a free earned perk track instead of a subscription
 - [ ] No payment code, no purchase flows, no account data collection
 
@@ -355,6 +355,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-25 15:13 (UTC+0): Done: HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages)
 - 2026-11-25 09:46 (UTC+0): The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thumpers, glider and jump pads, Mobile Battleframe Station), the Accord Quartermaster (Ranger Supplies, Accord Supply Cache, Squad Thumper III, Emergency Glider), an LGV Rental Terminal (1-use LGVs, Locust Chopper, 1-day rentals) - all priced in Credits - and the Red Bean Store at the Starter Packs kiosks, priced in Red Beans (shown as Red Bean Reward Tokens; RB is earned by playing, 100 a day for logging in for now).
 - 2026-11-25 09:40 (UTC+0): Done: Server-side RB ledger per character (balance, history, anti-duplicate), shown in the existing wallet UI (rb_balance)
 - 2026-11-25 09:18 (UTC+0): Started: Dialogue and voice: 39,261 dialogue script lines wired to NPCs and missions; battle chatter

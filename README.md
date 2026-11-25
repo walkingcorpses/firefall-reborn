@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-25_151337_1.jpg"><img src="images/progress/2026-11-25_151337_1.jpg" width="49%" alt="The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are."></a>
   <a href="images/progress/2026-11-25_094630_5.jpg"><img src="images/progress/2026-11-25_094630_5.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
   <a href="images/progress/2026-11-25_094630_4.jpg"><img src="images/progress/2026-11-25_094630_4.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
   <a href="images/progress/2026-11-25_094630_3.jpg"><img src="images/progress/2026-11-25_094630_3.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
-  <a href="images/progress/2026-11-25_094630_2.jpg"><img src="images/progress/2026-11-25_094630_2.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
 </p>
+
+**The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are.** - *2026-11-25 15:13 (UTC+0)*
+
+Done: HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages)
+
+---
 
 **The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu...** - *2026-11-25 09:46 (UTC+0)*
 
@@ -62,7 +68,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 139 roadmap items done) - last update 2026-11-25 09:46 (UTC+0)
+**Overall: `██████░░░░░░░░░░░░░░` 28%** (34 of 139 roadmap items done) - last update 2026-11-25 15:13 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
