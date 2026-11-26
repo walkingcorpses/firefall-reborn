@@ -158,8 +158,12 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] **Fabrication/crafting**: 284 recipes, quality, tinkering, salvage
 - [~] Inventory, stash, equipment, **weapon and gear stats**, perks/certs, loadouts, battleframe swap station
 - [~] **Vehicles**: 173 vehicle records - light ground vehicles (Mount up!), gliders, call-down, driving physics, weapons
-- [ ] **Vehicle and glider-pad rentals**: the shops' "Activate Rental" items (Cobra K-12, Cheetah, Locust; Crystalwing and
+- [x] **Vehicle and glider-pad rentals**: the shops' "Activate Rental" items (Cobra K-12, Cheetah, Locust; Crystalwing and _(done 2026-11-26 04:00 (UTC+0))_
       Angel Wings glider pads) run server-only steps (Subtype343) whose data is lost; need a garage/unlock list and a calldown
+      Done 2026-11-26: Subtype343 gives the rented item (Rental Cheetah Model S, Rental Locust LGV, Cobra K-12 LGV, Crystalwing /
+      Angel Wings Glider Pad) for the days in the activator's name (renting again adds time); those are the game's own reusable
+      call-downs, so they work as they are; once the time is up, using it takes it away. Reusable items (permanent and rental
+      LGVs, glider pads, Reusable Sonic Detonator) are no longer used up. Mount up! unlocks. The 8 items are back in the shops.
 - [ ] **Pets**: pet items (Boon Boon Tiki, Baby Red Panda, Ankylot, 9 Tailed Fox) run server-only steps (Subtype127/89): spawn a pet that follows you
 - [ ] **New You** appearance, **warpaints** (811 palettes), cosmetics
 - [~] Mail, gifts, daily login rewards, market, store and vendor token machines (loot boxes) paid in earned RB
@@ -175,7 +179,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
       682-686, 692-696, 823 and Lost Lore 644-647/746 (named creatures/props not placed); glider challenges 648-651, 673-681
       (no courses); (thumper and Sonic Detonator ones hooked 2026-11-26); supply
       canisters/chests 634/691-708; world-event kinds 268/278/381-385/670/689 (tornadoes, drop pods, watchtowers,
-      crashed LGVs); elite ranks 906-916; MGV/permanent LGV 538/541/1016 (rentals garage); dance with Ratchet/Cognac 185/516
+      crashed LGVs); elite ranks 906-916; MGV 541/1016 (no MGV item sold yet; Mount up! 538 hooked 2026-11-26); dance with Ratchet/Cognac 185/516
       (NPCs not placed); dungeons/operations/raid 449-451/509-514/558-565/717-724/841-848/917/1011-1019/1193-1205; holiday
       events 520/592-615/624/626/630/653/660/726-733/745/752/771-808/816; PvP duels 225/226; one-offs 302/304/343/589/605/852/811
 
@@ -381,6 +385,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 04:00 (UTC+0): Done: Vehicle and glider-pad rentals: the shops' "Activate Rental" items (Cobra K-12, Cheetah, Locust; Crystalwing and
 - 2026-11-26 03:53 (UTC+0): Done: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
 - 2026-11-26 03:29 (UTC+0): Started: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
 - 2026-11-26 03:19 (UTC+0): Started: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),

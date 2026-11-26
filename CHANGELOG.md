@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 04:00 (UTC+0)** - Done: Vehicle and glider-pad rentals: the shops' "Activate Rental" items (Cobra K-12, Cheetah, Locust; Crystalwing and
+
 - **2026-11-26 03:53 (UTC+0)** - Done: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
 
 - **2026-11-26 03:29 (UTC+0)** - Started: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
