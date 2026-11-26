@@ -128,6 +128,9 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [~] **All NPCs: 453 town/story characters** (vendors, quest givers, ambient wanderers, guards) with interactions _(started 2026-11-18 23:57 (UTC+0))_
 - [~] Dialogue and voice: **39,261 dialogue script lines** wired to NPCs and missions; battle chatter _(started 2026-11-25 09:18 (UTC+0))_
 - [~] Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_
+      2026-11-26: Crusaders started - Campaign Tokens are earned (1 per mission per day) and Corporal Belle (Copacabana) sells
+      Power Matrix for them; vendors can price in any item. Left: Liu's level-40 weapons (need gear grants), Bloom's modules
+      (Module Parts have no source yet), shops in other zones
 - [ ] The 5 open-world zones: New Eden/Coral Forest, Sertao, Devil's Tusk (Diamond Head), plus hub/lab zones
 - [ ] Day/night and weather if the data supports it; ambient life
 
@@ -164,7 +167,10 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
       Angel Wings Glider Pad) for the days in the activator's name (renting again adds time); those are the game's own reusable
       call-downs, so they work as they are; once the time is up, using it takes it away. Reusable items (permanent and rental
       LGVs, glider pads, Reusable Sonic Detonator) are no longer used up. Mount up! unlocks. The 8 items are back in the shops.
-- [ ] **Pets**: pet items (Boon Boon Tiki, Baby Red Panda, Ankylot, 9 Tailed Fox) run server-only steps (Subtype127/89): spawn a pet that follows you
+- [x] **Pets**: pet items (Boon Boon Tiki, Baby Red Panda, Ankylot, 9 Tailed Fox) run server-only steps (Subtype127/89): spawn a pet that follows you _(done 2026-11-26 06:14 (UTC+0))_
+      Done 2026-11-26: the item calls its creature from the game data (Boon Boon, Baby Red Panda, Pet Ankylot, 9 Tailed Fox) on
+      your side; it runs after you and catches up; using it again sends it home, another pet item swaps it; the item is kept.
+      The 4 pet items are back in the shops. Pets do not fight yet
 - [ ] **New You** appearance, **warpaints** (811 palettes), cosmetics
 - [~] Mail, gifts, daily login rewards, market, store and vendor token machines (loot boxes) paid in earned RB
 - [ ] **SIN**: SIN uplink towers, SIN imprints (collectibles), SIN cards (604 templates)
@@ -385,6 +391,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 06:14 (UTC+0): Done: Pets: pet items (Boon Boon Tiki, Baby Red Panda, Ankylot, 9 Tailed Fox) run server-only steps (Subtype127/89): spawn a pet that follows you
 - 2026-11-26 04:00 (UTC+0): Done: Vehicle and glider-pad rentals: the shops' "Activate Rental" items (Cobra K-12, Cheetah, Locust; Crystalwing and
 - 2026-11-26 03:53 (UTC+0): Done: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
 - 2026-11-26 03:29 (UTC+0): Started: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
