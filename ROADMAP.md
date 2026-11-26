@@ -142,13 +142,16 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] Instance lifecycle: enter, checkpoint, wipe/retry, rewards, leave; difficulty Normal/Hard (the achievements mention both)
 
 ### 3F - Economy, crafting, gear
-- [~] **Resource gathering**: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones), _(started 2026-11-26 03:19 (UTC+0))_
+- [~] **Resource gathering**: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones), _(started 2026-11-26 03:29 (UTC+0))_
       surface deposits, crystite and the rest
       Done 2026-11-26: thumper tiers - each shop thumper is its own kind (Stock, I, II, III; Personal or Squad, names from the
       game's beacon data): higher grades dig 30 s longer, bring bigger waves and pay 75 % more, squad ones pay 50 % more;
       thumpers have health (4000 from the data, grown with the creatures' level) and creatures attack them; all 18 thumper
       return achievements hooked (first of each kind, 100 per grade, 10 under 10 % health, 50 above 90 %).
-      Left: surface deposits and Sonic Detonators, crashed-thumper salvage events, other resources than Crystite/Sifted Earth
+      Done 2026-11-26: surface deposits - the 13 Metallics Surface Deposits recorded in New Eden stand in the world; a Sonic
+      Detonator landing within 6 m breaks one for 30-50 Iron Ore + 100 Crystite, it grows back after 10 min; Explosive
+      Inclinations (5) and Demolitions Expert (50) count them.
+      Left: crashed-thumper salvage events, deposits in other zones (none recorded), other resources than Crystite/Sifted Earth/ore
 - [ ] **Fabrication/crafting**: 284 recipes, quality, tinkering, salvage
 - [~] Inventory, stash, equipment, **weapon and gear stats**, perks/certs, loadouts, battleframe swap station
 - [~] **Vehicles**: 173 vehicle records - light ground vehicles (Mount up!), gliders, call-down, driving physics, weapons
@@ -167,7 +170,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
       thing they are about exists; add each hook with the item that builds it): SIN Imprints 232/259-265/445/627/628 (their
       positions are in no data or recording - asked players) and SIN towers 457/543-545 (SIN item); Big Game Hunts 616-621,
       682-686, 692-696, 823 and Lost Lore 644-647/746 (named creatures/props not placed); glider challenges 648-651, 673-681
-      (no courses); Sonic Detonators 341/342 (surface deposits; thumper ones hooked 2026-11-26); supply
+      (no courses); (thumper and Sonic Detonator ones hooked 2026-11-26); supply
       canisters/chests 634/691-708; world-event kinds 268/278/279/381-385/670/689 (tornadoes, drop pods, watchtowers,
       crashed LGVs); elite ranks 906-916; MGV/permanent LGV 538/541/1016 (rentals garage); dance with Ratchet/Cognac 185/516
       (NPCs not placed); dungeons/operations/raid 449-451/509-514/558-565/717-724/841-848/917/1011-1019/1193-1205; holiday
@@ -375,6 +378,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 03:29 (UTC+0): Started: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
 - 2026-11-26 03:19 (UTC+0): Started: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
 - 2026-11-26 03:00 (UTC+0): Done: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
 - 2026-11-26 02:47 (UTC+0): Started: Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand"): the 9 vistas, 9 hidden zones (Mushroom Rock, Colossal Remains = the palm of the ha...
