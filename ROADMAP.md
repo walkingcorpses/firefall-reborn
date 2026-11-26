@@ -48,7 +48,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
       ships their code, otherwise rebuild that part ourselves. RIN, AeroMessages, FauFau, SDBrowser are MIT.
 
 ## Phase 2 - Steam: achievements, friends, invites
-- [~] **Achievements must work.** The client never calls Steam stats (Red 5's servers unlocked them), so our own process _(started 2026-11-25 15:54 (UTC+0))_
+- [x] **Achievements must work.** The client never calls Steam stats (Red 5's servers unlocked them), so our own process _(done 2026-11-26 03:00 (UTC+0))_
       calls `SteamUserStats` for app 227700. 117 achievements, API ids in `achievements.json`
   - [x] Unlock plumbing + persistence: in-game unlocks, saved per character, no double unlock (Steam sync dropped: owner chose (a)). _(done 2026-11-25 16:09 (UTC+0))_
         Built `SteamStats` in the launcher (loads the game's `steam_api64.dll`, reads all 117 achievements from the owner's account: works).
@@ -63,12 +63,12 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
         (`SteamGsStats.cs`: anonymous game server logs on fine, loads the user's stats, `SetUserAchievement` false). So it is not a wrong
         vtable slot: Steam refuses both. Not attempted on purpose: editing Steam's cached schema (appcache/stats) to flip `permission`,
         because that bypasses the publisher's access control and Steam validates server-side anyway
-  - [~] Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand"): the 9 vistas, 9 hidden zones (Mushroom Rock, Colossal Remains = the palm of the hand...) and Bird's Eye View unlock where you stand (spots from the archived wiki); SIN imprints still open (their spots are not in the game data) _(started 2026-11-26 02:47 (UTC+0))_
-  - [~] Progress counters for "do X n times" achievements (kill counts, thumper returns, 25 races, distances) _(started 2026-11-25 16:40 (UTC+0))_
-  - [~] Progression ones (frame levels 10/20/30..., join a squad, vehicle summons, thumper returns): frame levels 10-45 and join a squad unlock
-  - [~] Kill-count ones (Chosen, Aranha, Gaea, Melding, Threshers, Hissers, Claws...) once combat exists: every kill counts toward Chosen, Gaea, Melding, Aranha, Thresher, Hisser, Claw, Baneclaw, Kanaloa
-  - [~] Mission/arc ones (campaign missions, world events): won thumpers/repulsors count toward Legend of the Accord (100 world events), races toward Tire Kicking (25)
-  - [ ] PvP ones (executions, duels) - multiplayer only
+  - [x] Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand"): the 9 vistas, 9 hidden zones (Mushroom Rock, Colossal Remains = the palm of the hand...) and Bird's Eye View unlock where you stand (spots from the archived wiki); SIN imprints still open (their spots are not in the game data) _(started 2026-11-26 02:47 (UTC+0))_ Done 2026-11-26 for everything that exists; SIN imprints moved to Phase 3 "Content achievements" _(done 2026-11-26 03:00 (UTC+0))_
+  - [x] Progress counters for "do X n times" achievements (kill counts, thumper returns, 25 races, distances) _(started 2026-11-25 16:40 (UTC+0))_ Done 2026-11-26: counter system + kills, races, events, revives, glide/drive metres, stock thumper returns, Crystite _(done 2026-11-26 03:00 (UTC+0))_
+  - [x] Progression ones (frame levels 10/20/30..., join a squad, vehicle summons, thumper returns): frame levels 10-45 and join a squad unlock, LGV call-down (Test Drive), the 5 class Specialists (both advanced frames at 40, tested 2026-11-26), first stock thumper return; elite ranks, MGV and permanent LGV moved to Phase 3 _(done 2026-11-26 03:00 (UTC+0))_
+  - [x] Kill-count ones (Chosen, Aranha, Gaea, Melding, Threshers, Hissers, Claws...) once combat exists: every kill counts toward Chosen, Gaea, Melding, Aranha, Thresher, Hisser, Claw, Baneclaw, Kanaloa _(done 2026-11-26 03:00 (UTC+0))_
+  - [x] Mission/arc ones (campaign missions, world events): won thumpers/repulsors count toward Legend of the Accord (100 world events), races toward Tire Kicking (25); the rest (campaign/operation/raid ones) moved to Phase 3 "Content achievements" _(done 2026-11-26 03:00 (UTC+0))_
+  - [x] PvP ones (executions, duels) - multiplayer only: moved to Phase 3 "Content achievements" (duels are not built yet) _(done 2026-11-26 03:00 (UTC+0))_
 - [~] **Friends and invites**: host publishes "joinable" through Steam rich presence; friends click Join in Steam.
       Built (2026-10-20): `SteamFriends` (friend list, who plays Firefall, rich presence; vtable slots from the real SDK 1.30 header,
       saved in research/steam-headers/), `Session` (modes single/host/join + loopback menu API with a per-run token), menu Lua:
@@ -158,6 +158,15 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [~] World events: thumper attacks, **Chosen drop pods**, crashed thumpers, **Melding tornadoes**, faction skirmishes
 - [ ] Event director that spawns encounters on a timer and by player count ("Legend of the Accord" - 100 events)
 - [ ] Reputation with the 50 factions; faction relations drive who attacks whom
+- [ ] **Content achievements** (moved here from Phase 2 on 2026-11-26: the achievement system is done, these unlock once the
+      thing they are about exists; add each hook with the item that builds it): SIN Imprints 232/259-265/445/627/628 (their
+      positions are in no data or recording - asked players) and SIN towers 457/543-545 (SIN item); Big Game Hunts 616-621,
+      682-686, 692-696, 823 and Lost Lore 644-647/746 (named creatures/props not placed); glider challenges 648-651, 673-681
+      (no courses); thumper tiers/health 192/199/201/329/331/337/392/393/414-419/460 and Sonic Detonators 341/342; supply
+      canisters/chests 634/691-708; world-event kinds 268/278/279/381-385/670/689 (tornadoes, drop pods, watchtowers,
+      crashed LGVs); elite ranks 906-916; MGV/permanent LGV 538/541/1016 (rentals garage); dance with Ratchet/Cognac 185/516
+      (NPCs not placed); dungeons/operations/raid 449-451/509-514/558-565/717-724/841-848/917/1011-1019/1193-1205; holiday
+      events 520/592-615/624/626/630/653/660/726-733/745/752/771-808/816; PvP duels 225/226; one-offs 302/304/343/589/605/852/811
 
 ## Phase 4 - Single player vs multiplayer
 - [~] **Mode flag** (`single` / `host`) read by the server at world start
@@ -361,6 +370,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 03:00 (UTC+0): Done: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
 - 2026-11-26 02:47 (UTC+0): Started: Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand"): the 9 vistas, 9 hidden zones (Mushroom Rock, Colossal Remains = the palm of the ha...
 - 2026-11-25 16:56 (UTC+0): We checked every item the shops sell by buying and using each one in the game. 
 
