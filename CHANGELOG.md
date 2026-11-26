@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 06:25 (UTC+0)** - Started: Content achievements (moved here from Phase 2 on 2026-11-26: the achievement system is done, these unlock once the
+
 - **2026-11-26 06:14 (UTC+0)** - Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
 
 - **2026-11-26 06:14 (UTC+0)** - Done: Pets: pet items (Boon Boon Tiki, Baby Red Panda, Ankylot, 9 Tailed Fox) run server-only steps (Subtype127/89): spawn a pet that follows you

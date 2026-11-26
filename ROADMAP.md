@@ -179,7 +179,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [~] World events: thumper attacks, **Chosen drop pods**, crashed thumpers, **Melding tornadoes**, faction skirmishes
 - [ ] Event director that spawns encounters on a timer and by player count ("Legend of the Accord" - 100 events)
 - [ ] Reputation with the 50 factions; faction relations drive who attacks whom
-- [ ] **Content achievements** (moved here from Phase 2 on 2026-11-26: the achievement system is done, these unlock once the
+- [~] **Content achievements** (moved here from Phase 2 on 2026-11-26: the achievement system is done, these unlock once the _(started 2026-11-26 06:25 (UTC+0))_
       thing they are about exists; add each hook with the item that builds it): SIN Imprints 232/259-265/445/627/628 (their
       positions are in no data or recording - asked players) and SIN towers 457/543-545 (SIN item); Big Game Hunts 616-621,
       682-686, 692-696, 823 and Lost Lore 644-647/746 (named creatures/props not placed); glider challenges 648-651, 673-681
@@ -391,6 +391,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 06:25 (UTC+0): Started: Content achievements (moved here from Phase 2 on 2026-11-26: the achievement system is done, these unlock once the
 - 2026-11-26 06:14 (UTC+0): Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
 - 2026-11-26 06:14 (UTC+0): Done: Pets: pet items (Boon Boon Tiki, Baby Red Panda, Ankylot, 9 Tailed Fox) run server-only steps (Subtype127/89): spawn a pet that follows you
 - 2026-11-26 04:00 (UTC+0): Done: Vehicle and glider-pad rentals: the shops' "Activate Rental" items (Cobra K-12, Cheetah, Locust; Crystalwing and
