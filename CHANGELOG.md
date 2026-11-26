@@ -2,6 +2,19 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 07:28 (UTC+0)** - Four more real missions
+
+  ![Four more real missions from the game's data, with their real names in the mission tracker and their objectives where the data puts them:
+
+- Investigate Verides SIN Relay Station - just north-east of Copacabana: Enter Verides Station, Repair the SIN Relay Antenna, Resynchronize the SIN Relay, Exit Verides Station.
+- ARES Job Board Introduction - Check Out the ARES Job Board in Copacabana (the board's spot in the data matches the old wiki).
+- SIN Uplink Repaired: Copacabana - after you have done SIN Uplink: Copacabana, return to the tower and interface with it again.
+- Down the Squid Hole - out west: Search Bunker 1 and 2, activate the SIN bridge, speak with Shanafelt.
+
+They start by themselves when you come near and run once per character. The game data has no rewards for these, so the XP and Crystite are ours.
+
+Tested in the real game: all four started and completed. Six real missions are in now; the stand-in Copacabana missions will be replaced as more come back.](images/progress/2026-11-26_072850_1.jpg)
+
 - **2026-11-26 07:20 (UTC+0)** - Real missions
 
   ![The first of the game's own missions are back - not stand-ins, the real ones from the game's data, with their real names in the game's own mission tracker.

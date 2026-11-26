@@ -120,7 +120,9 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [~] **All original missions: 563** (285 achievement-type, 43 secret) with their **1715 objectives** and **442 rewards**
       2026-11-26: real missions started - objective waypoints in the data are chunk-local; tools/mission_waypoints.py turns
       them into world positions (checked against the wiki's Copacabana SIN Tower). Done: "SIN Uplink: Copacabana" (469) and
-      "Travel to the Cliff-side Cave North of Copacabana" (475), real names in the game's tracker, start when you come near.
+      "Travel to the Cliff-side Cave North of Copacabana" (475), "Investigate Verides SIN Relay Station" (470), "ARES Job Board
+      Introduction" (505), "SIN Uplink Repaired: Copacabana" (636, after 469), "Down the Squid Hole" (163); real names in the
+      game's tracker, start when you come near.
       TO DO (owner: keep the game as close to the original as possible):
       - replace the 18 stand-in Copacabana missions (missions/448.json, givers Choi/Abrams/Spicy Al/Crank/Teobalde/Alvaro/Liu,
         written 2026-11-26 before the real data was found) with real ones
@@ -404,6 +406,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 07:28 (UTC+0): Four more real missions
 - 2026-11-26 07:20 (UTC+0): Real missions
 - 2026-11-26 07:04 (UTC+0): More quest givers
 - 2026-11-26 06:58 (UTC+0): Quest givers and new missions in Copacabana
