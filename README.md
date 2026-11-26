@@ -34,21 +34,15 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
-  <a href="images/progress/2026-11-26_064617_3.jpg"><img src="images/progress/2026-11-26_064617_3.jpg" width="49%" alt="Screenshots of today&#x27;s additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co..."></a>
-  <a href="images/progress/2026-11-26_064617_2.jpg"><img src="images/progress/2026-11-26_064617_2.jpg" width="49%" alt="Screenshots of today&#x27;s additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co..."></a>
-  <a href="images/progress/2026-11-26_064617_1.jpg"><img src="images/progress/2026-11-26_064617_1.jpg" width="49%" alt="Screenshots of today&#x27;s additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co..."></a>
-  <a href="images/progress/2026-11-25_155452_2.jpg"><img src="images/progress/2026-11-25_155452_2.jpg" width="49%" alt="Achievements work again, inside the game itself."></a>
+  <a href="images/progress/2026-11-26_065800_4.jpg"><img src="images/progress/2026-11-26_065800_4.jpg" width="49%" alt="Copacabana has quest givers now, and it is where you start."></a>
+  <a href="images/progress/2026-11-26_065800_3.jpg"><img src="images/progress/2026-11-26_065800_3.jpg" width="49%" alt="Copacabana has quest givers now, and it is where you start."></a>
+  <a href="images/progress/2026-11-26_065800_2.jpg"><img src="images/progress/2026-11-26_065800_2.jpg" width="49%" alt="Copacabana has quest givers now, and it is where you start."></a>
+  <a href="images/progress/2026-11-26_065800_1.jpg"><img src="images/progress/2026-11-26_065800_1.jpg" width="49%" alt="Copacabana has quest givers now, and it is where you start."></a>
 </p>
 
-**Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co...** - *2026-11-26 06:46 (UTC+0)*
+**Copacabana has quest givers now, and it is where you start.** - *2026-11-26 06:58 (UTC+0)*
 
-Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.
-
----
-
-**Achievements work again, inside the game itself.** - *2026-11-25 15:54 (UTC+0)*
-
-Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
+Quest givers and new missions in Copacabana
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -68,7 +62,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████████░░░░░░░░░░░░` 40%** (45 of 143 roadmap items done) - last update 2026-11-26 06:46 (UTC+0)
+**Overall: `████████░░░░░░░░░░░░` 40%** (45 of 143 roadmap items done) - last update 2026-11-26 06:58 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

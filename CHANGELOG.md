@@ -2,6 +2,72 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 06:58 (UTC+0)** - Quest givers and new missions in Copacabana
+
+  ![Copacabana has quest givers now, and it is where you start.
+
+New start: characters now arrive in Copacabana, next to Luau Larry - the hub with the shops, the Red Bean kiosks, the Crusaders and the quest givers. Before, everyone started at the small Praia Tropical outpost, which was only ever a placeholder. (On the live servers new players began in an intro instance; that comes back with the campaign.)
+
+Quest givers: walk up to one and press E. They give you their next mission, and if you are already on one of theirs they tell you where you are with it. Finish the steps, then report back to them for the reward.
+- Sergeant Choi: Skiver trouble, Aranha cull, Spitter (hunt the creatures bothering the town's runners)
+- Doctor Abrams: Check on the patrol, Samples
+- Spicy Al: Fresh crab (Luau night needs crab)
+- Crank: Scrap hunt, Get the lay of the land (climb the peak south-west of town)
+
+Each pays XP plus Credits or Crystite, 50 Red Beans and a Campaign Token (once per mission per day). The waypoint marker shows where to go. The missions are ours: the originals' server scripts are lost.
+
+Heads-up for level 40 characters: creatures at level 40 have far too much health for the damage you deal right now, so the kill missions are best done on a new character until the level-40 balance pass.
+
+Tested in the real game: the new spawn, Sergeant Choi's and Crank's missions handed out by talking to them, rewards paid.](images/progress/2026-11-26_065800_1.jpg)
+
+  ![Copacabana has quest givers now, and it is where you start.
+
+New start: characters now arrive in Copacabana, next to Luau Larry - the hub with the shops, the Red Bean kiosks, the Crusaders and the quest givers. Before, everyone started at the small Praia Tropical outpost, which was only ever a placeholder. (On the live servers new players began in an intro instance; that comes back with the campaign.)
+
+Quest givers: walk up to one and press E. They give you their next mission, and if you are already on one of theirs they tell you where you are with it. Finish the steps, then report back to them for the reward.
+- Sergeant Choi: Skiver trouble, Aranha cull, Spitter (hunt the creatures bothering the town's runners)
+- Doctor Abrams: Check on the patrol, Samples
+- Spicy Al: Fresh crab (Luau night needs crab)
+- Crank: Scrap hunt, Get the lay of the land (climb the peak south-west of town)
+
+Each pays XP plus Credits or Crystite, 50 Red Beans and a Campaign Token (once per mission per day). The waypoint marker shows where to go. The missions are ours: the originals' server scripts are lost.
+
+Heads-up for level 40 characters: creatures at level 40 have far too much health for the damage you deal right now, so the kill missions are best done on a new character until the level-40 balance pass.
+
+Tested in the real game: the new spawn, Sergeant Choi's and Crank's missions handed out by talking to them, rewards paid.](images/progress/2026-11-26_065800_2.jpg)
+
+  ![Copacabana has quest givers now, and it is where you start.
+
+New start: characters now arrive in Copacabana, next to Luau Larry - the hub with the shops, the Red Bean kiosks, the Crusaders and the quest givers. Before, everyone started at the small Praia Tropical outpost, which was only ever a placeholder. (On the live servers new players began in an intro instance; that comes back with the campaign.)
+
+Quest givers: walk up to one and press E. They give you their next mission, and if you are already on one of theirs they tell you where you are with it. Finish the steps, then report back to them for the reward.
+- Sergeant Choi: Skiver trouble, Aranha cull, Spitter (hunt the creatures bothering the town's runners)
+- Doctor Abrams: Check on the patrol, Samples
+- Spicy Al: Fresh crab (Luau night needs crab)
+- Crank: Scrap hunt, Get the lay of the land (climb the peak south-west of town)
+
+Each pays XP plus Credits or Crystite, 50 Red Beans and a Campaign Token (once per mission per day). The waypoint marker shows where to go. The missions are ours: the originals' server scripts are lost.
+
+Heads-up for level 40 characters: creatures at level 40 have far too much health for the damage you deal right now, so the kill missions are best done on a new character until the level-40 balance pass.
+
+Tested in the real game: the new spawn, Sergeant Choi's and Crank's missions handed out by talking to them, rewards paid.](images/progress/2026-11-26_065800_3.jpg)
+
+  ![Copacabana has quest givers now, and it is where you start.
+
+New start: characters now arrive in Copacabana, next to Luau Larry - the hub with the shops, the Red Bean kiosks, the Crusaders and the quest givers. Before, everyone started at the small Praia Tropical outpost, which was only ever a placeholder. (On the live servers new players began in an intro instance; that comes back with the campaign.)
+
+Quest givers: walk up to one and press E. They give you their next mission, and if you are already on one of theirs they tell you where you are with it. Finish the steps, then report back to them for the reward.
+- Sergeant Choi: Skiver trouble, Aranha cull, Spitter (hunt the creatures bothering the town's runners)
+- Doctor Abrams: Check on the patrol, Samples
+- Spicy Al: Fresh crab (Luau night needs crab)
+- Crank: Scrap hunt, Get the lay of the land (climb the peak south-west of town)
+
+Each pays XP plus Credits or Crystite, 50 Red Beans and a Campaign Token (once per mission per day). The waypoint marker shows where to go. The missions are ours: the originals' server scripts are lost.
+
+Heads-up for level 40 characters: creatures at level 40 have far too much health for the damage you deal right now, so the kill missions are best done on a new character until the level-40 balance pass.
+
+Tested in the real game: the new spawn, Sergeant Choi's and Crank's missions handed out by talking to them, rewards paid.](images/progress/2026-11-26_065800_4.jpg)
+
 - **2026-11-26 06:46 (UTC+0)** - Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.
 
   ![Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.](images/progress/2026-11-26_064617_1.jpg)
