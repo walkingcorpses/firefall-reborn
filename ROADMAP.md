@@ -63,7 +63,7 @@ Legend: `[x]` done, `[~]` partly, `[ ]` not started.
         (`SteamGsStats.cs`: anonymous game server logs on fine, loads the user's stats, `SetUserAchievement` false). So it is not a wrong
         vtable slot: Steam refuses both. Not attempted on purpose: editing Steam's cached schema (appcache/stats) to flip `permission`,
         because that bypasses the publisher's access control and Steam validates server-side anyway
-  - [ ] Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand")
+  - [~] Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand"): the 9 vistas, 9 hidden zones (Mushroom Rock, Colossal Remains = the palm of the hand...) and Bird's Eye View unlock where you stand (spots from the archived wiki); SIN imprints still open (their spots are not in the game data) _(started 2026-11-26 02:47 (UTC+0))_
   - [~] Progress counters for "do X n times" achievements (kill counts, thumper returns, 25 races, distances) _(started 2026-11-25 16:40 (UTC+0))_
   - [~] Progression ones (frame levels 10/20/30..., join a squad, vehicle summons, thumper returns): frame levels 10-45 and join a squad unlock
   - [~] Kill-count ones (Chosen, Aranha, Gaea, Melding, Threshers, Hissers, Claws...) once combat exists: every kill counts toward Chosen, Gaea, Melding, Aranha, Thresher, Hisser, Claw, Baneclaw, Kanaloa
@@ -361,6 +361,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 02:47 (UTC+0): Started: Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand"): the 9 vistas, 9 hidden zones (Mushroom Rock, Colossal Remains = the palm of the ha...
 - 2026-11-25 16:56 (UTC+0): We checked every item the shops sell by buying and using each one in the game. 
 
 Fixed:
