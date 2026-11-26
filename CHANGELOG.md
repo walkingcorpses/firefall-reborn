@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 07:32 (UTC+0)** - Back to Copacabana
+
 - **2026-11-26 07:28 (UTC+0)** - Four more real missions
 
   ![Four more real missions from the game's data, with their real names in the mission tracker and their objectives where the data puts them:

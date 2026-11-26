@@ -121,7 +121,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
       2026-11-26: real missions started - objective waypoints in the data are chunk-local; tools/mission_waypoints.py turns
       them into world positions (checked against the wiki's Copacabana SIN Tower). Done: "SIN Uplink: Copacabana" (469) and
       "Travel to the Cliff-side Cave North of Copacabana" (475), "Investigate Verides SIN Relay Station" (470), "ARES Job Board
-      Introduction" (505), "SIN Uplink Repaired: Copacabana" (636, after 469), "Down the Squid Hole" (163); real names in the
+      Introduction" (505), "SIN Uplink Repaired: Copacabana" (636, after 469), "Down the Squid Hole" (163), "Back to Copacabana" (851); real names in the
       game's tracker, start when you come near.
       TO DO (owner: keep the game as close to the original as possible):
       - replace the 18 stand-in Copacabana missions (missions/448.json, givers Choi/Abrams/Spicy Al/Crank/Teobalde/Alvaro/Liu,
@@ -129,7 +129,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
       - the golden path after Mission 01 (clientmissions::GoldenPath set 124): 867 "Gearing Up: Repairing Gear" (Battleframe
         Garage repair), 866 perks (garage Perks tab), 869 "Gearing Up: Salvaging and Tinkering" (Talk to Ratchet, salvage
         her trinket, Talk to Crank, augment a weapon) - needs Ratchet (monster 502) placed and garage/salvage/augment objectives
-      - 448 "Receive a Scan Hammer and Thumper", 473 "Assist the Accord Thumper North of Copacabana", 851 "Back to Copacabana"
+      - 448 "Receive a Scan Hammer and Thumper", 473 "Assist the Accord Thumper North of Copacabana"
       - the Copacabana Job Board (-377, -455, wiki) and the ARES jobs; the wiki's "Mission" page chains are BETA (removed by
         1.0) - use them only where the final game has nothing
 - [~] **Campaign (golden path)**: Accord missions 1-22 in order (Everything is Shadow ... Homecoming), level gates 9-18+
@@ -406,6 +406,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 07:32 (UTC+0): Back to Copacabana
 - 2026-11-26 07:28 (UTC+0): Four more real missions
 - 2026-11-26 07:20 (UTC+0): Real missions
 - 2026-11-26 07:04 (UTC+0): More quest givers
