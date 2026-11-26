@@ -181,8 +181,9 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 - [ ] Reputation with the 50 factions; faction relations drive who attacks whom
 - [~] **Content achievements** (moved here from Phase 2 on 2026-11-26: the achievement system is done, these unlock once the _(started 2026-11-26 06:25 (UTC+0))_
       thing they are about exists; add each hook with the item that builds it): SIN Imprints 232/259-265/445/627/628 (their
-      positions are in no data or recording - asked players) and SIN towers 457/543-545 (SIN item); Big Game Hunts 616-621,
-      682-686, 692-696, 823 and Lost Lore 644-647/746 (named creatures/props not placed); glider challenges 648-651, 673-681
+      positions are in no data or recording - asked players) and SIN towers 457/543-545 (SIN item); Big Game Hunts
+      682-686, 692-696, 823 (Sertao/Devil's Tusk zones; Coral Forest 616-621 done 2026-11-26: Danko, Kojo, Nymero, Kruger
+      placed as one-creature camps, back 10 min after a kill) and Lost Lore 644-647/746 (named creatures/props not placed); glider challenges 648-651, 673-681
       (no courses); (thumper and Sonic Detonator ones hooked 2026-11-26); supply
       canisters/chests 634/691-708; world-event kinds 268/278/381-385/670/689 (tornadoes, drop pods, watchtowers,
       crashed LGVs); elite ranks 906-916; MGV 541/1016 (no MGV item sold yet; Mount up! 538 hooked 2026-11-26); dance with Ratchet/Cognac 185/516
@@ -391,6 +392,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 06:42 (UTC+0): Big Game Hunt - Coral Forest
 - 2026-11-26 06:31 (UTC+0): Two more achievements
 - 2026-11-26 06:26 (UTC+0): Polymorphs: three more achievements
 - 2026-11-26 06:25 (UTC+0): Started: Content achievements (moved here from Phase 2 on 2026-11-26: the achievement system is done, these unlock once the

@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 06:42 (UTC+0)** - Big Game Hunt - Coral Forest
+
 - **2026-11-26 06:31 (UTC+0)** - Two more achievements
 
 - **2026-11-26 06:26 (UTC+0)** - Polymorphs: three more achievements
