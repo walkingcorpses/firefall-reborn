@@ -127,7 +127,7 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 ### 3D - NPCs and the world
 - [~] **All NPCs: 453 town/story characters** (vendors, quest givers, ambient wanderers, guards) with interactions _(started 2026-11-18 23:57 (UTC+0))_
 - [~] Dialogue and voice: **39,261 dialogue script lines** wired to NPCs and missions; battle chatter _(started 2026-11-25 09:18 (UTC+0))_
-- [~] Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-19 00:54 (UTC+0))_
+- [~] Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency") _(started 2026-11-26 06:14 (UTC+0))_
       2026-11-26: Crusaders started - Campaign Tokens are earned (1 per mission per day) and Corporal Belle (Copacabana) sells
       Power Matrix for them; vendors can price in any item. Left: Liu's level-40 weapons (need gear grants), Bloom's modules
       (Module Parts have no source yet), shops in other zones
@@ -391,6 +391,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 06:14 (UTC+0): Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
 - 2026-11-26 06:14 (UTC+0): Done: Pets: pet items (Boon Boon Tiki, Baby Red Panda, Ankylot, 9 Tailed Fox) run server-only steps (Subtype127/89): spawn a pet that follows you
 - 2026-11-26 04:00 (UTC+0): Done: Vehicle and glider-pad rentals: the shops' "Activate Rental" items (Cobra K-12, Cheetah, Locust; Crystalwing and
 - 2026-11-26 03:53 (UTC+0): Done: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
