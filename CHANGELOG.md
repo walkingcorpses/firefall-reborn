@@ -2,6 +2,18 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 07:04 (UTC+0)** - More quest givers
+
+  ![Three more Copacabana NPCs give missions now - 18 missions from 7 quest givers in all. They stand where the last live-server recording had them; the missions are ours (the original quest scripts are lost).
+
+- Teobalde Palmeiro: Skivers at the shore (3 Skivers on the east shore), Beach patrol (an Aranha raiding the fish traps)
+- Alvaro Cordozo: Lost cargo (a Red Resonator fell off his truck north of town: pick it up with E and carry it back to him), The far west (a Skiver on his cousin's farm)
+- Warrant Officer Liu: Bounties on the four Big Game hunts - Danko the Stalker, Kojo the Murderer, Nymero the Widowmaker, Kruger the Rampager. Each pays 15,000 XP, 1,000 Crystite and 2 Campaign Tokens. Take friends: they are very tough, at level 40 far too tough until the balance pass.
+
+Talk to a giver with E to get their next mission; follow the waypoint; report back to them.
+
+Tested in the real game: Teobalde, Alvaro and Liu handed out their missions, and Lost cargo was played through from pick-up to delivery with its reward paid.](images/progress/2026-11-26_070409_1.jpg)
+
 - **2026-11-26 06:58 (UTC+0)** - Quest givers and new missions in Copacabana
 
   ![Copacabana has quest givers now, and it is where you start.

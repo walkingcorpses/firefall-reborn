@@ -34,11 +34,17 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-26_070409_1.jpg"><img src="images/progress/2026-11-26_070409_1.jpg" width="49%" alt="Three more Copacabana NPCs give missions now - 18 missions from 7 quest givers in all."></a>
   <a href="images/progress/2026-11-26_065800_4.jpg"><img src="images/progress/2026-11-26_065800_4.jpg" width="49%" alt="Copacabana has quest givers now, and it is where you start."></a>
   <a href="images/progress/2026-11-26_065800_3.jpg"><img src="images/progress/2026-11-26_065800_3.jpg" width="49%" alt="Copacabana has quest givers now, and it is where you start."></a>
   <a href="images/progress/2026-11-26_065800_2.jpg"><img src="images/progress/2026-11-26_065800_2.jpg" width="49%" alt="Copacabana has quest givers now, and it is where you start."></a>
-  <a href="images/progress/2026-11-26_065800_1.jpg"><img src="images/progress/2026-11-26_065800_1.jpg" width="49%" alt="Copacabana has quest givers now, and it is where you start."></a>
 </p>
+
+**Three more Copacabana NPCs give missions now - 18 missions from 7 quest givers in all.** - *2026-11-26 07:04 (UTC+0)*
+
+More quest givers
+
+---
 
 **Copacabana has quest givers now, and it is where you start.** - *2026-11-26 06:58 (UTC+0)*
 
@@ -62,7 +68,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████████░░░░░░░░░░░░` 40%** (45 of 143 roadmap items done) - last update 2026-11-26 06:58 (UTC+0)
+**Overall: `████████░░░░░░░░░░░░` 40%** (45 of 143 roadmap items done) - last update 2026-11-26 07:04 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|
