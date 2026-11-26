@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 06:26 (UTC+0)** - Polymorphs: three more achievements
+
 - **2026-11-26 06:25 (UTC+0)** - Started: Content achievements (moved here from Phase 2 on 2026-11-26: the achievement system is done, these unlock once the
 
 - **2026-11-26 06:14 (UTC+0)** - Started: Vendors, quartermasters, the Red Bean Store and other shops (RB is earned in game, see "Store and premium currency")
