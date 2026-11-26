@@ -2,6 +2,8 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 03:19 (UTC+0)** - Started: Resource gathering: thumpers (personal/squad/stock tiers, call down, defend waves, return/salvage crashed ones),
+
 - **2026-11-26 03:00 (UTC+0)** - Done: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
 
 - **2026-11-26 02:47 (UTC+0)** - Started: Exploration ones first (vistas, hidden landmarks, SIN imprints, "stand in the palm of the hand"): the 9 vistas, 9 hidden zones (Mushroom Rock, Colossal Remains = the palm of the ha...
