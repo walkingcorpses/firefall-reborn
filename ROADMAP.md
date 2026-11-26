@@ -118,6 +118,18 @@ pc <typeId>` or `\horde <typeId> [count [radius]]` (type 528 = Melded Aranha) wa
 
 ### 3C - Quests and story
 - [~] **All original missions: 563** (285 achievement-type, 43 secret) with their **1715 objectives** and **442 rewards**
+      2026-11-26: real missions started - objective waypoints in the data are chunk-local; tools/mission_waypoints.py turns
+      them into world positions (checked against the wiki's Copacabana SIN Tower). Done: "SIN Uplink: Copacabana" (469) and
+      "Travel to the Cliff-side Cave North of Copacabana" (475), real names in the game's tracker, start when you come near.
+      TO DO (owner: keep the game as close to the original as possible):
+      - replace the 18 stand-in Copacabana missions (missions/448.json, givers Choi/Abrams/Spicy Al/Crank/Teobalde/Alvaro/Liu,
+        written 2026-11-26 before the real data was found) with real ones
+      - the golden path after Mission 01 (clientmissions::GoldenPath set 124): 867 "Gearing Up: Repairing Gear" (Battleframe
+        Garage repair), 866 perks (garage Perks tab), 869 "Gearing Up: Salvaging and Tinkering" (Talk to Ratchet, salvage
+        her trinket, Talk to Crank, augment a weapon) - needs Ratchet (monster 502) placed and garage/salvage/augment objectives
+      - 448 "Receive a Scan Hammer and Thumper", 473 "Assist the Accord Thumper North of Copacabana", 851 "Back to Copacabana"
+      - the Copacabana Job Board (-377, -455, wiki) and the ARES jobs; the wiki's "Mission" page chains are BETA (removed by
+        1.0) - use them only where the final game has nothing
 - [~] **Campaign (golden path)**: Accord missions 1-22 in order (Everything is Shadow ... Homecoming), level gates 9-18+
 - [ ] **Arcs and job boards**: 233 named open-world story/job lines (Indexing the Shipments, Chain Reaction, ...)
 - [ ] **Daily and repeatable** missions, **bounties**, **challenges**, mission ledger UI
@@ -392,6 +404,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 07:20 (UTC+0): Real missions
 - 2026-11-26 07:04 (UTC+0): More quest givers
 - 2026-11-26 06:58 (UTC+0): Quest givers and new missions in Copacabana
 - 2026-11-26 06:46 (UTC+0): Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.

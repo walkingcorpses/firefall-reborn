@@ -2,6 +2,20 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 07:20 (UTC+0)** - Real missions
+
+  ![The first of the game's own missions are back - not stand-ins, the real ones from the game's data, with their real names in the game's own mission tracker.
+
+- SIN Uplink: Copacabana - walk toward Copacabana's SIN tower and it starts by itself: Head towards the SIN tower, Interface with the SIN tower. Reward 250 XP and 10 Crystite (as the old wiki lists it).
+- Travel to the Cliff-side Cave North of Copacabana - the jumpjet route: six waypoints up the cliffs north of town, exactly where the game's data puts them.
+Each one runs once per character.
+
+How: the game files still hold every mission's objectives and waypoints, but the waypoints are stored per map section; we worked out how to turn them into world positions (checked against Copacabana's SIN tower, which lands where the old wiki says it stood).
+
+What's next: the 18 Copacabana missions added earlier today were stand-ins written before we found this data. They will be replaced with the real ones - the new-player chain (Gearing Up with Ratchet and Crank at the Battleframe Garage), the Scan Hammer and Thumper mission, the Accord Thumper north of Copacabana, and the Job Board.
+
+Tested in the real game: both missions started, ran every step and paid out.](images/progress/2026-11-26_072005_1.jpg)
+
 - **2026-11-26 07:04 (UTC+0)** - More quest givers
 
   ![Three more Copacabana NPCs give missions now - 18 missions from 7 quest givers in all. They stand where the last live-server recording had them; the missions are ours (the original quest scripts are lost).
