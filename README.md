@@ -34,27 +34,21 @@ whole world on your PC, so the game starts again and keeps working.
 
 <!--SHOTS-->
 <p align="center">
+  <a href="images/progress/2026-11-26_064617_3.jpg"><img src="images/progress/2026-11-26_064617_3.jpg" width="49%" alt="Screenshots of today&#x27;s additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co..."></a>
+  <a href="images/progress/2026-11-26_064617_2.jpg"><img src="images/progress/2026-11-26_064617_2.jpg" width="49%" alt="Screenshots of today&#x27;s additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co..."></a>
+  <a href="images/progress/2026-11-26_064617_1.jpg"><img src="images/progress/2026-11-26_064617_1.jpg" width="49%" alt="Screenshots of today&#x27;s additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co..."></a>
   <a href="images/progress/2026-11-25_155452_2.jpg"><img src="images/progress/2026-11-25_155452_2.jpg" width="49%" alt="Achievements work again, inside the game itself."></a>
-  <a href="images/progress/2026-11-25_155452_1.jpg"><img src="images/progress/2026-11-25_155452_1.jpg" width="49%" alt="Achievements work again, inside the game itself."></a>
-  <a href="images/progress/2026-11-25_151337_1.jpg"><img src="images/progress/2026-11-25_151337_1.jpg" width="49%" alt="The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are."></a>
-  <a href="images/progress/2026-11-25_094630_5.jpg"><img src="images/progress/2026-11-25_094630_5.jpg" width="49%" alt="The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu..."></a>
 </p>
+
+**Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co...** - *2026-11-26 06:46 (UTC+0)*
+
+Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.
+
+---
 
 **Achievements work again, inside the game itself.** - *2026-11-25 15:54 (UTC+0)*
 
 Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process
-
----
-
-**The red bean icon in the bottom-right corner of the HUD now opens the Red Bean Store wherever you are.** - *2026-11-25 15:13 (UTC+0)*
-
-Done: HUD store button (red bean icon) opens the Red Bean Store in the game's own shop panel, anywhere (replaces the old web store pages)
-
----
-
-**The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thu...** - *2026-11-25 09:46 (UTC+0)*
-
-The shops in New Eden, taken in the game today: Luau Larry (luau thumpers, Cobra LGV, fireworks), Supply Officer Cross in Copacabana (thumpers, glider and jump pads, Mobile Battleframe Station), the Accord Quartermaster (Ranger Supplies, Accord Supply Cache, Squad Thumper III, Emergency Glider), an LGV Rental Terminal (1-use LGVs, Locust Chopper, 1-day rentals) - all priced in Credits - and the Red Bean Store at the Starter Packs kiosks, priced in Red Beans (shown as Red Bean Reward Tokens; RB is earned by playing, 100 a day for logging in for now).
 <!--/SHOTS-->
 
 Newer screenshots are added here as the project moves along; the full history is in [CHANGELOG.md](CHANGELOG.md).
@@ -74,7 +68,7 @@ Newer screenshots are added here as the project moves along; the full history is
 ## Progress
 
 <!--PROGRESS-->
-**Overall: `████████░░░░░░░░░░░░` 40%** (45 of 143 roadmap items done) - last update 2026-11-26 06:42 (UTC+0)
+**Overall: `████████░░░░░░░░░░░░` 40%** (45 of 143 roadmap items done) - last update 2026-11-26 06:46 (UTC+0)
 
 | Phase | Progress | Done |
 |---|---|---|

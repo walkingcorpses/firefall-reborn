@@ -2,6 +2,14 @@
 
 Newest first. Release date: TBA.
 
+- **2026-11-26 06:46 (UTC+0)** - Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.
+
+  ![Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.](images/progress/2026-11-26_064617_1.jpg)
+
+  ![Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.](images/progress/2026-11-26_064617_2.jpg)
+
+  ![Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.](images/progress/2026-11-26_064617_3.jpg)
+
 - **2026-11-26 06:42 (UTC+0)** - Big Game Hunt - Coral Forest
 
 - **2026-11-26 06:31 (UTC+0)** - Two more achievements

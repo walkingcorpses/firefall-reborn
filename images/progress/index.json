@@ -1,5 +1,23 @@
 [
  {
+  "file": "images/progress/2026-11-26_064617_3.jpg",
+  "caption": "Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co...",
+  "text": "Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.",
+  "when": "2026-11-26 06:46 (UTC+0)"
+ },
+ {
+  "file": "images/progress/2026-11-26_064617_2.jpg",
+  "caption": "Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co...",
+  "text": "Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.",
+  "when": "2026-11-26 06:46 (UTC+0)"
+ },
+ {
+  "file": "images/progress/2026-11-26_064617_1.jpg",
+  "caption": "Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Co...",
+  "text": "Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.",
+  "when": "2026-11-26 06:46 (UTC+0)"
+ },
+ {
   "file": "images/progress/2026-11-25_155452_2.jpg",
   "caption": "Achievements work again, inside the game itself.",
   "text": "Started: Achievements must work. The client never calls Steam stats (Red 5's servers unlocked them), so our own process",

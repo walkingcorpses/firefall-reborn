@@ -392,6 +392,7 @@ money anywhere**: RB is a special currency **earned in game for free**.
 - Real-money purchases, subscriptions, phone authenticator, account recovery and email flows
 
 ## Work log (newest first)
+- 2026-11-26 06:46 (UTC+0): Screenshots of today's additions: a Baby Red Panda pet following its owner at the New Eden outpost; Danko the Stalker, one of the four Coral Forest Big Game Hunts (shown here at level 1); and Corporal Belle's Specialty Goods shop in Copacabana, paid in Campaign Tokens.
 - 2026-11-26 06:42 (UTC+0): Big Game Hunt - Coral Forest
 - 2026-11-26 06:31 (UTC+0): Two more achievements
 - 2026-11-26 06:26 (UTC+0): Polymorphs: three more achievements
